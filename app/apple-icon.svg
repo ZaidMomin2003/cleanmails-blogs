@@ -1,0 +1,18 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="#37352f"/>
+
+  <!-- Envelope body -->
+  <rect x="30" y="50" width="120" height="85" rx="12" stroke="#FFD700" stroke-width="8"/>
+
+  <!-- Envelope flap -->
+  <path d="M32 54L90 102L148 54" stroke="#FFD700" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom fold lines -->
+  <path d="M32 133L65 102" stroke="#FFD700" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+  <path d="M148 133L115 102" stroke="#FFD700" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Checkmark circle -->
+  <circle cx="134" cy="118" r="22" fill="#37352f" stroke="#FFD700" stroke-width="6"/>
+  <path d="M124 118l7 7L142 112" stroke="#FFD700" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

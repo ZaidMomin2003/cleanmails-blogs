@@ -23,13 +23,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Generate blog post
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: node scripts/generate-post.mjs
+        run: |
+          echo "GROQ_API_KEY set: ${{ secrets.GROQ_API_KEY != '' }}"
+          echo "PEXELS_API_KEY set: ${{ secrets.PEXELS_API_KEY != '' }}"
+          node scripts/generate-post.mjs
 
       - name: Commit and push
         run: |

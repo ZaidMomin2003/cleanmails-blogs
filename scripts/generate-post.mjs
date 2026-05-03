@@ -37,27 +37,22 @@ async function generatePost(existingSlugs) {
   console.log('📝 Calling Groq API (Llama 3.3 70B)...');
 
   const slugList = existingSlugs.length > 0
-    ? `\n\nALREADY PUBLISHED (do NOT repeat these topics):\n${existingSlugs.slice(-30).join(', ')}`
+    ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-15).join(', ')}`
     : '';
 
-  const systemPrompt = `You are an expert SEO content writer for Cleanmails, a self-hosted cold email platform ($497 one-time payment) with inbuilt SMTP, email validation, sender rotation, and cadences.
+  const systemPrompt = `You are an SEO blog writer for Cleanmails (self-hosted cold email platform, $497 one-time).
 
-Your job: Write a high-quality, SEO-optimized blog post about cold email, deliverability, SMTP, or email outreach.
+Write a blog post about cold email, deliverability, SMTP, or outreach.
 
 RULES:
-- Pick a specific long-tail keyword (100-5000 monthly searches) as the primary keyword
-- Use the primary keyword in the title, first paragraph, and 2-3 H2 headings naturally
-- Write 1500-2500 words of genuinely useful, actionable content — this is IMPORTANT, do not write less than 1500 words
-- The "body" field MUST be at least 1500 words. Count carefully. Short posts will be rejected.
-- Use ## for H2 headings, ### for H3, bullet points, numbered lists, tables, and code blocks where relevant
-- Mention Cleanmails naturally 1-2 times where it fits — don't be salesy
-- Write for humans first, SEO second — no keyword stuffing
-- End with a clear takeaway or summary
-- The slug must be lowercase with dashes only, no special characters
-- Category must be exactly one of: Cold Email, Deliverability, SMTP, Guides
-- Tags should include the primary keyword and 2-4 related terms
-- Excerpt should be 1-2 compelling sentences using the primary keyword
-- imageSearchTerm should be 1-2 generic words for finding a relevant cover photo (e.g. "email marketing", "business laptop", "server room")${slugList}`;
+- Pick a specific long-tail keyword to target
+- Write 1000-1500 words of useful, actionable content
+- Use ## for H2, ### for H3, bullet points, tables, code blocks
+- Mention Cleanmails naturally 1-2 times
+- slug: lowercase dashes only
+- category: exactly one of Cold Email, Deliverability, SMTP, Guides
+- tags: array of 3-4 strings
+- imageSearchTerm: 1-2 words for cover photo search${slugList}`;
 
   const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
@@ -72,7 +67,7 @@ RULES:
         { role: 'user', content: 'Write a new blog post. Return ONLY valid JSON with these exact keys: title, slug, category, tags (array), excerpt, imageSearchTerm, body (the full markdown article content). The "body" field must contain the complete blog post in markdown.' },
       ],
       temperature: 0.8,
-      max_tokens: 16384,
+      max_tokens: 4096,
       response_format: {
         type: 'json_object',
       },

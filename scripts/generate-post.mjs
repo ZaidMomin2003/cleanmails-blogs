@@ -1,19 +1,19 @@
 /**
  * Blog Post Generator
  * Called by GitHub Actions on schedule (3x daily) or manually.
- * Uses Groq (Llama 3.3 70B) for writing + Pexels for cover images.
+ * Uses Google Gemini 2.0 Flash Lite for writing + Pexels for cover images.
  */
 
 import fs from 'fs';
 import path from 'path';
 
-const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
 const POSTS_DIR = path.join(process.cwd(), 'content', 'posts');
 
 // ── Validate env ────────────────────────────────────────────
-if (!GROQ_API_KEY) {
-  console.error('❌ GROQ_API_KEY is not set');
+if (!GEMINI_API_KEY) {
+  console.error('❌ GEMINI_API_KEY is not set');
   process.exit(1);
 }
 if (!PEXELS_API_KEY) {
@@ -32,15 +32,15 @@ function getExistingSlugs() {
     .map(f => f.replace('.md', ''));
 }
 
-// ── Call Groq API ───────────────────────────────────────────
+// ── Call Gemini API ─────────────────────────────────────────
 async function generatePost(existingSlugs) {
-  console.log('📝 Calling Groq API (Llama 3.1 8B)...');
+  console.log('📝 Calling Gemini API (2.0 Flash Lite)...');
 
   const slugList = existingSlugs.length > 0
     ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-15).join(', ')}`
     : '';
 
-  const systemPrompt = `You are an SEO blog writer for Cleanmails, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences.
+  const prompt = `You are an SEO blog writer for Cleanmails, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences.
 
 Write a high-quality blog post about cold email, deliverability, SMTP, or outreach.
 
@@ -53,42 +53,50 @@ RULES:
 - category: exactly one of Cold Email, Deliverability, SMTP, Guides
 - tags: array of 3-4 strings including the primary keyword
 - excerpt: 1-2 compelling sentences
-- imageSearchTerm: 1-2 words for finding a cover photo${slugList}`;
+- imageSearchTerm: 1-2 words for finding a cover photo${slugList}
 
-  const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+Return ONLY valid JSON with these exact keys: title, slug, category, tags (array of strings), excerpt, imageSearchTerm, body (the full markdown article).`;
+
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
+
+  const response = await fetch(url, {
     method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${GROQ_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
-      messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user', content: 'Write a new blog post. Return ONLY valid JSON with keys: title, slug, category, tags (array), excerpt, imageSearchTerm, body. The body must be the full markdown article.' },
+      contents: [
+        { parts: [{ text: prompt }] }
       ],
-      temperature: 0.8,
-      max_tokens: 8192,
-      response_format: {
-        type: 'json_object',
+      generationConfig: {
+        responseMimeType: 'application/json',
+        temperature: 0.8,
+        maxOutputTokens: 8192,
       },
     }),
   });
 
   if (!response.ok) {
     const err = await response.text();
-    throw new Error(`Groq API error (${response.status}): ${err}`);
+    throw new Error(`Gemini API error (${response.status}): ${err}`);
   }
 
   const data = await response.json();
-  const content = data.choices[0]?.message?.content;
 
-  if (!content) {
-    throw new Error('Groq returned empty response');
+  // Gemini response structure: candidates[0].content.parts[0].text
+  const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+
+  if (!text) {
+    throw new Error('Gemini returned empty response: ' + JSON.stringify(data));
   }
 
-  console.log('✅ Groq response received');
-  return JSON.parse(content);
+  console.log('✅ Gemini response received');
+
+  // Parse JSON — Gemini sometimes wraps in ```json blocks
+  let cleaned = text.trim();
+  if (cleaned.startsWith('```')) {
+    cleaned = cleaned.replace(/^```json?\n?/, '').replace(/\n?```$/, '');
+  }
+
+  return JSON.parse(cleaned);
 }
 
 // ── Fetch cover image from Pexels ───────────────────────────
@@ -102,18 +110,17 @@ async function fetchCoverImage(searchTerm) {
   });
 
   if (!response.ok) {
-    console.warn(`⚠️  Pexels API error (${response.status}). Using fallback.`);
+    console.warn(`⚠️  Pexels API error (${response.status}). Skipping cover image.`);
     return null;
   }
 
   const data = await response.json();
 
   if (!data.photos || data.photos.length === 0) {
-    console.warn('⚠️  No Pexels results. Using fallback.');
+    console.warn('⚠️  No Pexels results. Skipping cover image.');
     return null;
   }
 
-  // Pick a random photo from top 5 results for variety
   const photo = data.photos[Math.floor(Math.random() * data.photos.length)];
 
   return {
@@ -126,7 +133,7 @@ async function fetchCoverImage(searchTerm) {
 
 // ── Validate and sanitize the AI output ─────────────────────
 function validate(post) {
-  // Handle common field name variations from AI
+  // Handle common field name variations
   if (!post.body && post.content) post.body = post.content;
   if (!post.body && post.article) post.body = post.article;
   if (!post.body && post.markdown) post.body = post.markdown;
@@ -135,7 +142,6 @@ function validate(post) {
   if (!post.body && post.post_body) post.body = post.post_body;
   if (!post.imageSearchTerm && post.image_search_term) post.imageSearchTerm = post.image_search_term;
   if (!post.imageSearchTerm && post.search_term) post.imageSearchTerm = post.search_term;
-  if (!post.imageSearchTerm && post.cover_image_search) post.imageSearchTerm = post.cover_image_search;
 
   const required = ['title', 'slug', 'category', 'tags', 'excerpt', 'body'];
   for (const field of required) {
@@ -153,14 +159,11 @@ function validate(post) {
     .replace(/^-|-$/g, '')
     .slice(0, 80);
 
-  if (!post.slug) {
-    throw new Error('Slug is empty after sanitization');
-  }
+  if (!post.slug) throw new Error('Slug is empty after sanitization');
 
   // Validate category
   const validCategories = ['Cold Email', 'Deliverability', 'SMTP', 'Guides'];
   if (!validCategories.includes(post.category)) {
-    // Try to match closest
     const lower = post.category.toLowerCase();
     const match = validCategories.find(c => c.toLowerCase().includes(lower) || lower.includes(c.toLowerCase()));
     post.category = match || 'Guides';
@@ -171,7 +174,7 @@ function validate(post) {
     post.tags = typeof post.tags === 'string' ? post.tags.split(',').map(t => t.trim()) : ['cold email'];
   }
 
-  // Calculate read time from actual word count
+  // Calculate read time
   const wordCount = post.body.split(/\s+/).length;
   post.readTime = `${Math.ceil(wordCount / 200)} min read`;
 
@@ -181,7 +184,6 @@ function validate(post) {
 // ── Escape YAML string values ───────────────────────────────
 function yamlEscape(str) {
   if (!str) return '""';
-  // If string contains quotes, colons, or special chars, wrap in double quotes and escape inner quotes
   const escaped = str.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
   return `"${escaped}"`;
 }
@@ -191,7 +193,7 @@ function buildMarkdown(post, image) {
   const today = new Date().toISOString().split('T')[0];
   const tagsYaml = `[${post.tags.map(t => yamlEscape(t)).join(', ')}]`;
 
-  const frontmatter = `---
+  return `---
 title: ${yamlEscape(post.title)}
 slug: ${yamlEscape(post.slug)}
 date: "${today}"
@@ -207,8 +209,6 @@ photographerUrl: "${image ? image.photographerUrl : ''}"
 ---
 
 ${post.body}`;
-
-  return frontmatter;
 }
 
 // ── Main ────────────────────────────────────────────────────
@@ -216,44 +216,34 @@ async function main() {
   console.log('🚀 Starting blog post generation...\n');
 
   try {
-    // 1. Get existing slugs
     const existingSlugs = getExistingSlugs();
     console.log(`📂 Found ${existingSlugs.length} existing posts\n`);
 
-    // 2. Generate post with AI
     const rawPost = await generatePost(existingSlugs);
     console.log(`   Title: ${rawPost.title}`);
     console.log(`   Slug: ${rawPost.slug}`);
     console.log(`   Category: ${rawPost.category}\n`);
 
-    // 3. Validate
     const post = validate(rawPost);
 
-    // 4. Check for duplicate slug
     if (existingSlugs.includes(post.slug)) {
-      // Append a random suffix
       const suffix = Math.random().toString(36).slice(2, 6);
       post.slug = `${post.slug}-${suffix}`;
-      console.log(`⚠️  Slug already exists. Using: ${post.slug}\n`);
+      console.log(`⚠️  Slug exists. Using: ${post.slug}\n`);
     }
 
-    // 5. Fetch cover image
     const searchTerm = rawPost.imageSearchTerm || rawPost.category || 'email marketing';
     const image = await fetchCoverImage(searchTerm);
-    if (image) {
-      console.log(`   Image: ${image.photographer} via Pexels\n`);
-    }
+    if (image) console.log(`   Image: ${image.photographer} via Pexels\n`);
 
-    // 6. Build markdown
     const markdown = buildMarkdown(post, image);
-
-    // 7. Write file
     const filePath = path.join(POSTS_DIR, `${post.slug}.md`);
     fs.writeFileSync(filePath, markdown, 'utf8');
+
     console.log(`✅ Created: content/posts/${post.slug}.md`);
     console.log(`   Words: ${post.body.split(/\s+/).length}`);
     console.log(`   Read time: ${post.readTime}`);
-    console.log('\n🎉 Done! The GitHub Action will commit and push this file.');
+    console.log('\n🎉 Done!');
 
   } catch (error) {
     console.error('\n❌ Generation failed:', error.message);

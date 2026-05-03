@@ -34,7 +34,7 @@ function getExistingSlugs() {
 
 // ── Call Gemini API ─────────────────────────────────────────
 async function generatePost(existingSlugs) {
-  console.log('📝 Calling Gemini API (2.0 Flash Lite)...');
+  console.log('📝 Calling Gemini API (3.1 Flash Lite)...');
 
   const slugList = existingSlugs.length > 0
     ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-15).join(', ')}`
@@ -57,7 +57,7 @@ RULES:
 
 Return ONLY valid JSON with these exact keys: title, slug, category, tags (array of strings), excerpt, imageSearchTerm, body (the full markdown article).`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=${GEMINI_API_KEY}`;
 
   const response = await fetch(url, {
     method: 'POST',

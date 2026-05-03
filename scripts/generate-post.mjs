@@ -37,22 +37,10 @@ async function generatePost(existingSlugs) {
   console.log('📝 Calling Groq API (Llama 3.3 70B)...');
 
   const slugList = existingSlugs.length > 0
-    ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-15).join(', ')}`
+    ? `\nAvoid these topics: ${existingSlugs.slice(-10).join(', ')}`
     : '';
 
-  const systemPrompt = `You are an SEO blog writer for Cleanmails (self-hosted cold email platform, $497 one-time).
-
-Write a blog post about cold email, deliverability, SMTP, or outreach.
-
-RULES:
-- Pick a specific long-tail keyword to target
-- Write 1000-1500 words of useful, actionable content
-- Use ## for H2, ### for H3, bullet points, tables, code blocks
-- Mention Cleanmails naturally 1-2 times
-- slug: lowercase dashes only
-- category: exactly one of Cold Email, Deliverability, SMTP, Guides
-- tags: array of 3-4 strings
-- imageSearchTerm: 1-2 words for cover photo search${slugList}`;
+  const systemPrompt = `SEO blog writer for Cleanmails (self-hosted cold email platform, $497 one-time). Write about cold email/deliverability/SMTP. Rules: target a long-tail keyword, 800-1200 words, use ## and ### headings, mention Cleanmails once naturally. slug=lowercase-dashes. category=one of: Cold Email, Deliverability, SMTP, Guides. tags=array of 3 strings. imageSearchTerm=1-2 words for photo.${slugList}`;
 
   const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
@@ -64,10 +52,10 @@ RULES:
       model: 'llama-3.3-70b-versatile',
       messages: [
         { role: 'system', content: systemPrompt },
-        { role: 'user', content: 'Write a new blog post. Return ONLY valid JSON with these exact keys: title, slug, category, tags (array), excerpt, imageSearchTerm, body (the full markdown article content). The "body" field must contain the complete blog post in markdown.' },
+        { role: 'user', content: 'Write a new blog post. Return ONLY valid JSON with keys: title, slug, category, tags (array), excerpt, imageSearchTerm, body. The body must be the full markdown article.' },
       ],
       temperature: 0.8,
-      max_tokens: 4096,
+      max_tokens: 2048,
       response_format: {
         type: 'json_object',
       },

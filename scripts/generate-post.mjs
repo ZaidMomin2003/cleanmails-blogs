@@ -34,13 +34,26 @@ function getExistingSlugs() {
 
 // ── Call Groq API ───────────────────────────────────────────
 async function generatePost(existingSlugs) {
-  console.log('📝 Calling Groq API (Llama 3.3 70B)...');
+  console.log('📝 Calling Groq API (Llama 3.1 8B)...');
 
   const slugList = existingSlugs.length > 0
-    ? `\nAvoid these topics: ${existingSlugs.slice(-10).join(', ')}`
+    ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-15).join(', ')}`
     : '';
 
-  const systemPrompt = `SEO blog writer for Cleanmails (self-hosted cold email platform, $497 one-time). Write about cold email/deliverability/SMTP. Rules: target a long-tail keyword, 800-1200 words, use ## and ### headings, mention Cleanmails once naturally. slug=lowercase-dashes. category=one of: Cold Email, Deliverability, SMTP, Guides. tags=array of 3 strings. imageSearchTerm=1-2 words for photo.${slugList}`;
+  const systemPrompt = `You are an SEO blog writer for Cleanmails, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences.
+
+Write a high-quality blog post about cold email, deliverability, SMTP, or outreach.
+
+RULES:
+- Pick a specific long-tail keyword to target
+- Write 1000-1500 words of useful, actionable content
+- Use ## for H2, ### for H3, bullet points, tables, code blocks where relevant
+- Mention Cleanmails naturally 1-2 times — don't be salesy
+- slug: lowercase dashes only, no special characters
+- category: exactly one of Cold Email, Deliverability, SMTP, Guides
+- tags: array of 3-4 strings including the primary keyword
+- excerpt: 1-2 compelling sentences
+- imageSearchTerm: 1-2 words for finding a cover photo${slugList}`;
 
   const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
@@ -49,13 +62,13 @@ async function generatePost(existingSlugs) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       messages: [
         { role: 'system', content: systemPrompt },
         { role: 'user', content: 'Write a new blog post. Return ONLY valid JSON with keys: title, slug, category, tags (array), excerpt, imageSearchTerm, body. The body must be the full markdown article.' },
       ],
       temperature: 0.8,
-      max_tokens: 2048,
+      max_tokens: 8192,
       response_format: {
         type: 'json_object',
       },

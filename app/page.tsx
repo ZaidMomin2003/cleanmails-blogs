@@ -1,6 +1,6 @@
 import { getAllPosts, getAllCategories } from '@/lib/posts'
-import PostCard from '@/components/PostCard'
 import ThemeToggle from '@/components/ThemeToggle'
+import BlogContent from '@/components/BlogContent'
 import Link from 'next/link'
 
 interface Props {
@@ -15,9 +15,6 @@ export default async function HomePage({ searchParams }: Props) {
   const filtered = active
     ? allPosts.filter(p => p.category?.toLowerCase() === active.toLowerCase())
     : allPosts
-
-  const featured = !active && filtered.length > 0 ? filtered[0] : null
-  const rest = featured ? filtered.slice(1) : filtered
 
   return (
     <div className="min-h-screen bg-[var(--bg)] transition-colors">
@@ -61,88 +58,35 @@ export default async function HomePage({ searchParams }: Props) {
             Cold email deliverability, SMTP setup, email validation, and outreach strategy.
           </p>
         </div>
-
-        {/* Category tabs */}
-        <div className="flex items-center gap-1 flex-wrap mb-6">
-          <Link
-            href="/"
-            className={`text-[13px] font-medium px-3 py-1 rounded no-underline transition-colors ${
-              !active
-                ? 'bg-[var(--text)] text-[var(--bg)]'
-                : 'text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text)]'
-            }`}
-          >
-            All
-          </Link>
-          {categories.map(cat => (
-            <Link
-              key={cat}
-              href={`/?category=${encodeURIComponent(cat)}`}
-              className={`text-[13px] font-medium px-3 py-1 rounded no-underline transition-colors ${
-                active?.toLowerCase() === cat.toLowerCase()
-                  ? 'bg-[var(--text)] text-[var(--bg)]'
-                  : 'text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text)]'
-              }`}
-            >
-              {cat}
-            </Link>
-          ))}
-        </div>
-
-        <hr className="border-[var(--border)] mb-8" />
       </div>
 
-      {/* ── Posts ─────────────────────────────────────────── */}
+      {/* ── Search + Posts + Pagination ───────────────────── */}
       <div className="container-wide pb-16">
-        {filtered.length === 0 ? (
-          <div className="text-center py-20">
-            <p className="text-3xl mb-3">📭</p>
-            <p className="text-sm text-[var(--text-secondary)] mb-4">No posts in this category yet.</p>
-            <Link href="/" className="text-sm text-[var(--text)] underline underline-offset-2">View all posts</Link>
-          </div>
-        ) : (
-          <>
-            {featured && (
-              <div className="mb-8">
-                <PostCard post={featured} featured />
-              </div>
-            )}
-            {rest.length > 0 && (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {rest.map(post => <PostCard key={post.slug} post={post} />)}
-              </div>
-            )}
-          </>
-        )}
+        <BlogContent
+          posts={filtered}
+          categories={categories}
+          activeCategory={active}
+        />
       </div>
 
       {/* ── Footer ──────────────────────────────────────── */}
       <footer className="border-t border-[var(--border)] bg-[var(--bg-secondary)] mt-8 transition-colors">
-        {/* CTA block */}
         <div className="container-wide py-12 sm:py-16">
           <div className="bg-[var(--cta-card-bg)] rounded-xl p-8 sm:p-10 text-center transition-colors">
-            <p className="text-[11px] font-semibold text-[#FFD700] uppercase tracking-widest mb-3">
-              Stop paying monthly
-            </p>
+            <p className="text-[11px] font-semibold text-[#FFD700] uppercase tracking-widest mb-3">Stop paying monthly</p>
             <h2 className="text-xl sm:text-2xl font-bold text-[var(--cta-card-text)] leading-snug mb-3 max-w-md mx-auto">
               Own your cold email infrastructure.
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-6 max-w-sm mx-auto leading-relaxed">
               Unlimited senders, email validation, cadences, and SMTP — one-time payment of $497.
             </p>
-            <a
-              href="https://cleanmails.online"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-6 py-2.5 rounded-lg transition-colors no-underline"
-            >
+            <a href="https://cleanmails.online" target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-6 py-2.5 rounded-lg transition-colors no-underline">
               Get Cleanmails
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </a>
           </div>
         </div>
-
-        {/* Links + copyright */}
         <div className="border-t border-[var(--border)]">
           <div className="container-wide py-8">
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-8 mb-8">

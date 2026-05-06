@@ -160,7 +160,6 @@ Do NOT include the title in the body — it will be added from the queue.${linki
     inferenceConfig: {
       maxTokens: 8192,
       temperature: 0.85,
-      topP: 0.95,
     },
   });
 

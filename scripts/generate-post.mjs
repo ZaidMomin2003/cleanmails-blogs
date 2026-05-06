@@ -1,25 +1,40 @@
 /**
- * Blog Post Generator
+ * Blog Post Generator (Queue-Based + AWS Bedrock Claude Sonnet 4.6)
  * Called by GitHub Actions on schedule (3x daily) or manually.
- * Uses Google Gemini 2.0 Flash Lite for writing + Pexels for cover images.
+ * Reads next pending title from blog-queue.json, writes the post via Claude, marks as done.
  */
 
 import fs from 'fs';
 import path from 'path';
+import { BedrockRuntimeClient, ConverseCommand } from '@aws-sdk/client-bedrock-runtime';
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
 const POSTS_DIR = path.join(process.cwd(), 'content', 'posts');
+const QUEUE_FILE = path.join(process.cwd(), 'scripts', 'blog-queue.json');
+
+// Claude Sonnet 4.6 on Bedrock (cross-region for better availability)
+const MODEL_ID = 'us.anthropic.claude-sonnet-4-6';
+
+// ── Valid categories ────────────────────────────────────────
+const VALID_CATEGORIES = [
+  'Cold Email', 'Deliverability', 'SMTP', 'Guides',
+  'Infrastructure', 'Agency', 'Comparisons', 'Lead Generation', 'Automation'
+];
 
 // ── Validate env ────────────────────────────────────────────
-if (!GEMINI_API_KEY) {
-  console.error('❌ GEMINI_API_KEY is not set');
+if (!process.env.AWS_ACCESS_KEY_ID && !process.env.AWS_PROFILE) {
+  console.error('❌ AWS credentials not configured (need AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY or AWS_PROFILE)');
   process.exit(1);
 }
 if (!PEXELS_API_KEY) {
   console.error('❌ PEXELS_API_KEY is not set');
   process.exit(1);
 }
+
+// ── Initialize Bedrock client ───────────────────────────────
+const bedrockClient = new BedrockRuntimeClient({
+  region: process.env.AWS_REGION || 'us-east-1',
+});
 
 // ── Get existing slugs to avoid duplicates ──────────────────
 function getExistingSlugs() {
@@ -32,26 +47,7 @@ function getExistingSlugs() {
     .map(f => f.replace('.md', ''));
 }
 
-// ── Get existing keywords/titles to prevent cannibalization ──
-function getExistingKeywords() {
-  if (!fs.existsSync(POSTS_DIR)) return [];
-  const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
-  const keywords = [];
-  for (const file of files) {
-    const content = fs.readFileSync(path.join(POSTS_DIR, file), 'utf8');
-    // Extract title and tags from frontmatter
-    const titleMatch = content.match(/^title:\s*"(.+)"/m);
-    const tagsMatch = content.match(/^tags:\s*\[(.+)\]/m);
-    if (titleMatch) keywords.push(titleMatch[1]);
-    if (tagsMatch) {
-      const tags = tagsMatch[1].replace(/"/g, '').split(',').map(t => t.trim());
-      keywords.push(...tags);
-    }
-  }
-  return [...new Set(keywords)];
-}
-
-// ── Get existing slugs for internal linking ─────────────────
+// ── Get existing posts for internal linking ─────────────────
 function getExistingPostsForLinking() {
   if (!fs.existsSync(POSTS_DIR)) return [];
   const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
@@ -72,86 +68,119 @@ function getExistingPostsForLinking() {
   return posts;
 }
 
-// ── Call Gemini API ─────────────────────────────────────────
-async function generatePost(existingSlugs) {
-  console.log('📝 Calling Gemini API (3.1 Flash Lite)...');
+// ── Queue management ────────────────────────────────────────
+function loadQueue() {
+  if (!fs.existsSync(QUEUE_FILE)) {
+    console.error('❌ Queue file not found:', QUEUE_FILE);
+    process.exit(1);
+  }
+  return JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
+}
 
-  const existingKeywords = getExistingKeywords();
+function saveQueue(queue) {
+  fs.writeFileSync(QUEUE_FILE, JSON.stringify(queue, null, 2), 'utf8');
+}
+
+function getNextPendingItem(queue) {
+  return queue.find(item => item.status === 'pending');
+}
+
+// ── Call Claude Sonnet 4.6 via Bedrock Converse API ─────────
+async function generatePost(queueItem) {
+  console.log('📝 Calling Claude Sonnet 4.6 via AWS Bedrock...');
+  console.log(`   Topic: "${queueItem.title}"`);
+  console.log(`   Keyword: "${queueItem.targetKeyword}"`);
+  console.log(`   Category: "${queueItem.category}"`);
+
   const existingPosts = getExistingPostsForLinking();
-
-  const slugList = existingSlugs.length > 0
-    ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-20).join(', ')}`
-    : '';
-
-  const keywordList = existingKeywords.length > 0
-    ? `\n\nDo NOT target these keywords (already used — would cause cannibalization): ${existingKeywords.slice(-40).join(', ')}`
-    : '';
 
   const linkingContext = existingPosts.length > 0
     ? `\n\nFor internal linking, naturally include 2-3 links to these existing posts where relevant (use markdown links with /blog/slug format):
 ${existingPosts.slice(-15).map(p => `- "${p.title}" → /blog/${p.slug}`).join('\n')}
 
 Also link to these free tools where relevant:
+- Bulk Email Verifier → /tools/email-verifier
 - SPF/DKIM/DMARC Checker → /tools/dns-checker
 - Email Spam Word Checker → /tools/spam-checker
 - Email Extractor → /tools/email-extractor
 - CSV Email List Cleaner → /tools/csv-cleaner`
     : '';
 
-  const prompt = `You are an SEO blog writer for Cleanmails, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences.
+  const systemPrompt = `You are an expert SEO blog writer for Cleanmails, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences. You write like a senior cold email practitioner — direct, opinionated, data-driven. Never generic. Always actionable.`;
 
-Write a high-quality blog post about cold email, deliverability, SMTP, or outreach.
+  const userPrompt = `Write a blog post with this EXACT title: "${queueItem.title}"
+Target this SEO keyword: "${queueItem.targetKeyword}"
+Category: "${queueItem.category}"
 
-RULES:
-- Pick a specific long-tail keyword to target that is DIFFERENT from all previously used keywords
-- Write 1200-1800 words of useful, actionable content
-- Use ## for H2, ### for H3, bullet points, tables, code blocks where relevant
-- Mention Cleanmails naturally 1-2 times — don't be salesy
+WRITING RULES:
+- Write 1400-2000 words of genuinely useful, actionable content
+- Write in first person where the title implies it (e.g., "I sent...", "I tested...")
+- Use specific numbers, data points, and examples — not generic advice
+- Include real-world scenarios and practical steps readers can follow today
+- Use ## for H2, ### for H3, bullet points, numbered lists, tables, and code blocks where relevant
+- Make it feel like a senior cold email practitioner wrote this, not a generic AI
+- Include contrarian takes or surprising insights that make people want to share it
+- Mention Cleanmails naturally 1-2 times as a solution — never salesy, always contextual
 - Include 2-3 internal links to other blog posts and/or tools (use relative URLs like /blog/slug-here or /tools/tool-name)
-- End the article with a "Related:" section linking to 2-3 related posts and 1 tool
-- slug: lowercase dashes only, no special characters
-- category: exactly one of Cold Email, Deliverability, SMTP, Guides
-- tags: array of 3-4 strings including the primary keyword (must be UNIQUE — not used before)
-- excerpt: 1-2 compelling sentences
-- imageSearchTerm: 1-2 words for finding a cover photo
-- targetKeyword: the specific long-tail SEO keyword this post targets (for tracking)${slugList}${keywordList}${linkingContext}
+- End with a "Related:" section linking to 2-3 related posts and 1 tool
+- The content should be so good that someone would bookmark it or share it on Reddit/Twitter
 
-Return ONLY valid JSON with these exact keys: title, slug, category, tags (array of strings), excerpt, imageSearchTerm, targetKeyword, body (the full markdown article including internal links).`;
+VIRAL ELEMENTS TO INCLUDE:
+- A hook in the first 2 sentences that creates curiosity or tension
+- At least one surprising statistic or counterintuitive insight
+- Actionable takeaways someone can implement in under 30 minutes
+- A clear opinion or stance (not wishy-washy "it depends" content)
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=${GEMINI_API_KEY}`;
+SEO RULES:
+- Use the target keyword naturally in the first paragraph
+- Include the keyword in at least one H2 heading
+- Use related long-tail variations throughout the body
+- Write a compelling excerpt (1-2 sentences) that would make someone click from Google
 
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [
-        { parts: [{ text: prompt }] }
-      ],
-      generationConfig: {
-        responseMimeType: 'application/json',
-        temperature: 0.8,
-        maxOutputTokens: 8192,
+OUTPUT FORMAT — Return ONLY valid JSON with these exact keys:
+{
+  "slug": "lowercase-dashes-max-60-chars",
+  "tags": ["tag1", "tag2", "tag3"],
+  "excerpt": "1-2 compelling sentences for meta description",
+  "imageSearchTerm": "1-2 words for cover photo",
+  "body": "the full markdown article including internal links"
+}
+
+Do NOT include the title in the body — it will be added from the queue.${linkingContext}`;
+
+  const command = new ConverseCommand({
+    modelId: MODEL_ID,
+    system: [{ text: systemPrompt }],
+    messages: [
+      {
+        role: 'user',
+        content: [{ text: userPrompt }],
       },
-    }),
+    ],
+    inferenceConfig: {
+      maxTokens: 8192,
+      temperature: 0.85,
+      topP: 0.95,
+    },
   });
 
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`Gemini API error (${response.status}): ${err}`);
+  const response = await bedrockClient.send(command);
+
+  // Extract text from Converse API response
+  const outputMessage = response.output?.message;
+  if (!outputMessage || !outputMessage.content || outputMessage.content.length === 0) {
+    throw new Error('Bedrock returned empty response');
   }
 
-  const data = await response.json();
-
-  // Gemini response structure: candidates[0].content.parts[0].text
-  const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
-
+  const text = outputMessage.content[0].text;
   if (!text) {
-    throw new Error('Gemini returned empty response: ' + JSON.stringify(data));
+    throw new Error('Bedrock response has no text content');
   }
 
-  console.log('✅ Gemini response received');
+  console.log('✅ Claude response received');
+  console.log(`   Tokens — Input: ${response.usage?.inputTokens}, Output: ${response.usage?.outputTokens}`);
 
-  // Parse JSON — Gemini sometimes wraps in ```json blocks
+  // Parse JSON — Claude sometimes wraps in ```json blocks
   let cleaned = text.trim();
   if (cleaned.startsWith('```')) {
     cleaned = cleaned.replace(/^```json?\n?/, '').replace(/\n?```$/, '');
@@ -192,24 +221,16 @@ async function fetchCoverImage(searchTerm) {
   };
 }
 
-// ── Validate and sanitize the AI output ─────────────────────
-function validate(post) {
+// ── Validate and sanitize ───────────────────────────────────
+function validate(post, queueItem) {
   // Handle common field name variations
   if (!post.body && post.content) post.body = post.content;
   if (!post.body && post.article) post.body = post.article;
   if (!post.body && post.markdown) post.body = post.markdown;
-  if (!post.body && post.text) post.body = post.text;
-  if (!post.body && post.blog_post) post.body = post.blog_post;
-  if (!post.body && post.post_body) post.body = post.post_body;
   if (!post.imageSearchTerm && post.image_search_term) post.imageSearchTerm = post.image_search_term;
-  if (!post.imageSearchTerm && post.search_term) post.imageSearchTerm = post.search_term;
 
-  const required = ['title', 'slug', 'category', 'tags', 'excerpt', 'body'];
-  for (const field of required) {
-    if (!post[field]) {
-      throw new Error(`Missing required field: ${field}`);
-    }
-  }
+  if (!post.body) throw new Error('Missing body content');
+  if (!post.slug) throw new Error('Missing slug');
 
   // Sanitize slug
   post.slug = post.slug
@@ -222,17 +243,23 @@ function validate(post) {
 
   if (!post.slug) throw new Error('Slug is empty after sanitization');
 
-  // Validate category
-  const validCategories = ['Cold Email', 'Deliverability', 'SMTP', 'Guides'];
-  if (!validCategories.includes(post.category)) {
-    const lower = post.category.toLowerCase();
-    const match = validCategories.find(c => c.toLowerCase().includes(lower) || lower.includes(c.toLowerCase()));
-    post.category = match || 'Guides';
+  // Use queue item's category
+  post.category = queueItem.category;
+  if (!VALID_CATEGORIES.includes(post.category)) {
+    post.category = 'Guides';
   }
+
+  // Use queue item's title
+  post.title = queueItem.title;
 
   // Ensure tags is an array
   if (!Array.isArray(post.tags)) {
-    post.tags = typeof post.tags === 'string' ? post.tags.split(',').map(t => t.trim()) : ['cold email'];
+    post.tags = typeof post.tags === 'string' ? post.tags.split(',').map(t => t.trim()) : [queueItem.targetKeyword];
+  }
+
+  // Ensure excerpt exists
+  if (!post.excerpt) {
+    post.excerpt = queueItem.title;
   }
 
   // Calculate read time
@@ -274,40 +301,72 @@ ${post.body}`;
 
 // ── Main ────────────────────────────────────────────────────
 async function main() {
-  console.log('🚀 Starting blog post generation...\n');
+  console.log('🚀 Starting blog post generation (Claude Sonnet 4.6 via Bedrock)...\n');
 
   try {
+    // Load queue and find next pending item
+    const queue = loadQueue();
+    const pendingCount = queue.filter(i => i.status === 'pending').length;
+    const doneCount = queue.filter(i => i.status === 'done').length;
+    console.log(`📋 Queue: ${pendingCount} pending, ${doneCount} done, ${queue.length} total\n`);
+
+    const queueItem = getNextPendingItem(queue);
+
+    if (!queueItem) {
+      console.log('✅ All queue items are done! No new post to generate.');
+      console.log('   Add more items to scripts/blog-queue.json to continue publishing.');
+      process.exit(0);
+    }
+
+    console.log(`📌 Next topic: "${queueItem.title}"`);
+    console.log(`   Keyword: ${queueItem.targetKeyword}`);
+    console.log(`   Category: ${queueItem.category}\n`);
+
+    // Check for duplicate slug
     const existingSlugs = getExistingSlugs();
-    console.log(`📂 Found ${existingSlugs.length} existing posts\n`);
 
-    const rawPost = await generatePost(existingSlugs);
-    console.log(`   Title: ${rawPost.title}`);
-    console.log(`   Slug: ${rawPost.slug}`);
-    console.log(`   Category: ${rawPost.category}\n`);
+    // Generate the post
+    const rawPost = await generatePost(queueItem);
+    console.log(`   Generated slug: ${rawPost.slug}\n`);
 
-    const post = validate(rawPost);
+    const post = validate(rawPost, queueItem);
 
+    // Handle slug collision
     if (existingSlugs.includes(post.slug)) {
       const suffix = Math.random().toString(36).slice(2, 6);
       post.slug = `${post.slug}-${suffix}`;
-      console.log(`⚠️  Slug exists. Using: ${post.slug}\n`);
+      console.log(`⚠️  Slug collision. Using: ${post.slug}\n`);
     }
 
-    const searchTerm = rawPost.imageSearchTerm || rawPost.category || 'email marketing';
+    // Fetch cover image
+    const searchTerm = rawPost.imageSearchTerm || queueItem.category || 'email marketing';
     const image = await fetchCoverImage(searchTerm);
     if (image) console.log(`   Image: ${image.photographer} via Pexels\n`);
 
+    // Write the post
     const markdown = buildMarkdown(post, image);
     const filePath = path.join(POSTS_DIR, `${post.slug}.md`);
     fs.writeFileSync(filePath, markdown, 'utf8');
 
+    // Mark queue item as done
+    queueItem.status = 'done';
+    queueItem.publishedSlug = post.slug;
+    queueItem.publishedDate = new Date().toISOString().split('T')[0];
+    saveQueue(queue);
+
     console.log(`✅ Created: content/posts/${post.slug}.md`);
+    console.log(`   Title: ${post.title}`);
     console.log(`   Words: ${post.body.split(/\s+/).length}`);
     console.log(`   Read time: ${post.readTime}`);
+    console.log(`   Queue remaining: ${pendingCount - 1} posts`);
     console.log('\n🎉 Done!');
 
   } catch (error) {
     console.error('\n❌ Generation failed:', error.message);
+    if (error.name === 'AccessDeniedException') {
+      console.error('   → Make sure your IAM user has bedrock:InvokeModel permission');
+      console.error('   → And that Claude Sonnet 4.6 is enabled in your Bedrock console');
+    }
     process.exit(1);
   }
 }

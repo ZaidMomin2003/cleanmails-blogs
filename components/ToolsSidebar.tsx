@@ -16,6 +16,12 @@ const tools = [
     href: 'https://cleanmails.online/tools/dns-checker',
   },
   {
+    icon: '✅',
+    name: 'Email Verifier',
+    description: 'Bulk verify your email list',
+    href: 'https://cleanmails.online/tools/email-verifier',
+  },
+  {
     icon: '📧',
     name: 'Email Extractor',
     description: 'Extract emails from any text',

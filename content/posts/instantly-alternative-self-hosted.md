@@ -122,3 +122,5 @@ The Cleanmails team handles the server setup for free with every license. You do
 ---
 
 If you're spending more than $500/year on cold email software, the math on self-hosted is hard to argue with. [See Cleanmails pricing →](https://cleanmails.online/#pricing)
+
+**Related:** [Cleanmails vs Smartlead](/blog/cleanmails-vs-smartlead) · [Cleanmails vs Lemlist](/blog/cleanmails-vs-lemlist) · [Best Cold Email Tools for Agencies 2026](/blog/best-cold-email-tools-2026) · [Check your SPF/DKIM/DMARC →](https://cleanmails.online/tools/dns-checker)

@@ -54,13 +54,35 @@ export default async function PostPage({ params }: Props) {
     description: post.excerpt,
     image: post.coverImage,
     datePublished: post.date,
+    dateModified: post.date,
     author: { '@type': 'Organization', name: 'Cleanmails', url: 'https://cleanmails.online' },
-    publisher: { '@type': 'Organization', name: 'Cleanmails', url: 'https://cleanmails.online' },
+    publisher: { '@type': 'Organization', name: 'Cleanmails', url: 'https://cleanmails.online', logo: { '@type': 'ImageObject', url: 'https://cleanmails.online/logo.svg' } },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://cleanmails.online/blog/${post.slug}` },
   }
+
+  // Generate FAQ schema from H2/H3 headings that look like questions
+  const faqItems = []
+  const faqRegex = /<h[23][^>]*>(.*?)<\/h[23]>\s*<p>(.*?)<\/p>/gi
+  let faqMatch
+  const tempHtml = post.htmlContent
+  while ((faqMatch = faqRegex.exec(tempHtml)) !== null) {
+    const question = faqMatch[1].replace(/<[^>]+>/g, '').trim()
+    const answer = faqMatch[2].replace(/<[^>]+>/g, '').trim()
+    if (question.includes('?') && answer.length > 30) {
+      faqItems.push({ '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: answer } })
+    }
+  }
+
+  const faqSchema = faqItems.length >= 2 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.slice(0, 5),
+  } : null
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
 
       <div className="min-h-screen bg-[var(--bg)] transition-colors">
         {/* ── Sticky nav ─────────────────────────────────── */}

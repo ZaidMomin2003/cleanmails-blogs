@@ -32,12 +32,70 @@ function getExistingSlugs() {
     .map(f => f.replace('.md', ''));
 }
 
+// ── Get existing keywords/titles to prevent cannibalization ──
+function getExistingKeywords() {
+  if (!fs.existsSync(POSTS_DIR)) return [];
+  const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
+  const keywords = [];
+  for (const file of files) {
+    const content = fs.readFileSync(path.join(POSTS_DIR, file), 'utf8');
+    // Extract title and tags from frontmatter
+    const titleMatch = content.match(/^title:\s*"(.+)"/m);
+    const tagsMatch = content.match(/^tags:\s*\[(.+)\]/m);
+    if (titleMatch) keywords.push(titleMatch[1]);
+    if (tagsMatch) {
+      const tags = tagsMatch[1].replace(/"/g, '').split(',').map(t => t.trim());
+      keywords.push(...tags);
+    }
+  }
+  return [...new Set(keywords)];
+}
+
+// ── Get existing slugs for internal linking ─────────────────
+function getExistingPostsForLinking() {
+  if (!fs.existsSync(POSTS_DIR)) return [];
+  const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
+  const posts = [];
+  for (const file of files) {
+    const content = fs.readFileSync(path.join(POSTS_DIR, file), 'utf8');
+    const titleMatch = content.match(/^title:\s*"(.+)"/m);
+    const slugMatch = content.match(/^slug:\s*"(.+)"/m);
+    const categoryMatch = content.match(/^category:\s*"(.+)"/m);
+    if (titleMatch && slugMatch) {
+      posts.push({
+        title: titleMatch[1],
+        slug: slugMatch[1],
+        category: categoryMatch ? categoryMatch[1] : 'Guides',
+      });
+    }
+  }
+  return posts;
+}
+
 // ── Call Gemini API ─────────────────────────────────────────
 async function generatePost(existingSlugs) {
   console.log('📝 Calling Gemini API (3.1 Flash Lite)...');
 
+  const existingKeywords = getExistingKeywords();
+  const existingPosts = getExistingPostsForLinking();
+
   const slugList = existingSlugs.length > 0
-    ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-15).join(', ')}`
+    ? `\n\nDo NOT write about these topics (already published): ${existingSlugs.slice(-20).join(', ')}`
+    : '';
+
+  const keywordList = existingKeywords.length > 0
+    ? `\n\nDo NOT target these keywords (already used — would cause cannibalization): ${existingKeywords.slice(-40).join(', ')}`
+    : '';
+
+  const linkingContext = existingPosts.length > 0
+    ? `\n\nFor internal linking, naturally include 2-3 links to these existing posts where relevant (use markdown links with /blog/slug format):
+${existingPosts.slice(-15).map(p => `- "${p.title}" → /blog/${p.slug}`).join('\n')}
+
+Also link to these free tools where relevant:
+- SPF/DKIM/DMARC Checker → /tools/dns-checker
+- Email Spam Word Checker → /tools/spam-checker
+- Email Extractor → /tools/email-extractor
+- CSV Email List Cleaner → /tools/csv-cleaner`
     : '';
 
   const prompt = `You are an SEO blog writer for Cleanmails, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences.
@@ -45,17 +103,20 @@ async function generatePost(existingSlugs) {
 Write a high-quality blog post about cold email, deliverability, SMTP, or outreach.
 
 RULES:
-- Pick a specific long-tail keyword to target
-- Write 1000-1500 words of useful, actionable content
+- Pick a specific long-tail keyword to target that is DIFFERENT from all previously used keywords
+- Write 1200-1800 words of useful, actionable content
 - Use ## for H2, ### for H3, bullet points, tables, code blocks where relevant
 - Mention Cleanmails naturally 1-2 times — don't be salesy
+- Include 2-3 internal links to other blog posts and/or tools (use relative URLs like /blog/slug-here or /tools/tool-name)
+- End the article with a "Related:" section linking to 2-3 related posts and 1 tool
 - slug: lowercase dashes only, no special characters
 - category: exactly one of Cold Email, Deliverability, SMTP, Guides
-- tags: array of 3-4 strings including the primary keyword
+- tags: array of 3-4 strings including the primary keyword (must be UNIQUE — not used before)
 - excerpt: 1-2 compelling sentences
-- imageSearchTerm: 1-2 words for finding a cover photo${slugList}
+- imageSearchTerm: 1-2 words for finding a cover photo
+- targetKeyword: the specific long-tail SEO keyword this post targets (for tracking)${slugList}${keywordList}${linkingContext}
 
-Return ONLY valid JSON with these exact keys: title, slug, category, tags (array of strings), excerpt, imageSearchTerm, body (the full markdown article).`;
+Return ONLY valid JSON with these exact keys: title, slug, category, tags (array of strings), excerpt, imageSearchTerm, targetKeyword, body (the full markdown article including internal links).`;
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=${GEMINI_API_KEY}`;
 

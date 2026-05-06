@@ -15,6 +15,8 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image' },
 }
 
+import ToolsSidebar from '@/components/ToolsSidebar'
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${inter.variable} ${lora.variable}`} suppressHydrationWarning>
@@ -26,7 +28,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-QWXBBLS661" strategy="afterInteractive" />
         <Script id="ga" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-QWXBBLS661');`}</Script>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <ToolsSidebar />
+      </body>
     </html>
   )
 }

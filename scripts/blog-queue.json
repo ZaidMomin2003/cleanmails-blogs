@@ -1,52 +1,304 @@
 [
-  {"title": "I Sent 100,000 Cold Emails in 30 Days — Here's What Actually Worked", "targetKeyword": "cold email results case study", "category": "Cold Email", "status": "pending"},
-  {"title": "The Exact Cold Email That Booked Me 47 Meetings in One Week", "targetKeyword": "cold email template that works", "category": "Cold Email", "status": "pending"},
-  {"title": "Why 93% of Cold Emails Never Get Opened (And How to Fix It)", "targetKeyword": "cold email open rate tips", "category": "Deliverability", "status": "pending"},
-  {"title": "I Replaced My $300/Month Email Stack With a $5 VPS — Full Setup Guide", "targetKeyword": "self hosted email server setup", "category": "Infrastructure", "status": "pending"},
-  {"title": "Cold Email is Dead — Here's What's Replacing It in 2026", "targetKeyword": "cold email trends 2026", "category": "Cold Email", "status": "pending"},
-  {"title": "The 5-Line Cold Email That Outperforms Every Template Online", "targetKeyword": "short cold email template", "category": "Cold Email", "status": "pending"},
-  {"title": "How One Agency Went From 0 to 200 Clients Using Only Cold Email", "targetKeyword": "agency cold email growth", "category": "Agency", "status": "pending"},
-  {"title": "Google Just Changed Email Authentication Rules — What It Means for Cold Outreach", "targetKeyword": "google email authentication 2026", "category": "Deliverability", "status": "pending"},
-  {"title": "The Hidden Cost of Instantly, Smartlead, and Lemlist Nobody Talks About", "targetKeyword": "cold email tool hidden costs", "category": "Comparisons", "status": "pending"},
-  {"title": "I Analyzed 50,000 Cold Email Subject Lines — The Data Will Surprise You", "targetKeyword": "best cold email subject lines data", "category": "Cold Email", "status": "pending"},
-  {"title": "How to Build a 10,000-Email-Per-Day Sending Machine for Under $50/Month", "targetKeyword": "high volume email sending setup", "category": "Infrastructure", "status": "pending"},
-  {"title": "The Cold Email Warm-Up Myth That's Costing You Thousands", "targetKeyword": "email warmup myths debunked", "category": "Deliverability", "status": "pending"},
-  {"title": "The $497 Setup That Replaced My $12,000/Year Cold Email Stack", "targetKeyword": "cheap cold email infrastructure", "category": "Infrastructure", "status": "pending"},
-  {"title": "Cold Email Personalization: What Actually Moves the Needle vs What's a Waste", "targetKeyword": "cold email personalization tips", "category": "Cold Email", "status": "pending"},
-  {"title": "How to Get 40%+ Open Rates on Cold Email in 2026", "targetKeyword": "high open rate cold email", "category": "Deliverability", "status": "pending"},
-  {"title": "The Complete Guide to Buying Domains for Cold Email", "targetKeyword": "buying domains for cold email", "category": "Infrastructure", "status": "pending"},
-  {"title": "I Tested 7 Cold Email Tools for 90 Days — Here's My Honest Ranking", "targetKeyword": "cold email tool comparison test", "category": "Comparisons", "status": "pending"},
-  {"title": "Why Agencies Are Leaving Instantly in 2026 (Real Data)", "targetKeyword": "leaving instantly cold email", "category": "Comparisons", "status": "pending"},
-  {"title": "The Spintax Strategy That 10x'd My Reply Rate Overnight", "targetKeyword": "spintax cold email strategy", "category": "Cold Email", "status": "pending"},
-  {"title": "How to Cold Email CEOs Without Getting Blocked or Ignored", "targetKeyword": "cold email CEO executives", "category": "Cold Email", "status": "pending"},
-  {"title": "Email Validation: The Step 90% of Cold Emailers Skip", "targetKeyword": "email validation importance cold email", "category": "Deliverability", "status": "pending"},
-  {"title": "The Perfect Cold Email Follow-Up Sequence (5 Emails That Convert)", "targetKeyword": "cold email follow up sequence", "category": "Automation", "status": "pending"},
-  {"title": "How to Set Up SPF, DKIM, and DMARC in Under 10 Minutes", "targetKeyword": "SPF DKIM DMARC setup tutorial", "category": "Deliverability", "status": "pending"},
-  {"title": "Cold Email vs LinkedIn Outreach: Which Gets More Replies in 2026?", "targetKeyword": "cold email vs linkedin outreach", "category": "Lead Generation", "status": "pending"},
-  {"title": "The Sender Rotation Strategy That Keeps You Out of Spam Forever", "targetKeyword": "sender rotation best practices", "category": "SMTP", "status": "pending"},
-  {"title": "How to Find Anyone's Email Address in 30 Seconds (7 Free Methods)", "targetKeyword": "find email address free methods", "category": "Lead Generation", "status": "pending"},
-  {"title": "Why Your Email Warm-Up Tool is Probably Hurting You", "targetKeyword": "email warmup tool problems", "category": "Deliverability", "status": "pending"},
-  {"title": "The Cold Email Cadence That Books 3-5 Meetings Per Day", "targetKeyword": "cold email cadence meetings", "category": "Automation", "status": "pending"},
-  {"title": "How to Send Cold Emails From Your Own Server (Complete Guide)", "targetKeyword": "send cold email own server", "category": "Infrastructure", "status": "pending"},
-  {"title": "I Got Blacklisted — Here's Exactly How I Recovered in 48 Hours", "targetKeyword": "email blacklist recovery guide", "category": "Deliverability", "status": "pending"},
-  {"title": "Shared vs Dedicated IP for Cold Email: What Actually Matters", "targetKeyword": "shared vs dedicated IP email", "category": "SMTP", "status": "pending"},
-  {"title": "How to Write Cold Emails That Don't Sound Like Cold Emails", "targetKeyword": "natural sounding cold email", "category": "Cold Email", "status": "pending"},
-  {"title": "The B2B Lead Scraping Stack for Finding 10,000 Leads Per Week", "targetKeyword": "B2B lead scraping tools stack", "category": "Lead Generation", "status": "pending"},
-  {"title": "Cold Email Compliance in 2026: CAN-SPAM, GDPR, and What You Need", "targetKeyword": "cold email legal compliance 2026", "category": "Guides", "status": "pending"},
-  {"title": "How to Build a Cold Email Agency From Scratch", "targetKeyword": "start cold email agency guide", "category": "Agency", "status": "pending"},
-  {"title": "Why I Stopped Using Google Workspace for Cold Email", "targetKeyword": "google workspace cold email problems", "category": "Infrastructure", "status": "pending"},
-  {"title": "How to A/B Test Cold Emails Without Ruining Your Data", "targetKeyword": "AB test cold email properly", "category": "Cold Email", "status": "pending"},
-  {"title": "The Cold Email Tech Stack for 50,000 Emails Per Month", "targetKeyword": "cold email tech stack high volume", "category": "Infrastructure", "status": "pending"},
-  {"title": "Catch-All Domains: Should You Email Them or Skip Them?", "targetKeyword": "catch all domain cold email risk", "category": "Deliverability", "status": "pending"},
-  {"title": "How to Price Your Cold Email Agency Services", "targetKeyword": "cold email agency pricing model", "category": "Agency", "status": "pending"},
-  {"title": "The Email Deliverability Checklist I Run Before Every Campaign", "targetKeyword": "email deliverability checklist template", "category": "Deliverability", "status": "pending"},
-  {"title": "Cold Email for SaaS: How to Get Your First 100 Customers", "targetKeyword": "cold email SaaS customer acquisition", "category": "Cold Email", "status": "pending"},
-  {"title": "Why Port 25 Matters for Cold Email (And How to Get It)", "targetKeyword": "port 25 cold email VPS", "category": "SMTP", "status": "pending"},
-  {"title": "How to Handle Cold Email Replies at Scale Without Losing Deals", "targetKeyword": "manage cold email replies scale", "category": "Automation", "status": "pending"},
-  {"title": "Hetzner vs DigitalOcean vs Vultr: Best VPS for Cold Email", "targetKeyword": "best VPS cold email hosting", "category": "Infrastructure", "status": "pending"},
-  {"title": "The Cold Email Copywriting Framework for 8%+ Reply Rates", "targetKeyword": "cold email copywriting framework", "category": "Cold Email", "status": "pending"},
-  {"title": "How to Warm Up 20 Mailboxes Simultaneously Without Getting Flagged", "targetKeyword": "warm up multiple mailboxes safely", "category": "Deliverability", "status": "pending"},
-  {"title": "The Truth About Cold Email Deliverability in 2026", "targetKeyword": "cold email deliverability 2026 changes", "category": "Deliverability", "status": "pending"},
-  {"title": "How I Book 15 Sales Calls Per Week With Zero Ad Spend", "targetKeyword": "book sales calls cold email", "category": "Cold Email", "status": "pending"},
-  {"title": "The Cold Email Infrastructure Nobody Tells Beginners About", "targetKeyword": "cold email infrastructure beginners", "category": "Infrastructure", "status": "pending"}
+  {
+    "title": "I Sent 100,000 Cold Emails in 30 Days — Here's What Actually Worked",
+    "targetKeyword": "cold email results case study",
+    "category": "Cold Email",
+    "status": "done",
+    "publishedSlug": "100k-cold-emails-30-days-what-worked",
+    "publishedDate": "2026-05-06"
+  },
+  {
+    "title": "The Exact Cold Email That Booked Me 47 Meetings in One Week",
+    "targetKeyword": "cold email template that works",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Why 93% of Cold Emails Never Get Opened (And How to Fix It)",
+    "targetKeyword": "cold email open rate tips",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "I Replaced My $300/Month Email Stack With a $5 VPS — Full Setup Guide",
+    "targetKeyword": "self hosted email server setup",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email is Dead — Here's What's Replacing It in 2026",
+    "targetKeyword": "cold email trends 2026",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The 5-Line Cold Email That Outperforms Every Template Online",
+    "targetKeyword": "short cold email template",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How One Agency Went From 0 to 200 Clients Using Only Cold Email",
+    "targetKeyword": "agency cold email growth",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Google Just Changed Email Authentication Rules — What It Means for Cold Outreach",
+    "targetKeyword": "google email authentication 2026",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Hidden Cost of Instantly, Smartlead, and Lemlist Nobody Talks About",
+    "targetKeyword": "cold email tool hidden costs",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "I Analyzed 50,000 Cold Email Subject Lines — The Data Will Surprise You",
+    "targetKeyword": "best cold email subject lines data",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a 10,000-Email-Per-Day Sending Machine for Under $50/Month",
+    "targetKeyword": "high volume email sending setup",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Warm-Up Myth That's Costing You Thousands",
+    "targetKeyword": "email warmup myths debunked",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The $497 Setup That Replaced My $12,000/Year Cold Email Stack",
+    "targetKeyword": "cheap cold email infrastructure",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Personalization: What Actually Moves the Needle vs What's a Waste",
+    "targetKeyword": "cold email personalization tips",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Get 40%+ Open Rates on Cold Email in 2026",
+    "targetKeyword": "high open rate cold email",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Complete Guide to Buying Domains for Cold Email",
+    "targetKeyword": "buying domains for cold email",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "I Tested 7 Cold Email Tools for 90 Days — Here's My Honest Ranking",
+    "targetKeyword": "cold email tool comparison test",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "Why Agencies Are Leaving Instantly in 2026 (Real Data)",
+    "targetKeyword": "leaving instantly cold email",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "The Spintax Strategy That 10x'd My Reply Rate Overnight",
+    "targetKeyword": "spintax cold email strategy",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email CEOs Without Getting Blocked or Ignored",
+    "targetKeyword": "cold email CEO executives",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Email Validation: The Step 90% of Cold Emailers Skip",
+    "targetKeyword": "email validation importance cold email",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Perfect Cold Email Follow-Up Sequence (5 Emails That Convert)",
+    "targetKeyword": "cold email follow up sequence",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up SPF, DKIM, and DMARC in Under 10 Minutes",
+    "targetKeyword": "SPF DKIM DMARC setup tutorial",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email vs LinkedIn Outreach: Which Gets More Replies in 2026?",
+    "targetKeyword": "cold email vs linkedin outreach",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "The Sender Rotation Strategy That Keeps You Out of Spam Forever",
+    "targetKeyword": "sender rotation best practices",
+    "category": "SMTP",
+    "status": "pending"
+  },
+  {
+    "title": "How to Find Anyone's Email Address in 30 Seconds (7 Free Methods)",
+    "targetKeyword": "find email address free methods",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "Why Your Email Warm-Up Tool is Probably Hurting You",
+    "targetKeyword": "email warmup tool problems",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Cadence That Books 3-5 Meetings Per Day",
+    "targetKeyword": "cold email cadence meetings",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Send Cold Emails From Your Own Server (Complete Guide)",
+    "targetKeyword": "send cold email own server",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "I Got Blacklisted — Here's Exactly How I Recovered in 48 Hours",
+    "targetKeyword": "email blacklist recovery guide",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Shared vs Dedicated IP for Cold Email: What Actually Matters",
+    "targetKeyword": "shared vs dedicated IP email",
+    "category": "SMTP",
+    "status": "pending"
+  },
+  {
+    "title": "How to Write Cold Emails That Don't Sound Like Cold Emails",
+    "targetKeyword": "natural sounding cold email",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The B2B Lead Scraping Stack for Finding 10,000 Leads Per Week",
+    "targetKeyword": "B2B lead scraping tools stack",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Compliance in 2026: CAN-SPAM, GDPR, and What You Need",
+    "targetKeyword": "cold email legal compliance 2026",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a Cold Email Agency From Scratch",
+    "targetKeyword": "start cold email agency guide",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Why I Stopped Using Google Workspace for Cold Email",
+    "targetKeyword": "google workspace cold email problems",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to A/B Test Cold Emails Without Ruining Your Data",
+    "targetKeyword": "AB test cold email properly",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Tech Stack for 50,000 Emails Per Month",
+    "targetKeyword": "cold email tech stack high volume",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Catch-All Domains: Should You Email Them or Skip Them?",
+    "targetKeyword": "catch all domain cold email risk",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Price Your Cold Email Agency Services",
+    "targetKeyword": "cold email agency pricing model",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Deliverability Checklist I Run Before Every Campaign",
+    "targetKeyword": "email deliverability checklist template",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for SaaS: How to Get Your First 100 Customers",
+    "targetKeyword": "cold email SaaS customer acquisition",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Why Port 25 Matters for Cold Email (And How to Get It)",
+    "targetKeyword": "port 25 cold email VPS",
+    "category": "SMTP",
+    "status": "pending"
+  },
+  {
+    "title": "How to Handle Cold Email Replies at Scale Without Losing Deals",
+    "targetKeyword": "manage cold email replies scale",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Hetzner vs DigitalOcean vs Vultr: Best VPS for Cold Email",
+    "targetKeyword": "best VPS cold email hosting",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Copywriting Framework for 8%+ Reply Rates",
+    "targetKeyword": "cold email copywriting framework",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Warm Up 20 Mailboxes Simultaneously Without Getting Flagged",
+    "targetKeyword": "warm up multiple mailboxes safely",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Truth About Cold Email Deliverability in 2026",
+    "targetKeyword": "cold email deliverability 2026 changes",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How I Book 15 Sales Calls Per Week With Zero Ad Spend",
+    "targetKeyword": "book sales calls cold email",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Infrastructure Nobody Tells Beginners About",
+    "targetKeyword": "cold email infrastructure beginners",
+    "category": "Infrastructure",
+    "status": "pending"
+  }
 ]

@@ -27,7 +27,9 @@
     "title": "I Replaced My $300/Month Email Stack With a $5 VPS — Full Setup Guide",
     "targetKeyword": "self hosted email server setup",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "self-hosted-email-server-setup-5-dollar-vps",
+    "publishedDate": "2026-05-07"
   },
   {
     "title": "Cold Email is Dead — Here's What's Replacing It in 2026",

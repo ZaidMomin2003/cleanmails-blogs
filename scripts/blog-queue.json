@@ -179,7 +179,9 @@
     "title": "How to Set Up SPF, DKIM, and DMARC in Under 10 Minutes",
     "targetKeyword": "SPF DKIM DMARC setup tutorial",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "spf-dkim-dmarc-setup-tutorial",
+    "publishedDate": "2026-05-14"
   },
   {
     "title": "Cold Email vs LinkedIn Outreach: Which Gets More Replies in 2026?",

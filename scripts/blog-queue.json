@@ -235,7 +235,9 @@
     "title": "I Got Blacklisted — Here's Exactly How I Recovered in 48 Hours",
     "targetKeyword": "email blacklist recovery guide",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-blacklist-recovery-guide-48-hours",
+    "publishedDate": "2026-05-17"
   },
   {
     "title": "Shared vs Dedicated IP for Cold Email: What Actually Matters",

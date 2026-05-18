@@ -243,7 +243,9 @@
     "title": "Shared vs Dedicated IP for Cold Email: What Actually Matters",
     "targetKeyword": "shared vs dedicated IP email",
     "category": "SMTP",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "shared-vs-dedicated-ip-cold-email",
+    "publishedDate": "2026-05-18"
   },
   {
     "title": "How to Write Cold Emails That Don't Sound Like Cold Emails",

@@ -291,7 +291,9 @@
     "title": "How to A/B Test Cold Emails Without Ruining Your Data",
     "targetKeyword": "AB test cold email properly",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "ab-test-cold-email-properly",
+    "publishedDate": "2026-05-20"
   },
   {
     "title": "The Cold Email Tech Stack for 50,000 Emails Per Month",

@@ -339,7 +339,9 @@
     "title": "Why Port 25 Matters for Cold Email (And How to Get It)",
     "targetKeyword": "port 25 cold email VPS",
     "category": "SMTP",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "port-25-cold-email-vps-guide",
+    "publishedDate": "2026-05-22"
   },
   {
     "title": "How to Handle Cold Email Replies at Scale Without Losing Deals",

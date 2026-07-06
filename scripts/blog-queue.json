@@ -398,5 +398,1805 @@
     "status": "done",
     "publishedSlug": "cold-email-infrastructure-beginners-guide",
     "publishedDate": "2026-05-24"
+  },
+  {
+    "title": "How to Connect AWS SES to Your Cold Email Platform (Step-by-Step)",
+    "targetKeyword": "connect AWS SES cold email",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "SendGrid vs AWS SES for Cold Email: Which Delivers Better in 2026?",
+    "targetKeyword": "SendGrid vs AWS SES cold email",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "The Ultimate Guide to Email Validation for Cold Outreach",
+    "targetKeyword": "email validation cold outreach guide",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "I Validated 50,000 Emails Before Sending — Here's Why My Bounce Rate Was 0.3%",
+    "targetKeyword": "email validation bounce rate results",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Catch-All Emails: The Silent Campaign Killer Nobody Warns You About",
+    "targetKeyword": "catch-all email detection cold outreach",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "135,000 Disposable Domains: Why Your Email List Is Dirtier Than You Think",
+    "targetKeyword": "disposable email domains list cleaning",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up Sender Rotation Properly (Most People Do It Wrong)",
+    "targetKeyword": "sender rotation setup guide",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Why Unlimited Sender Rotation Changes Everything for High-Volume Outreach",
+    "targetKeyword": "unlimited sender rotation benefits",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The 7-Step Cold Email Cadence That Converts Strangers Into Customers",
+    "targetKeyword": "cold email cadence steps convert",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Multi-Step Email Sequences: How Many Follow-Ups Is Too Many?",
+    "targetKeyword": "email sequence follow-up frequency",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Spintax for Cold Email: A Complete Guide to Writing Unique Emails at Scale",
+    "targetKeyword": "spintax cold email complete guide",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Nested Spintax: How to Generate 1,000+ Unique Emails From One Template",
+    "targetKeyword": "nested spintax email variations",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Body Variant Rotation: The A/B Testing Strategy That 10x'd My Reply Rates",
+    "targetKeyword": "body variant rotation AB testing email",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Unified Inbox for Cold Email: Why Managing Replies Across 20 Mailboxes Sucks",
+    "targetKeyword": "unified inbox cold email management",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How AI Auto-Reply Turned My Cold Email Into a 24/7 Sales Machine",
+    "targetKeyword": "AI auto-reply cold email automation",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "BYO API Key: Why I Pay $0.001 Per AI Reply Instead of $97/Month for Credits",
+    "targetKeyword": "BYO API key AI email cost savings",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "MCP Protocol for Cold Email: Control Your Entire Outreach From ChatGPT",
+    "targetKeyword": "MCP protocol cold email AI control",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Run a 10-Client Cold Email Agency From a Single Dashboard",
+    "targetKeyword": "cold email agency single dashboard",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Client Workspaces: How to Keep Agency Campaigns Isolated and Organized",
+    "targetKeyword": "client workspaces cold email agency",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "HubSpot + Cold Email: How to Auto-Create Deals When Prospects Reply",
+    "targetKeyword": "HubSpot cold email integration deals",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The One-Time Payment Cold Email Tool That Replaced My $1,200/Month Stack",
+    "targetKeyword": "one-time payment cold email tool",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "Data Sovereignty in Cold Email: Why Your Leads Should Never Touch Someone Else's Server",
+    "targetKeyword": "data sovereignty cold email privacy",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Warmup in 2026: The 30-Day Schedule That Actually Works",
+    "targetKeyword": "cold email warmup schedule 2026",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Warm Up 50 Mailboxes Without Paying for a Warmup Tool",
+    "targetKeyword": "warm up mailboxes free no tool",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Zapier vs Native Integrations for Cold Email Automation",
+    "targetKeyword": "Zapier cold email automation comparison",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email ROI Calculator: How to Know If You're Profitable",
+    "targetKeyword": "cold email ROI calculator profitability",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How I Manage 28,000 Leads Across 5 Clients Without Breaking a Sweat",
+    "targetKeyword": "manage leads multiple clients cold email",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Gmail Relay for Cold Email: Setup Guide and Limits You Need to Know",
+    "targetKeyword": "Gmail relay cold email setup limits",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Why Cold Email Agencies Are Ditching Per-Seat Pricing Tools",
+    "targetKeyword": "cold email agency per-seat pricing problem",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The Knowledge Base Feature That Makes AI Replies Sound Like You Wrote Them",
+    "targetKeyword": "AI knowledge base cold email replies",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Open Rate Tracking Without Pixels: How It Works and Why It Matters",
+    "targetKeyword": "email open tracking without pixels",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Reply Detection: IMAP Polling vs Webhooks vs Real-Time",
+    "targetKeyword": "cold email reply detection methods",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Write Subject Lines That Pass Every Spam Filter in 2026",
+    "targetKeyword": "cold email subject lines spam filter 2026",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Blacklist Monitor That Saved My Agency's Reputation Overnight",
+    "targetKeyword": "email blacklist monitor cold email",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Auto-Pause Campaigns: The Safety Net Every Cold Emailer Needs",
+    "targetKeyword": "auto-pause cold email campaigns safety",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Bounce Intelligence: How to Cross-Validate Bad Emails Across All Your Lists",
+    "targetKeyword": "bounce intelligence cross-list validation",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Why I Stopped Using Instantly and Never Looked Back",
+    "targetKeyword": "stopped using Instantly cold email alternative",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "Cleanmails vs Instantly: 2026 Feature-by-Feature Breakdown",
+    "targetKeyword": "Cleanmails vs Instantly 2026 comparison",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "Cleanmails vs Smartlead: Which Is Actually Better for Agencies?",
+    "targetKeyword": "Cleanmails vs Smartlead agency comparison",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "Cleanmails vs Saleshandy: The Real Cost After 12 Months",
+    "targetKeyword": "Cleanmails vs Saleshandy cost comparison",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "Why Subscription Cold Email Tools Are Designed to Keep You Paying",
+    "targetKeyword": "subscription cold email tools lock-in",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "The Hidden Tax of Per-Inbox Pricing (And How to Escape It)",
+    "targetKeyword": "per-inbox pricing cold email hidden cost",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "How to Migrate From Instantly to a Self-Hosted Solution in One Weekend",
+    "targetKeyword": "migrate from Instantly self-hosted",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for B2B SaaS: The Exact Playbook That Got Us 200 Trial Signups",
+    "targetKeyword": "cold email B2B SaaS trial signups",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Agency Owner's Guide to Choosing Cold Email Infrastructure",
+    "targetKeyword": "agency owner cold email infrastructure guide",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How to Scale From 1,000 to 50,000 Emails Per Day Without Getting Blacklisted",
+    "targetKeyword": "scale cold email volume without blacklist",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Email Validation: MX Records, DNS Checks, and What They Actually Tell You",
+    "targetKeyword": "email validation MX records DNS checks",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Compliance Checklist for CAN-SPAM and GDPR in 2026",
+    "targetKeyword": "cold email compliance CAN-SPAM GDPR 2026",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Why Every Cold Email Tool Charges for Validation (And Why Yours Shouldn't)",
+    "targetKeyword": "free email validation cold email tool",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Claude AI to Write Cold Emails via MCP",
+    "targetKeyword": "Claude AI cold email MCP integration",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Pipedrive + Cold Email: Sync Replies to Deals Automatically",
+    "targetKeyword": "Pipedrive cold email sync automation",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The 5-Minute Cold Email Setup That Most Agencies Overthink",
+    "targetKeyword": "quick cold email setup agencies",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use AI to Classify Cold Email Replies by Intent",
+    "targetKeyword": "AI classify cold email replies intent",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Timing: When to Send for Maximum Open Rates by Industry",
+    "targetKeyword": "cold email send timing by industry",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Role Address Trap: Why Emailing info@ and sales@ Kills Deliverability",
+    "targetKeyword": "role address email deliverability problem",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Create a Multi-Channel Outreach Strategy With Cold Email as the Core",
+    "targetKeyword": "multi-channel outreach cold email strategy",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Why Your Email Warm-Up Is Taking Too Long (And How to Speed It Up)",
+    "targetKeyword": "email warmup taking too long speed up",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The 3 Cold Email Metrics That Actually Predict Revenue",
+    "targetKeyword": "cold email metrics predict revenue",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up Slack Notifications for Cold Email Replies",
+    "targetKeyword": "Slack notifications cold email replies setup",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Recruitment: How Staffing Agencies Fill Roles 3x Faster",
+    "targetKeyword": "cold email recruitment staffing agencies",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Difference Between Hard Bounces and Soft Bounces (And Why It Matters)",
+    "targetKeyword": "hard bounce vs soft bounce email difference",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a Cold Email Lead List That Actually Converts",
+    "targetKeyword": "build cold email lead list converts",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "The CRM Integration Playbook for Cold Email Agencies",
+    "targetKeyword": "CRM integration cold email agency playbook",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Why Your Cold Emails Sound Robotic (And How Spintax Fixes It)",
+    "targetKeyword": "cold emails sound robotic spintax fix",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Handle Out-of-Office Replies Without Wasting Follow-Ups",
+    "targetKeyword": "handle out-of-office replies cold email",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Real Estate Agents: Scripts That Get Listings",
+    "targetKeyword": "cold email real estate agents scripts",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Authentication Stack: SPF, DKIM, DMARC Explained Simply",
+    "targetKeyword": "email authentication SPF DKIM DMARC explained",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use OpenAI API for Cold Email Personalization at Scale",
+    "targetKeyword": "OpenAI API cold email personalization scale",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Inbox Placement vs Delivery Rate: The Metric Everyone Confuses",
+    "targetKeyword": "inbox placement vs delivery rate difference",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Run Cold Email Campaigns for Multiple Niches Simultaneously",
+    "targetKeyword": "cold email multiple niches simultaneously",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The Complete Guide to Cold Email for Consulting Firms",
+    "targetKeyword": "cold email consulting firms guide",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Why AI-Generated Cold Emails Get More Replies Than Templates",
+    "targetKeyword": "AI generated cold emails vs templates",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Track Cold Email Revenue Attribution End-to-End",
+    "targetKeyword": "cold email revenue attribution tracking",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "The Graduated Warmup Protocol: From 2 Emails to 50 Per Day",
+    "targetKeyword": "graduated warmup protocol email schedule",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for E-Commerce: How DTC Brands Are Using Outreach in 2026",
+    "targetKeyword": "cold email ecommerce DTC brands 2026",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up Email Forwarding Rules for a Unified Cold Email Inbox",
+    "targetKeyword": "email forwarding unified inbox cold email",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "The 10 AI Providers You Can Use for Cold Email Automation (Compared)",
+    "targetKeyword": "AI providers cold email automation compared",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Why Gemini Is My Go-To AI for Cold Email Reply Generation",
+    "targetKeyword": "Gemini AI cold email reply generation",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Domain Strategy: How Many Domains Do You Actually Need?",
+    "targetKeyword": "cold email domain strategy how many",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Webhooks to Connect Cold Email With Any Tool",
+    "targetKeyword": "webhooks cold email connect any tool",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Audit: 15 Things to Check Before Hitting Send",
+    "targetKeyword": "cold email audit checklist before sending",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How One SaaS Founder Got 50 Demo Calls in 30 Days With Cold Email",
+    "targetKeyword": "SaaS founder demo calls cold email",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Freelancers: How to Land High-Ticket Clients Without a Network",
+    "targetKeyword": "cold email freelancers high-ticket clients",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Anti-Pattern Detection System That Keeps Your Emails Out of Spam",
+    "targetKeyword": "anti-pattern detection email spam prevention",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Personalize Cold Emails at Scale Without Spending Hours",
+    "targetKeyword": "personalize cold emails scale efficiently",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Close CRM + Cold Email: The Integration Guide for Sales Teams",
+    "targetKeyword": "Close CRM cold email integration guide",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Why Cold Email Is Still the #1 Channel for B2B Lead Generation in 2026",
+    "targetKeyword": "cold email B2B lead generation 2026",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Write a Cold Email Follow-Up That Doesn't Annoy People",
+    "targetKeyword": "cold email follow-up not annoying",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Deliverability Playbook for Sending 10,000+ Emails Per Day",
+    "targetKeyword": "deliverability playbook high volume sending",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Marketing Agencies: How to Pitch Services That Get Replies",
+    "targetKeyword": "cold email marketing agency pitch",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Make.com With Your Cold Email Platform for Complex Workflows",
+    "targetKeyword": "Make.com cold email platform workflows",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Reputation Score: What It Is and How to Protect It",
+    "targetKeyword": "email reputation score protect improve",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Accountants and Financial Services: A Complete Guide",
+    "targetKeyword": "cold email accountants financial services",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Segment Your Cold Email List for 3x Better Results",
+    "targetKeyword": "segment cold email list better results",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The AI Copilot for Cold Email: Ask Questions, Get Campaign Insights",
+    "targetKeyword": "AI copilot cold email campaign insights",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Why Your Email Signature Is Hurting Your Deliverability",
+    "targetKeyword": "email signature deliverability problems",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email Investors for Your Startup (Without Being Annoying)",
+    "targetKeyword": "cold email investors startup fundraising",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The 14-Day Money-Back Guarantee: Why You Should Try Before You Commit",
+    "targetKeyword": "cold email tool money-back guarantee trial",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email + LinkedIn: The Dual-Touch Strategy That Gets 40% More Replies",
+    "targetKeyword": "cold email LinkedIn dual-touch strategy",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Export Leads From Apollo and Import Into Your Cold Email Tool",
+    "targetKeyword": "export leads Apollo import cold email",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Stack I'd Build If I Were Starting an Agency Today",
+    "targetKeyword": "cold email stack new agency 2026",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use DeepSeek for Dirt-Cheap Cold Email Personalization",
+    "targetKeyword": "DeepSeek cold email personalization cheap",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Email Throttling: Why Sending Too Fast Ruins Your Reputation",
+    "targetKeyword": "email throttling sending speed reputation",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Create a Cold Email Knowledge Base for AI Auto-Replies",
+    "targetKeyword": "cold email knowledge base AI replies",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Mistake That Cost Me 3 Clients in One Week",
+    "targetKeyword": "cold email mistake lost clients agency",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "DKIM Alignment: The Technical Detail That Makes or Breaks Deliverability",
+    "targetKeyword": "DKIM alignment deliverability technical",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email Podcast Hosts for Guest Appearances",
+    "targetKeyword": "cold email podcast hosts guest spots",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Breakeven Calculator: When Does a One-Time Tool Pay for Itself?",
+    "targetKeyword": "cold email tool breakeven calculator ROI",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Web Design Agencies: Templates That Book Discovery Calls",
+    "targetKeyword": "cold email web design agency templates",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Handle Spam Complaints Without Panicking",
+    "targetKeyword": "handle spam complaints cold email safely",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Zoho CRM Integration That Automated My Entire Follow-Up Process",
+    "targetKeyword": "Zoho CRM cold email integration automation",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Subject Line Formulas That Work in Every Industry",
+    "targetKeyword": "cold email subject line formulas industry",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Why GDPR Compliant Cold Email Is Easier Than You Think",
+    "targetKeyword": "GDPR compliant cold email guide easy",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up DNS Records for Cold Email in Under 5 Minutes",
+    "targetKeyword": "DNS records cold email setup quick",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Reporting Dashboard Every Agency Owner Needs",
+    "targetKeyword": "cold email reporting dashboard agency",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How AI Intent Classification Transforms Your Reply Management",
+    "targetKeyword": "AI intent classification email reply management",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for SaaS Partnerships: How to Land Integration Partners",
+    "targetKeyword": "cold email SaaS partnerships integrations",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Difference Between Email Warmup and Domain Warmup (Most Get This Wrong)",
+    "targetKeyword": "email warmup vs domain warmup difference",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Groq's Fast Inference for Real-Time Cold Email Replies",
+    "targetKeyword": "Groq fast inference cold email replies",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Cadence Timing: The Science Behind Day 1, 3, 5, 7 Sequences",
+    "targetKeyword": "cold email cadence timing science",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Why I Run All My Client Campaigns From One VPS (And How You Can Too)",
+    "targetKeyword": "run client campaigns one VPS cold email",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Validation Workflow That Saves Me $400/Month",
+    "targetKeyword": "email validation workflow save money",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email Decision Makers at Enterprise Companies",
+    "targetKeyword": "cold email decision makers enterprise",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for IT Services: How MSPs Are Winning New Contracts",
+    "targetKeyword": "cold email IT services MSP contracts",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The n8n + Cold Email Automation Stack for Power Users",
+    "targetKeyword": "n8n cold email automation stack",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Avoid the Promotions Tab in Gmail With Better Email Copy",
+    "targetKeyword": "avoid promotions tab Gmail cold email",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Personalization Variables: Beyond First Name and Company",
+    "targetKeyword": "cold email personalization variables advanced",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The One-Click Update System That Keeps Your Cold Email Tool Current",
+    "targetKeyword": "one-click update cold email tool maintenance",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Write Cold Email Copy That Passes the 'Would I Reply?' Test",
+    "targetKeyword": "write cold email copy reply test",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Cybersecurity Companies: Reaching CISOs and IT Directors",
+    "targetKeyword": "cold email cybersecurity CISO IT director",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Email Sending Limits by Provider: Gmail, Outlook, SES, SendGrid Compared",
+    "targetKeyword": "email sending limits provider comparison",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a Cold Email Agency That Runs Without You",
+    "targetKeyword": "cold email agency runs without you",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The Reply Rate Benchmark: What's Good, Great, and Exceptional in 2026",
+    "targetKeyword": "cold email reply rate benchmark 2026",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Why Your Cold Email Tool Should Have a Built-In AI (Not a Plugin)",
+    "targetKeyword": "cold email tool built-in AI advantages",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up Stripe Billing for Your White-Label Cold Email SaaS",
+    "targetKeyword": "Stripe billing white-label cold email SaaS",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Event Promotion: Filling Seats Without Paid Ads",
+    "targetKeyword": "cold email event promotion fill seats",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Campaign Scheduling Strategy That Maximizes Inbox Placement",
+    "targetKeyword": "campaign scheduling inbox placement strategy",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Cursor IDE With MCP to Manage Cold Email Campaigns",
+    "targetKeyword": "Cursor IDE MCP cold email campaigns",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Coaches and Course Creators: Fill Your Programs Fast",
+    "targetKeyword": "cold email coaches course creators",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Deliverability Myth That's Costing You Thousands in Lost Revenue",
+    "targetKeyword": "email deliverability myth lost revenue",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Cold Email to Fill a New SaaS With Beta Users",
+    "targetKeyword": "cold email fill SaaS beta users",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "GoHighLevel vs Cleanmails: Which Is Better for Cold Email Agencies?",
+    "targetKeyword": "GoHighLevel vs Cleanmails cold email",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "The Inbox Rotation Strategy That Keeps Every Sender Under the Radar",
+    "targetKeyword": "inbox rotation strategy under radar",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Write Cold Email That Converts for B2B Services",
+    "targetKeyword": "cold email B2B services conversion copy",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Analytics: The 5 Dashboards You Should Check Daily",
+    "targetKeyword": "cold email analytics dashboards check daily",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Why Your Agency Should Own Its Cold Email Infrastructure (Not Rent It)",
+    "targetKeyword": "agency own cold email infrastructure benefits",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How to Import Leads From Clay Into Your Cold Email Platform",
+    "targetKeyword": "import leads Clay cold email platform",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Warmup Mistake That Gets Accounts Suspended",
+    "targetKeyword": "cold email warmup mistake accounts suspended",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Law Firms: How to Get Corporate Clients Ethically",
+    "targetKeyword": "cold email law firms corporate clients",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Detect and Remove Spam Traps From Your Email List",
+    "targetKeyword": "detect remove spam traps email list",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Workflow I Use to Onboard New Agency Clients in 24 Hours",
+    "targetKeyword": "cold email onboard agency clients workflow",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Ollama (Local AI) for Free Cold Email Personalization",
+    "targetKeyword": "Ollama local AI cold email personalization",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Email List Hygiene: The Monthly Routine That Keeps Bounce Rates at 0.5%",
+    "targetKeyword": "email list hygiene monthly routine bounce",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Insurance Agents: How to Get Qualified Leads on Autopilot",
+    "targetKeyword": "cold email insurance agents qualified leads",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The MX Record Check That Tells You If an Email Is Real Before Sending",
+    "targetKeyword": "MX record check email validation",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Create Email Cadences That Respect Time Zones Automatically",
+    "targetKeyword": "email cadences time zone automation",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Link Building: How SEOs Get Guest Post Opportunities",
+    "targetKeyword": "cold email link building guest post SEO",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The AI Objection Handler: How to Overcome Pushback Without Manual Effort",
+    "targetKeyword": "AI objection handler cold email automated",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Freshsales CRM With Cold Email for a Unified Sales Pipeline",
+    "targetKeyword": "Freshsales CRM cold email unified pipeline",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Why Cold Email Open Rates Are Lying to You (And What to Track Instead)",
+    "targetKeyword": "cold email open rates unreliable alternative",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Agency Pricing Model for Cold Email Services in 2026",
+    "targetKeyword": "agency pricing model cold email services 2026",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Supabase as a Lead Database for Cold Email Campaigns",
+    "targetKeyword": "Supabase lead database cold email",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Dental Practices: How to Fill Chairs With New Patients",
+    "targetKeyword": "cold email dental practices new patients",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Disposable Email Problem: Why 8% of Your List Is Fake",
+    "targetKeyword": "disposable email problem list cleaning",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a White-Label Cold Email SaaS and Sell It to Agencies",
+    "targetKeyword": "white-label cold email SaaS agencies",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email vs Paid Ads: Which Has Better ROI for B2B Companies?",
+    "targetKeyword": "cold email vs paid ads ROI B2B",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Slack Alert System That Notifies You of Hot Leads in Real-Time",
+    "targetKeyword": "Slack alert hot leads real-time cold email",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Write a Cold Email That Gets Forwarded to the Right Person",
+    "targetKeyword": "cold email gets forwarded decision maker",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Nonprofits: How to Get Corporate Sponsors and Donors",
+    "targetKeyword": "cold email nonprofits corporate sponsors",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Thread View: Why Context Matters More Than Templates",
+    "targetKeyword": "email thread view context cold email",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email Prospects Who Visited Your Website (Intent Signals)",
+    "targetKeyword": "cold email website visitors intent signals",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "The Contabo VPS Setup Guide for Cold Email Infrastructure",
+    "targetKeyword": "Contabo VPS setup cold email infrastructure",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Scheduling: Batch Sends vs Drip Sends (Which Wins?)",
+    "targetKeyword": "cold email batch sends vs drip sends",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use AI to Draft Cold Emails in Your Prospect's Writing Style",
+    "targetKeyword": "AI draft cold email prospect writing style",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The Lead Scoring Framework for Cold Email: Prioritize High-Intent Replies",
+    "targetKeyword": "lead scoring framework cold email replies",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Architects and Design Studios: Landing Commercial Projects",
+    "targetKeyword": "cold email architects design studios projects",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up Automated Campaign Reports for Agency Clients",
+    "targetKeyword": "automated campaign reports agency clients",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The True Cost of Cold Email: A Breakdown for Budget-Conscious Founders",
+    "targetKeyword": "true cost cold email breakdown founders",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Why Most Cold Email Courses Are Outdated (And What Actually Works Now)",
+    "targetKeyword": "cold email courses outdated what works",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use OpenRouter for Multi-Model AI Cold Email Automation",
+    "targetKeyword": "OpenRouter multi-model AI cold email",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Ecommerce Brands: Getting Retail Distribution Deals",
+    "targetKeyword": "cold email ecommerce retail distribution",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The IMAP Polling Strategy: Check Replies Every 2 Minutes Without Missing One",
+    "targetKeyword": "IMAP polling strategy reply detection",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email for Joint Ventures and Strategic Partnerships",
+    "targetKeyword": "cold email joint ventures partnerships",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Team Roles Feature: Give VAs Access Without Exposing Your Whole System",
+    "targetKeyword": "team roles access control cold email",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Solar Companies: How to Get Homeowner Appointments",
+    "targetKeyword": "cold email solar companies homeowner leads",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Anthropic Claude for Intelligent Cold Email Reply Management",
+    "targetKeyword": "Anthropic Claude cold email reply management",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The 'Zero Cloud Dependency' Approach to Cold Email That Protects Your Data",
+    "targetKeyword": "zero cloud dependency cold email data privacy",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for HR Tech Companies: Reaching Talent Acquisition Leaders",
+    "targetKeyword": "cold email HR tech talent acquisition",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Run Parallel A/B Tests on Subject Lines, Bodies, and CTAs",
+    "targetKeyword": "parallel AB tests subject body CTA email",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Weekly Cold Email Health Check: 7 Things to Review Every Monday",
+    "targetKeyword": "weekly cold email health check review",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Webflow Forms to Capture Cold Email Leads With Enrichment",
+    "targetKeyword": "Webflow forms cold email leads enrichment",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for EdTech: How to Reach School Administrators and Districts",
+    "targetKeyword": "cold email EdTech school administrators",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Campaign Pause Protocol: When to Stop Sending and Why",
+    "targetKeyword": "campaign pause protocol when to stop",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Resell Cold Email as a Service (White-Label Playbook)",
+    "targetKeyword": "resell cold email service white-label",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Private Equity and M&A: Sourcing Off-Market Deals",
+    "targetKeyword": "cold email private equity M&A deals",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Encoding Trick That Prevents Spam Filter Fingerprinting",
+    "targetKeyword": "email encoding spam filter fingerprinting",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a Cold Email System That Handles 100K Sends Per Month",
+    "targetKeyword": "cold email system 100K sends per month",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Cleaning and Janitorial Services: Landing Commercial Contracts",
+    "targetKeyword": "cold email cleaning services commercial",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Personalization Waterfall: First Name → Company → Pain Point → Custom Line",
+    "targetKeyword": "personalization waterfall cold email layers",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Connect Your Cold Email Platform to Any CRM via Webhooks",
+    "targetKeyword": "cold email platform CRM webhooks connection",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Logistics and Freight Companies: Finding New Shippers",
+    "targetKeyword": "cold email logistics freight companies",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Mistral AI for Budget-Friendly Cold Email Automation",
+    "targetKeyword": "Mistral AI budget cold email automation",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Validator That Catches What ZeroBounce Misses",
+    "targetKeyword": "email validator catches more than ZeroBounce",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "How to Structure a 5-Email Cold Outreach Sequence for Maximum Replies",
+    "targetKeyword": "5-email cold outreach sequence structure",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Fintech Startups: Reaching CFOs and Finance Directors",
+    "targetKeyword": "cold email fintech startups CFO outreach",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The 'Send as Human' Technique: Sending Delays, Typos, and Natural Patterns",
+    "targetKeyword": "send as human cold email natural patterns",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email Bloggers and Journalists for Product Coverage",
+    "targetKeyword": "cold email bloggers journalists coverage",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Validation API: Integrate List Cleaning Into Your Lead Pipeline",
+    "targetKeyword": "email validation API lead pipeline integration",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Restaurants: How to Land Catering and B2B Partnerships",
+    "targetKeyword": "cold email restaurants catering B2B",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Manage Cold Email Sender Reputation Across 30+ Domains",
+    "targetKeyword": "manage sender reputation multiple domains",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The 'No Monthly Fee' Revolution in Cold Email Tools",
+    "targetKeyword": "no monthly fee cold email tools revolution",
+    "category": "Comparisons",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use ChatGPT With MCP to Manage Your Cold Email Dashboard",
+    "targetKeyword": "ChatGPT MCP manage cold email dashboard",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Deliverability in Gmail's 2026 Update: What Changed",
+    "targetKeyword": "Gmail 2026 update cold email deliverability",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Lead Import Workflow: CSV to Campaign in Under 5 Minutes",
+    "targetKeyword": "lead import CSV campaign workflow quick",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Plumbers and HVAC: How Local Services Get Commercial Jobs",
+    "targetKeyword": "cold email plumbers HVAC commercial jobs",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Cohere AI for Multilingual Cold Email Campaigns",
+    "targetKeyword": "Cohere AI multilingual cold email campaigns",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Sending Window Strategy: Why 8-11 AM Isn't Always Best",
+    "targetKeyword": "email sending window strategy timing",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Create an Evergreen Cold Email Campaign That Runs for Months",
+    "targetKeyword": "evergreen cold email campaign long-running",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Manufacturing: How to Reach Procurement Managers",
+    "targetKeyword": "cold email manufacturing procurement managers",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Sender Score Explained: What ISPs Actually Look At",
+    "targetKeyword": "sender score explained ISPs email",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to White-Label Your Cold Email Platform With Custom Branding",
+    "targetKeyword": "white-label cold email platform custom branding",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Construction Companies: Landing Subcontractor and Developer Deals",
+    "targetKeyword": "cold email construction subcontractor deals",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Hetzner Cloud Guide for Cold Email (ARM64 vs x86, Which to Pick)",
+    "targetKeyword": "Hetzner cloud cold email ARM64 x86",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email for Backlinks Without Sounding Desperate",
+    "targetKeyword": "cold email backlinks not desperate SEO",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email KPIs for Agencies: What to Report to Clients Every Week",
+    "targetKeyword": "cold email KPIs agency client reporting",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The Bounce Rate Threshold: When to Pause vs When to Keep Sending",
+    "targetKeyword": "bounce rate threshold pause or continue",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a Cold Email Referral System That Generates Leads on Autopilot",
+    "targetKeyword": "cold email referral system autopilot leads",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Healthcare Tech: Reaching Hospital IT Directors",
+    "targetKeyword": "cold email healthcare tech hospital IT",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Anti-Spam Checklist: 20 Things That Trigger Spam Filters",
+    "targetKeyword": "anti-spam checklist spam filter triggers",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Run a Cold Email Campaign for Product Hunt Launches",
+    "targetKeyword": "cold email Product Hunt launch campaign",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Car Dealerships: Getting Fleet and Corporate Buyers",
+    "targetKeyword": "cold email car dealerships fleet buyers",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The AI Reply Approval Workflow: When to Autopilot vs When to Review",
+    "targetKeyword": "AI reply approval workflow autopilot review",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use xAI Grok for Witty Cold Email First Lines",
+    "targetKeyword": "xAI Grok cold email first lines",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Personalization at Scale: The Tier 1, 2, 3 Framework",
+    "targetKeyword": "cold email personalization tiers framework",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email List Building Playbook: From Zero to 10,000 Targeted Contacts",
+    "targetKeyword": "email list building zero to 10000 contacts",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up Salesforce Integration for Cold Email Reply Syncing",
+    "targetKeyword": "Salesforce integration cold email reply sync",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Travel and Hospitality: Pitching Corporate Travel Managers",
+    "targetKeyword": "cold email travel hospitality corporate",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Domain Age Factor: How Long Should You Wait Before Cold Emailing?",
+    "targetKeyword": "domain age factor cold email wait time",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Create a Cold Email Playbook Your Team Can Follow Without You",
+    "targetKeyword": "cold email playbook team documentation",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Photographers and Videographers: Landing Corporate Clients",
+    "targetKeyword": "cold email photographers videographers clients",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Webhook-First Approach to Cold Email Workflow Automation",
+    "targetKeyword": "webhook-first cold email workflow automation",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email for Wholesale Distribution Partnerships",
+    "targetKeyword": "cold email wholesale distribution partnerships",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Infrastructure Security: Encryption, Access Control, and Backups",
+    "targetKeyword": "cold email infrastructure security encryption",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "The Reply-to-Meeting Pipeline: How to Convert Email Replies Into Booked Calls",
+    "targetKeyword": "reply to meeting pipeline cold email",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Framer + Cold Email for Landing Page Lead Capture",
+    "targetKeyword": "Framer cold email landing page lead capture",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Fitness Studios and Gyms: Filling Membership Spots",
+    "targetKeyword": "cold email fitness studios gyms memberships",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The AWS SES Sending Quota Guide: How to Request and Manage Limits",
+    "targetKeyword": "AWS SES sending quota request manage",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Create Cold Email Templates That Don't Sound Like Templates",
+    "targetKeyword": "cold email templates sound natural authentic",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Venture Capital: How to Source Deal Flow via Outreach",
+    "targetKeyword": "cold email venture capital deal flow",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Complete Guide to Email Warm-Up Schedules by Mailbox Provider",
+    "targetKeyword": "email warmup schedule by provider guide",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Recruitment Agencies: How to Win Exclusive Retainers",
+    "targetKeyword": "cold email recruitment agencies retainers",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Detect Email Bounces in Real-Time and Pause Affected Senders",
+    "targetKeyword": "detect email bounces real-time pause sender",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The Cold Email Landing Page That Converts 40% of Clicks Into Meetings",
+    "targetKeyword": "cold email landing page high conversion",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Cold Email + Webinars for a Powerful Lead Gen Combo",
+    "targetKeyword": "cold email webinars lead generation combo",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Property Management: Getting New Commercial Portfolios",
+    "targetKeyword": "cold email property management commercial",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The 'Data on Your Server' Advantage for Regulated Industries",
+    "targetKeyword": "data on your server regulated industries email",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build a Multi-Language Cold Email Strategy for Global Markets",
+    "targetKeyword": "multi-language cold email strategy global",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Software Development Agencies: Winning Project-Based Work",
+    "targetKeyword": "cold email software development agency projects",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Mailbox-Per-Domain Strategy for Maximum Deliverability",
+    "targetKeyword": "mailbox per domain strategy deliverability",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email Prospects Who Opened But Didn't Reply",
+    "targetKeyword": "cold email opened didn't reply follow-up",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Automation vs Manual Outreach: Where to Draw the Line",
+    "targetKeyword": "cold email automation vs manual outreach",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "The SendGrid Setup Guide for Cold Email (Without Getting Banned)",
+    "targetKeyword": "SendGrid setup cold email without ban",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Cold Email for Investor Relations and Fundraising Updates",
+    "targetKeyword": "cold email investor relations fundraising",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Interior Designers: Landing High-Value Commercial Projects",
+    "targetKeyword": "cold email interior designers commercial",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The 'First 100 Sends' Protocol: How to Start a New Mailbox Safely",
+    "targetKeyword": "first 100 sends protocol new mailbox",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Hire a VA for Cold Email Outreach (And What to Delegate)",
+    "targetKeyword": "hire VA cold email outreach delegation",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Reply Segmentation: Interested, Referral, Not Now, Never",
+    "targetKeyword": "cold email reply segmentation categories",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Cheapest Way to Run Cold Email in 2026 (Full Cost Breakdown)",
+    "targetKeyword": "cheapest cold email 2026 cost breakdown",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Cold Email to Recruit Top Talent for Your Company",
+    "targetKeyword": "cold email recruit top talent company",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Cybersecurity Consultants: Reaching Small Business Owners",
+    "targetKeyword": "cold email cybersecurity consultants SMB",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Header Analysis: How to Diagnose Deliverability Problems",
+    "targetKeyword": "email header analysis deliverability diagnosis",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Set Up Automated Unsubscribe Handling in Cold Email",
+    "targetKeyword": "automated unsubscribe handling cold email",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Music Producers and Artists: Getting Sync Licensing Deals",
+    "targetKeyword": "cold email music producers sync licensing",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Perfect Cold Email Structure: Hook, Context, Value, CTA",
+    "targetKeyword": "cold email structure hook context value CTA",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Clerk Auth to Build a Multi-Tenant Cold Email Platform",
+    "targetKeyword": "Clerk auth multi-tenant cold email platform",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Digital Marketing Agencies: Filling Your Client Pipeline",
+    "targetKeyword": "cold email digital marketing agency clients",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "The SPF Record Guide: Why 'Too Many Lookups' Kills Your Emails",
+    "targetKeyword": "SPF record too many lookups fix",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email for App Development Projects (B2B)",
+    "targetKeyword": "cold email app development B2B projects",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Deliverability by Mailbox Provider: Gmail vs Outlook vs Yahoo",
+    "targetKeyword": "cold email deliverability Gmail Outlook Yahoo",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "The AI-Powered Campaign Builder: Natural Language to Live Campaign in Seconds",
+    "targetKeyword": "AI campaign builder natural language cold email",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "How to Cold Email for Speaking Engagements and Conference Invitations",
+    "targetKeyword": "cold email speaking engagements conferences",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Print Shops and Packaging Companies: Landing Corporate Accounts",
+    "targetKeyword": "cold email print packaging corporate accounts",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The SSL Certificate Guide for Self-Hosted Email Infrastructure",
+    "targetKeyword": "SSL certificate self-hosted email infrastructure",
+    "category": "Infrastructure",
+    "status": "pending"
+  },
+  {
+    "title": "How to Create Branded Client Portals for Cold Email Agency Reports",
+    "targetKeyword": "branded client portals cold email reports",
+    "category": "Agency",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email Sequence Length: 3, 5, 7, or 10 Emails — What Data Shows",
+    "targetKeyword": "cold email sequence length data best",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use AI to Rewrite Failed Cold Emails Into Winners",
+    "targetKeyword": "AI rewrite failed cold emails improve",
+    "category": "Automation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for PR Firms: Getting Media Placements for Clients",
+    "targetKeyword": "cold email PR firms media placements",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The DMARC Policy Guide: None vs Quarantine vs Reject",
+    "targetKeyword": "DMARC policy none quarantine reject guide",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Benchmark Your Cold Email Performance Against Industry Averages",
+    "targetKeyword": "benchmark cold email performance industry",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Pharmaceutical Companies: Reaching Hospital Decision-Makers",
+    "targetKeyword": "cold email pharmaceutical hospital decision",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The One-Command Install That Sets Up Your Entire Cold Email Stack",
+    "targetKeyword": "one-command install cold email stack",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Build Email Lists From LinkedIn Sales Navigator (Ethically)",
+    "targetKeyword": "build email lists LinkedIn Sales Navigator",
+    "category": "Lead Generation",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Consulting Firms: How to Land $10K+ Engagements",
+    "targetKeyword": "cold email consulting firms 10K engagements",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Deliverability Stack: Tools That Complement Your Cold Email Platform",
+    "targetKeyword": "email deliverability stack complementary tools",
+    "category": "Guides",
+    "status": "pending"
+  },
+  {
+    "title": "How to Manage Campaign Pauses and Resumes Without Losing Momentum",
+    "targetKeyword": "manage campaign pause resume momentum",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for SaaS Upselling: How to Reach Existing Customers With New Offers",
+    "targetKeyword": "cold email SaaS upselling existing customers",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The Email Provider Rotation Map: Which Providers to Mix for Best Results",
+    "targetKeyword": "email provider rotation mix best results",
+    "category": "Deliverability",
+    "status": "pending"
+  },
+  {
+    "title": "How to Use Cold Email for Content Distribution and Amplification",
+    "targetKeyword": "cold email content distribution amplification",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "Cold Email for Landscaping Companies: Getting HOA and Commercial Contracts",
+    "targetKeyword": "cold email landscaping HOA commercial",
+    "category": "Cold Email",
+    "status": "pending"
+  },
+  {
+    "title": "The 'Reply Within 5 Minutes' Rule: Why Speed Matters in Cold Email",
+    "targetKeyword": "reply within 5 minutes cold email speed",
+    "category": "Cold Email",
+    "status": "pending"
   }
 ]

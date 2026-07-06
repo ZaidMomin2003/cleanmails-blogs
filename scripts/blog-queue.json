@@ -411,7 +411,9 @@
     "title": "SendGrid vs AWS SES for Cold Email: Which Delivers Better in 2026?",
     "targetKeyword": "SendGrid vs AWS SES cold email",
     "category": "Comparisons",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "sendgrid-vs-aws-ses-cold-email",
+    "publishedDate": "2026-07-06"
   },
   {
     "title": "The Ultimate Guide to Email Validation for Cold Outreach",

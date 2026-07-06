@@ -403,7 +403,9 @@
     "title": "How to Connect AWS SES to Your Cold Email Platform (Step-by-Step)",
     "targetKeyword": "connect AWS SES cold email",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "connect-aws-ses-cold-email-platform-setup",
+    "publishedDate": "2026-07-06"
   },
   {
     "title": "SendGrid vs AWS SES for Cold Email: Which Delivers Better in 2026?",

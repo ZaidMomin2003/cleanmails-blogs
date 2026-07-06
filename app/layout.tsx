@@ -10,7 +10,12 @@ export const metadata: Metadata = {
   title: { default: 'Cleanmails Blog', template: '%s | Cleanmails Blog' },
   description: 'Cold email deliverability, SMTP setup, and outreach guides from Cleanmails.',
   metadataBase: new URL('https://cleanmails.online'),
-  icons: { icon: '/icon.svg', apple: '/apple-icon.svg' },
+  icons: {
+    icon: [
+      { url: '/blog/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/blog/favicon.svg',
+  },
   openGraph: { type: 'website', siteName: 'Cleanmails Blog', locale: 'en_US' },
   twitter: { card: 'summary_large_image' },
 }

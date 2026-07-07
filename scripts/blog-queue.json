@@ -427,7 +427,9 @@
     "title": "I Validated 50,000 Emails Before Sending — Here's Why My Bounce Rate Was 0.3%",
     "targetKeyword": "email validation bounce rate results",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-validation-bounce-rate-results",
+    "publishedDate": "2026-07-07"
   },
   {
     "title": "Catch-All Emails: The Silent Campaign Killer Nobody Warns You About",

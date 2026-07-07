@@ -419,7 +419,9 @@
     "title": "The Ultimate Guide to Email Validation for Cold Outreach",
     "targetKeyword": "email validation cold outreach guide",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-validation-cold-outreach-guide",
+    "publishedDate": "2026-07-07"
   },
   {
     "title": "I Validated 50,000 Emails Before Sending — Here's Why My Bounce Rate Was 0.3%",

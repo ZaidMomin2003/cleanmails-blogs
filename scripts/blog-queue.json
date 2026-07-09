@@ -451,7 +451,9 @@
     "title": "How to Set Up Sender Rotation Properly (Most People Do It Wrong)",
     "targetKeyword": "sender rotation setup guide",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "sender-rotation-setup-guide",
+    "publishedDate": "2026-07-09"
   },
   {
     "title": "Why Unlimited Sender Rotation Changes Everything for High-Volume Outreach",

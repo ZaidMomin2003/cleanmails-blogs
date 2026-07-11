@@ -515,7 +515,9 @@
     "title": "How AI Auto-Reply Turned My Cold Email Into a 24/7 Sales Machine",
     "targetKeyword": "AI auto-reply cold email automation",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "ai-auto-reply-cold-email-automation",
+    "publishedDate": "2026-07-11"
   },
   {
     "title": "BYO API Key: Why I Pay $0.001 Per AI Reply Instead of $97/Month for Credits",

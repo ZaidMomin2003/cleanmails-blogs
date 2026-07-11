@@ -507,7 +507,9 @@
     "title": "Unified Inbox for Cold Email: Why Managing Replies Across 20 Mailboxes Sucks",
     "targetKeyword": "unified inbox cold email management",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "unified-inbox-cold-email-management",
+    "publishedDate": "2026-07-11"
   },
   {
     "title": "How AI Auto-Reply Turned My Cold Email Into a 24/7 Sales Machine",

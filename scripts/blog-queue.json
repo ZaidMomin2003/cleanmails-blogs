@@ -619,7 +619,9 @@
     "title": "Gmail Relay for Cold Email: Setup Guide and Limits You Need to Know",
     "targetKeyword": "Gmail relay cold email setup limits",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "gmail-relay-cold-email-setup-limits",
+    "publishedDate": "2026-07-16"
   },
   {
     "title": "Why Cold Email Agencies Are Ditching Per-Seat Pricing Tools",

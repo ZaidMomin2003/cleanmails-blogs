@@ -651,7 +651,9 @@
     "title": "Cold Email Reply Detection: IMAP Polling vs Webhooks vs Real-Time",
     "targetKeyword": "cold email reply detection methods",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-reply-detection-imap-polling-webhooks-realtime",
+    "publishedDate": "2026-07-17"
   },
   {
     "title": "How to Write Subject Lines That Pass Every Spam Filter in 2026",

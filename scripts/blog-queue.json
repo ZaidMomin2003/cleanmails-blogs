@@ -643,7 +643,9 @@
     "title": "Open Rate Tracking Without Pixels: How It Works and Why It Matters",
     "targetKeyword": "email open tracking without pixels",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-open-tracking-without-pixels",
+    "publishedDate": "2026-07-17"
   },
   {
     "title": "Cold Email Reply Detection: IMAP Polling vs Webhooks vs Real-Time",

@@ -739,7 +739,9 @@
     "title": "How to Migrate From Instantly to a Self-Hosted Solution in One Weekend",
     "targetKeyword": "migrate from Instantly self-hosted",
     "category": "Guides",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "migrate-from-instantly-self-hosted-weekend",
+    "publishedDate": "2026-07-21"
   },
   {
     "title": "Cold Email for B2B SaaS: The Exact Playbook That Got Us 200 Trial Signups",

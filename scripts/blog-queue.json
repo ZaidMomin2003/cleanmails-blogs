@@ -763,7 +763,9 @@
     "title": "How to Scale From 1,000 to 50,000 Emails Per Day Without Getting Blacklisted",
     "targetKeyword": "scale cold email volume without blacklist",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "scale-cold-email-volume-without-blacklist",
+    "publishedDate": "2026-07-22"
   },
   {
     "title": "Email Validation: MX Records, DNS Checks, and What They Actually Tell You",

@@ -771,7 +771,9 @@
     "title": "Email Validation: MX Records, DNS Checks, and What They Actually Tell You",
     "targetKeyword": "email validation MX records DNS checks",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-validation-mx-records-dns-checks",
+    "publishedDate": "2026-07-22"
   },
   {
     "title": "The Cold Email Compliance Checklist for CAN-SPAM and GDPR in 2026",

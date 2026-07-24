@@ -795,7 +795,9 @@
     "title": "How to Use Claude AI to Write Cold Emails via MCP",
     "targetKeyword": "Claude AI cold email MCP integration",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "claude-ai-cold-email-mcp-integration",
+    "publishedDate": "2026-07-24"
   },
   {
     "title": "Pipedrive + Cold Email: Sync Replies to Deals Automatically",

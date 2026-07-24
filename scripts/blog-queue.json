@@ -803,7 +803,9 @@
     "title": "Pipedrive + Cold Email: Sync Replies to Deals Automatically",
     "targetKeyword": "Pipedrive cold email sync automation",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "pipedrive-cold-email-sync-automation",
+    "publishedDate": "2026-07-24"
   },
   {
     "title": "The 5-Minute Cold Email Setup That Most Agencies Overthink",

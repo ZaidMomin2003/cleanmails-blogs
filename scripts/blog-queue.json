@@ -835,7 +835,9 @@
     "title": "The Role Address Trap: Why Emailing info@ and sales@ Kills Deliverability",
     "targetKeyword": "role address email deliverability problem",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "role-address-email-deliverability-problem",
+    "publishedDate": "2026-07-25"
   },
   {
     "title": "How to Create a Multi-Channel Outreach Strategy With Cold Email as the Core",

@@ -867,7 +867,9 @@
     "title": "How to Set Up Slack Notifications for Cold Email Replies",
     "targetKeyword": "Slack notifications cold email replies setup",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "slack-notifications-cold-email-replies-setup",
+    "publishedDate": "2026-07-27"
   },
   {
     "title": "Cold Email for Recruitment: How Staffing Agencies Fill Roles 3x Faster",

@@ -899,7 +899,9 @@
     "title": "The CRM Integration Playbook for Cold Email Agencies",
     "targetKeyword": "CRM integration cold email agency playbook",
     "category": "Agency",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "crm-integration-cold-email-agency-playbook",
+    "publishedDate": "2026-07-29"
   },
   {
     "title": "Why Your Cold Emails Sound Robotic (And How Spintax Fixes It)",

@@ -923,7 +923,9 @@
     "title": "Cold Email for Real Estate Agents: Scripts That Get Listings",
     "targetKeyword": "cold email real estate agents scripts",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-real-estate-agents-scripts",
+    "publishedDate": "2026-07-30"
   },
   {
     "title": "The Email Authentication Stack: SPF, DKIM, DMARC Explained Simply",

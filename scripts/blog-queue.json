@@ -939,7 +939,9 @@
     "title": "How to Use OpenAI API for Cold Email Personalization at Scale",
     "targetKeyword": "OpenAI API cold email personalization scale",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "openai-api-cold-email-personalization-scale",
+    "publishedDate": "2026-07-31"
   },
   {
     "title": "Inbox Placement vs Delivery Rate: The Metric Everyone Confuses",

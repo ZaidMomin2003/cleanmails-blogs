@@ -931,7 +931,9 @@
     "title": "The Email Authentication Stack: SPF, DKIM, DMARC Explained Simply",
     "targetKeyword": "email authentication SPF DKIM DMARC explained",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-authentication-spf-dkim-dmarc-explained",
+    "publishedDate": "2026-07-31"
   },
   {
     "title": "How to Use OpenAI API for Cold Email Personalization at Scale",

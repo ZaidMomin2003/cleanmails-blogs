@@ -7,7 +7,7 @@ export default function CTA() {
             Stop paying monthly for cold email.
           </p>
           <p className="text-[13px] text-[var(--text-secondary)] leading-relaxed">
-            cold mail — self-hosted, unlimited everything, $497 one-time.
+            cold mail — self-hosted, unlimited everything, $200 one-time.
           </p>
         </div>
         <a

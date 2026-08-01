@@ -37,7 +37,7 @@ export default async function HomePage({ searchParams }: Props) {
           <div className="flex items-center gap-2.5">
             <ThemeToggle />
             <a
-              href="https://cold mail.online"
+              href="https://coldmail.host"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[12px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-3.5 py-1.5 rounded-md transition-colors no-underline"
@@ -78,9 +78,9 @@ export default async function HomePage({ searchParams }: Props) {
               Own your cold email infrastructure.
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-6 max-w-sm mx-auto leading-relaxed">
-              Unlimited senders, email validation, cadences, and SMTP — one-time payment of $497.
+              Unlimited senders, email validation, cadences, and SMTP — one-time payment of $200.
             </p>
-            <a href="https://cold mail.online" target="_blank" rel="noopener noreferrer"
+            <a href="https://coldmail.host" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-6 py-2.5 rounded-lg transition-colors no-underline">
               Get cold mail
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
@@ -91,7 +91,7 @@ export default async function HomePage({ searchParams }: Props) {
           <div className="container-wide py-8">
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-8 mb-8">
               <div className="max-w-xs">
-                <a href="https://cold mail.online" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 no-underline mb-3">
+                <a href="https://coldmail.host" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 no-underline mb-3">
                   <div className="w-7 h-7 bg-[#37352f] dark:bg-[#e8e8e6] rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                       <rect x="2" y="4" width="20" height="16" rx="3" className="stroke-[#FFD700] dark:stroke-[#37352f]" strokeWidth="2.5"/>
@@ -117,10 +117,10 @@ export default async function HomePage({ searchParams }: Props) {
                 <div>
                   <p className="text-[11px] font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-3">Product</p>
                   <div className="flex flex-col gap-2">
-                    <a href="https://cold mail.online/#features" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Features</a>
-                    <a href="https://cold mail.online/#pricing" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Pricing</a>
-                    <a href="https://cold mail.online/docs.html" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Docs</a>
-                    <a href="https://cold mail.online/support.html" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Support</a>
+                    <a href="https://coldmail.host/#features" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Features</a>
+                    <a href="https://coldmail.host/#pricing" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Pricing</a>
+                    <a href="https://coldmail.host/docs.html" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Docs</a>
+                    <a href="https://coldmail.host/support.html" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Support</a>
                   </div>
                 </div>
               </div>
@@ -128,8 +128,8 @@ export default async function HomePage({ searchParams }: Props) {
             <div className="border-t border-[var(--border)] pt-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <p className="text-[12px] text-[var(--text-tertiary)]">© {new Date().getFullYear()} cold mail. All rights reserved.</p>
               <div className="flex items-center gap-4">
-                <a href="https://cold mail.online/privacy.html" className="text-[12px] text-[var(--text-tertiary)] hover:text-[var(--text)] no-underline transition-colors">Privacy</a>
-                <a href="https://cold mail.online/terms.html" className="text-[12px] text-[var(--text-tertiary)] hover:text-[var(--text)] no-underline transition-colors">Terms</a>
+                <a href="https://coldmail.host/privacy.html" className="text-[12px] text-[var(--text-tertiary)] hover:text-[var(--text)] no-underline transition-colors">Privacy</a>
+                <a href="https://coldmail.host/terms.html" className="text-[12px] text-[var(--text-tertiary)] hover:text-[var(--text)] no-underline transition-colors">Terms</a>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
 title: "Cold Email Compliance in 2026: CAN-SPAM, GDPR, and What You Need"
 slug: "cold-email-legal-compliance-2026"
 date: "2026-05-19"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["compliance", "CAN-SPAM", "GDPR", "cold email", "legal"]
 category: "Guides"
 coverImage: "https://images.pexels.com/photos/20716656/pexels-photo-20716656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -154,7 +154,7 @@ When your data lives in a third-party platform, you're relying on them to honor 
 
 The platforms that charge you $200-400/month are also processing your prospect data on shared infrastructure. Under GDPR, you're the data controller — you're responsible for what your processors do with that data.
 
-This is one reason I think self-hosted infrastructure makes sense for serious cold email operations. When I moved to a setup using [cold mail](https://cold mail.com) — a self-hosted platform with inbuilt SMTP and validation — the compliance picture got cleaner immediately. Your data stays on your server. Your suppression list is yours. You control the DPA situation because there's no third-party processor holding your prospect data.
+This is one reason I think self-hosted infrastructure makes sense for serious cold email operations. When I moved to a setup using [Cleanmails](https://Cleanmails.com) — a self-hosted platform with inbuilt SMTP and validation — the compliance picture got cleaner immediately. Your data stays on your server. Your suppression list is yours. You control the DPA situation because there's no third-party processor holding your prospect data.
 
 It's not for everyone, but if you're doing high-volume B2B outreach to EU contacts, the compliance argument for self-hosting is real. See [Scaling Cold Email Without Monthly Fees: A Guide to Infrastructure Control](/blog/scaling-cold-email-without-monthly-fees) for the full infrastructure breakdown.
 

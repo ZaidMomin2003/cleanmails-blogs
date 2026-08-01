@@ -2,7 +2,7 @@
 title: "Google Just Changed Email Authentication Rules — What It Means for Cold Outreach"
 slug: "google-email-authentication-2026"
 date: "2026-05-09"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Deliverability", "Email Authentication", "Cold Email", "DMARC", "Google"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7821764/pexels-photo-7821764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -125,7 +125,7 @@ When you're managing 10, 20, or 50 sending domains across a SaaS platform, confi
 
 This is one of the reasons I've moved to self-hosted infrastructure for serious cold email work. When you control your own SMTP server, you configure DKIM once at the server level, and every domain you add just needs a DNS record pointing to the same signing key infrastructure — no logging into five different platforms, no waiting for support tickets to get DKIM enabled on a new account.
 
-If you're running high-volume outreach and haven't looked at self-hosted options, the [guide to building cold email infrastructure without monthly fees](/blog/high-volume-cold-email-infrastructure-no-monthly-fees) is worth reading before you add another SaaS tool to your stack. cold mail, for example, handles sender rotation and DKIM signing natively across all your domains in a single setup — which eliminates the authentication drift problem entirely.
+If you're running high-volume outreach and haven't looked at self-hosted options, the [guide to building cold email infrastructure without monthly fees](/blog/high-volume-cold-email-infrastructure-no-monthly-fees) is worth reading before you add another SaaS tool to your stack. Cleanmails, for example, handles sender rotation and DKIM signing natively across all your domains in a single setup — which eliminates the authentication drift problem entirely.
 
 ## What This Means for Sender Rotation Specifically
 

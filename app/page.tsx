@@ -29,7 +29,7 @@ export default async function HomePage({ searchParams }: Props) {
               </svg>
             </div>
             <div>
-              <span className="text-[14px] font-semibold text-[var(--text)]">cold mail</span>
+              <span className="text-[14px] font-semibold text-[var(--text)]">Cleanmails</span>
               <span className="text-[14px] text-[var(--text-tertiary)] ml-1.5">/</span>
               <span className="text-[14px] text-[var(--text-tertiary)] ml-1.5">Blog</span>
             </div>
@@ -42,7 +42,7 @@ export default async function HomePage({ searchParams }: Props) {
               rel="noopener noreferrer"
               className="text-[12px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-3.5 py-1.5 rounded-md transition-colors no-underline"
             >
-              Get cold mail
+              Get Cleanmails
             </a>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default async function HomePage({ searchParams }: Props) {
             </p>
             <a href="https://coldmail.host" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-6 py-2.5 rounded-lg transition-colors no-underline">
-              Get cold mail
+              Get Cleanmails
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </a>
           </div>
@@ -98,7 +98,7 @@ export default async function HomePage({ searchParams }: Props) {
                       <path d="M2 9l10 6 10-6" className="stroke-[#FFD700] dark:stroke-[#37352f]" strokeWidth="2.5"/>
                     </svg>
                   </div>
-                  <span className="text-[14px] font-semibold text-[var(--text)]">cold mail</span>
+                  <span className="text-[14px] font-semibold text-[var(--text)]">Cleanmails</span>
                 </a>
                 <p className="text-[13px] text-[var(--text-secondary)] leading-relaxed">
                   Self-hosted cold email infrastructure. Inbuilt SMTP, unlimited sender rotation, email validation, and cadences.
@@ -127,7 +127,7 @@ export default async function HomePage({ searchParams }: Props) {
               </div>
             </div>
             <div className="border-t border-[var(--border)] pt-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-              <p className="text-[12px] text-[var(--text-tertiary)]">© {new Date().getFullYear()} cold mail. All rights reserved.</p>
+              <p className="text-[12px] text-[var(--text-tertiary)]">© {new Date().getFullYear()} Cleanmails. All rights reserved.</p>
               <div className="flex items-center gap-4">
                 <a href="https://coldmail.host/privacy.html" className="text-[12px] text-[var(--text-tertiary)] hover:text-[var(--text)] no-underline transition-colors">Privacy</a>
                 <a href="https://coldmail.host/terms.html" className="text-[12px] text-[var(--text-tertiary)] hover:text-[var(--text)] no-underline transition-colors">Terms</a>

@@ -2,7 +2,7 @@
 title: "The Cold Email Cadence That Books 3-5 Meetings Per Day"
 slug: "cold-email-cadence-meetings-3-5-per-day"
 date: "2026-05-17"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Cold Email", "Automation", "Cadences", "Outreach Strategy", "Lead Generation"]
 category: "Automation"
 coverImage: "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -153,7 +153,7 @@ Practical setup:
 - **Max 40-50 emails per inbox per day**
 - Each domain fully warmed for 3-4 weeks before going live ([here's the domain warm-up process I follow](/blog/how-to-warm-up-a-new-cold-email-domain))
 
-I run all of this through [cold mail](https://cold mail.com) — it handles sender rotation, cadence scheduling, and SMTP natively without the $300/month SaaS tax. For the volume I'm running, the one-time cost made sense within the first month.
+I run all of this through [Cleanmails](https://Cleanmails.com) — it handles sender rotation, cadence scheduling, and SMTP natively without the $300/month SaaS tax. For the volume I'm running, the one-time cost made sense within the first month.
 
 ## List Quality Is 60% of the Result
 

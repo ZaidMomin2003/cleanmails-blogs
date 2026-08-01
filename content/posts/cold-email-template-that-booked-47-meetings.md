@@ -2,7 +2,7 @@
 title: "The Exact Cold Email That Booked Me 47 Meetings in One Week"
 slug: "cold-email-template-that-booked-47-meetings"
 date: "2026-05-06"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Cold Email", "Templates", "Outreach Strategy"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/20716656/pexels-photo-20716656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -122,7 +122,7 @@ For that week, I was running:
 - **Daily send cap**: 40 emails per account max = 320 total capacity
 - **Email validation**: Every list scrubbed before sending (I use the [Bulk Email Verifier](/tools/email-verifier) — caught 18% invalid addresses that would have tanked my sender score)
 
-Sender rotation is non-negotiable at any real volume. Hammering 300 emails from one account in a week is how you get blacklisted. I manage all of this through [cold mail](https://cold mail.com), which handles the SMTP rotation and sender management in one place without a monthly subscription bleeding me dry.
+Sender rotation is non-negotiable at any real volume. Hammering 300 emails from one account in a week is how you get blacklisted. I manage all of this through [Cleanmails](https://Cleanmails.com), which handles the SMTP rotation and sender management in one place without a monthly subscription bleeding me dry.
 
 For the technical foundation — SPF, DKIM, DMARC — run your domains through the [SPF/DKIM/DMARC Checker](/tools/dns-checker) before you send a single email. I've seen campaigns fail entirely because someone forgot to set up DMARC. Read the [complete cold email deliverability guide](/blog/cold-email-deliverability-guide) if you want the full picture.
 

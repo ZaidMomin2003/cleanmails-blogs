@@ -2,7 +2,7 @@
 title: "The Cold Email Copywriting Framework for 8%+ Reply Rates"
 slug: "cold-email-copywriting-framework-8-percent-reply-rates"
 date: "2026-05-23"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Cold Email", "Copywriting", "Reply Rates", "Email Strategy", "Outreach"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -190,7 +190,7 @@ My sequence structure:
 
 The break-up email alone consistently generates 15-20% of total campaign replies. People respond to finality.
 
-For scaling this across multiple senders without tanking your deliverability, [sender rotation is non-negotiable](/blog/sender-rotation-strategy-stay-out-of-spam). cold mail handles this natively — you can rotate across multiple sender identities in a single campaign without duct-taping together three separate tools.
+For scaling this across multiple senders without tanking your deliverability, [sender rotation is non-negotiable](/blog/sender-rotation-strategy-stay-out-of-spam). Cleanmails handles this natively — you can rotate across multiple sender identities in a single campaign without duct-taping together three separate tools.
 
 ---
 

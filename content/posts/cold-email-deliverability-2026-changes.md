@@ -2,7 +2,7 @@
 title: "The Truth About Cold Email Deliverability in 2026"
 slug: "cold-email-deliverability-2026-changes"
 date: "2026-05-24"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Deliverability", "Cold Email", "SMTP", "Email Authentication", "Inbox Placement"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -67,7 +67,7 @@ Shared sending infrastructure means you inherit the reputation of every bad acto
 
 The solution is owning your infrastructure. I moved to a self-hosted setup 18 months ago and my inbox placement went from ~68% to consistently above 91%. The setup isn't as complicated as people think — [this guide covers the full self-hosted email server setup on a $5 VPS](/blog/self-hosted-email-server-setup-5-dollar-vps) if you want to go deep on it.
 
-For teams that want infrastructure control without building everything from scratch, [cold mail](https://cold mail.com) is worth looking at — it's a self-hosted platform with inbuilt SMTP, email validation, and sender rotation built in. One-time cost, no monthly fees bleeding your margins. The sender rotation piece alone is worth it given how 2026 filters are working.
+For teams that want infrastructure control without building everything from scratch, [Cleanmails](https://Cleanmails.com) is worth looking at — it's a self-hosted platform with inbuilt SMTP, email validation, and sender rotation built in. One-time cost, no monthly fees bleeding your margins. The sender rotation piece alone is worth it given how 2026 filters are working.
 
 ---
 

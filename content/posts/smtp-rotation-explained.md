@@ -2,7 +2,7 @@
 title: "SMTP Rotation: How to Send at Scale Without Getting Blacklisted"
 slug: "smtp-rotation-explained"
 date: "2026-04-20"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["SMTP", "sender rotation", "cold email", "scale"]
 category: "SMTP"
 coverImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80"
@@ -64,23 +64,23 @@ Setup:
 1. Buy 3–5 domains
 2. Create 2–3 mailboxes per domain
 3. Configure SPF, DKIM, DMARC on each domain
-4. Add all mailboxes to cold mail
+4. Add all mailboxes to Cleanmails
 5. Enable rotation in campaign settings
 
-### Option 2: cold mail Inbuilt SMTP
+### Option 2: Cleanmails Inbuilt SMTP
 
-cold mail ships with its own SMTP engine. You can create unlimited sending identities on your own server without paying per-mailbox fees.
+Cleanmails ships with its own SMTP engine. You can create unlimited sending identities on your own server without paying per-mailbox fees.
 
 This is the cost-effective path for high-volume senders. You control the infrastructure, the IPs, and the sending behavior.
 
 ```bash
-# cold mail handles rotation automatically
+# Cleanmails handles rotation automatically
 # Just add your senders and set rotation mode to "round-robin" or "random"
 ```
 
 ### Option 3: AWS SES + Rotation
 
-AWS SES gives you high deliverability at very low cost (~$0.10 per 1,000 emails). Combine it with multiple sending identities in cold mail for a powerful, cheap setup.
+AWS SES gives you high deliverability at very low cost (~$0.10 per 1,000 emails). Combine it with multiple sending identities in Cleanmails for a powerful, cheap setup.
 
 ## Rotation Strategies
 
@@ -108,9 +108,9 @@ All emails to a specific company go through the same sender. This prevents the s
 
 Best for: Account-based outreach.
 
-## What cold mail Does Automatically
+## What Cleanmails Does Automatically
 
-When you add multiple senders to cold mail, the rotation engine handles:
+When you add multiple senders to Cleanmails, the rotation engine handles:
 
 - **Automatic distribution** based on your chosen strategy
 - **Per-sender daily limits** — stops sending from a mailbox once it hits its limit
@@ -134,6 +134,6 @@ You set it up once. The system manages the rest.
 
 SMTP rotation is non-negotiable for cold email at scale. The setup takes a few hours, but it's the difference between a campaign that runs for months and one that gets shut down in a week.
 
-cold mail makes this easy — add your senders, pick a rotation strategy, and the system handles the rest. [See how it works →](https://cold mail.online)
+Cleanmails makes this easy — add your senders, pick a rotation strategy, and the system handles the rest. [See how it works →](https://Cleanmails.online)
 
-**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [Optimizing Sender Rotation for High Volume](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [Why Agencies Are Ditching Instantly](/blog/instantly-alternative-self-hosted) · [Check your DNS records →](https://cold mail.online/tools/dns-checker)
+**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [Optimizing Sender Rotation for High Volume](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [Why Agencies Are Ditching Instantly](/blog/instantly-alternative-self-hosted) · [Check your DNS records →](https://Cleanmails.online/tools/dns-checker)

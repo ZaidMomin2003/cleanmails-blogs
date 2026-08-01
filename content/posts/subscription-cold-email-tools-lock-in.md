@@ -47,7 +47,7 @@ This one is subtle and almost nobody talks about it.
 
 Most subscription platforms run their own warm-up networks. Your mailboxes get warm-up emails from other users on the platform. The warm-up reputation is **tied to their infrastructure**, not yours.
 
-When you leave, you don't take your warm-up history with you. You take cold mailboxes. Which means if you switch platforms, you're looking at 4-6 weeks of re-warming before you can send at volume again. At 1,000+ emails per day, that's a real cost — potentially $15,000-$30,000 in lost pipeline depending on your close rates.
+When you leave, you don't take your warm-up history with you. You take Cleanmailsboxes. Which means if you switch platforms, you're looking at 4-6 weeks of re-warming before you can send at volume again. At 1,000+ emails per day, that's a real cost — potentially $15,000-$30,000 in lost pipeline depending on your close rates.
 
 I've seen agencies stay on platforms they hate specifically because they can't afford the re-warm period. That's lock-in by design.
 

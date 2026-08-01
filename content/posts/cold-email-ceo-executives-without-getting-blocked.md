@@ -2,7 +2,7 @@
 title: "How to Cold Email CEOs Without Getting Blocked or Ignored"
 slug: "cold-email-ceo-executives-without-getting-blocked"
 date: "2026-05-13"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Cold Email", "CEO Outreach", "Email Strategy", "Executive Outreach", "Deliverability"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/13801789/pexels-photo-13801789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -140,7 +140,7 @@ If you're sending executive outreach from the same domain and IP pool as your hi
 
 For executive campaigns, I use dedicated sending domains — warmed up properly, with separate IP addresses, sending no more than 50–100 emails per day. [Warming up a new cold email domain](/blog/how-to-warm-up-a-new-cold-email-domain) before you send to executives isn't optional. It's table stakes.
 
-This is one of the reasons I moved to [cold mail](/) for managing executive outreach — the sender rotation feature lets me assign specific senders to specific campaign types, so my high-volume prospecting never bleeds into my executive sequences. One-time cost, full control over infrastructure, no shared IP pools with thousands of other senders.
+This is one of the reasons I moved to [Cleanmails](/) for managing executive outreach — the sender rotation feature lets me assign specific senders to specific campaign types, so my high-volume prospecting never bleeds into my executive sequences. One-time cost, full control over infrastructure, no shared IP pools with thousands of other senders.
 
 ## What to Do When They Reply (Most People Blow This)
 

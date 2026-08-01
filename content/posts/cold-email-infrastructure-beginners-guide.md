@@ -2,7 +2,7 @@
 title: "The Cold Email Infrastructure Nobody Tells Beginners About"
 slug: "cold-email-infrastructure-beginners-guide"
 date: "2026-05-24"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Infrastructure", "Beginners", "SMTP", "Deliverability", "Setup"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/1181320/pexels-photo-1181320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -55,7 +55,7 @@ Your options for SMTP infrastructure:
 | Gmail/GSuite | $6–12/mo per inbox | Low | High (shared IP, strict limits) |
 | SendGrid / Mailgun | $15–80/mo | Medium | Medium (shared pools) |
 | Self-hosted on VPS | $5–20/mo total | Full | Low (dedicated IP) |
-| cold mail (self-hosted) | $497 one-time | Full | Low (inbuilt SMTP + rotation) |
+| Cleanmails (self-hosted) | $497 one-time | Full | Low (inbuilt SMTP + rotation) |
 
 For most beginners who want to get serious fast, a self-hosted setup on a VPS is the right move. The upfront learning curve is real, but once it's running, you own everything. [I replaced my entire $300/month email stack with a $5 VPS](/blog/self-hosted-email-server-setup-5-dollar-vps) — and the deliverability actually improved.
 
@@ -92,7 +92,7 @@ A practical rotation setup for beginners:
 
 This isn't complicated in theory, but managing it manually is a nightmare. I covered the full strategy in [The Sender Rotation Strategy That Keeps You Out of Spam Forever](/blog/sender-rotation-strategy-stay-out-of-spam) — including the exact rotation ratios I use.
 
-Tools like [cold mail](/) handle this natively with inbuilt SMTP and sender rotation, which is why I recommend it to people who want the control of self-hosting without stitching together five different tools.
+Tools like [Cleanmails](/) handle this natively with inbuilt SMTP and sender rotation, which is why I recommend it to people who want the control of self-hosting without stitching together five different tools.
 
 ---
 

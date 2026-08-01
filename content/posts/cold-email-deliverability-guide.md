@@ -2,7 +2,7 @@
 title: "The Complete Cold Email Deliverability Guide for 2026"
 slug: "cold-email-deliverability-guide"
 date: "2026-04-28"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["deliverability", "cold email", "SMTP", "DNS"]
 category: "Deliverability"
 coverImage: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=1200&q=80"
@@ -32,7 +32,7 @@ The good news: all of these are fixable with the right infrastructure.
 
 ## Step 1: Domain Setup
 
-Never send cold email from your main business domain. Use a dedicated sending domain — something like `getcold mail.com` or `trycold mail.io`.
+Never send cold email from your main business domain. Use a dedicated sending domain — something like `getCleanmails.com` or `tryCleanmails.io`.
 
 This protects your primary domain's reputation. If a sending domain gets flagged, you swap it out without affecting your main brand.
 
@@ -56,7 +56,7 @@ Host: @
 Value: v=spf1 include:_spf.google.com ~all
 ```
 
-If you're using cold mail' inbuilt SMTP, add your server IP:
+If you're using Cleanmails' inbuilt SMTP, add your server IP:
 
 ```
 v=spf1 ip4:YOUR.SERVER.IP include:_spf.google.com ~all
@@ -104,7 +104,7 @@ During warm-up, send to real people who will open and reply. Warm-up tools like 
 
 Sending to invalid emails destroys your sender reputation. A bounce rate above 5% is a red flag for most email providers.
 
-Before importing any list, run it through an email validator. cold mail has a built-in validation engine that checks:
+Before importing any list, run it through an email validator. Cleanmails has a built-in validation engine that checks:
 
 - **MX records** — does the domain accept email?
 - **SMTP handshake** — does the specific mailbox exist?
@@ -127,7 +127,7 @@ Send during business hours in your target timezone. Emails sent at 3am look auto
 
 ### Delays between emails
 
-Add random delays between sends — 60 to 180 seconds. cold mail handles this automatically with its cadence engine.
+Add random delays between sends — 60 to 180 seconds. Cleanmails handles this automatically with its cadence engine.
 
 ### Unsubscribe handling
 
@@ -143,9 +143,9 @@ Check weekly:
 - Spam rate (keep below 0.1%)
 - Authentication pass rate (should be 100%)
 
-## The cold mail Advantage
+## The Cleanmails Advantage
 
-cold mail handles most of this automatically:
+Cleanmails handles most of this automatically:
 
 - **Inbuilt SMTP engine** with dedicated IP per installation
 - **Automatic sender rotation** across all your mailboxes
@@ -159,6 +159,6 @@ You set it up once, and the system manages your reputation automatically.
 
 Deliverability isn't magic — it's infrastructure. Get your DNS right, warm up properly, validate your lists, and respect sending limits. Do those four things and you'll consistently outperform competitors who skip the fundamentals.
 
-If you want a setup that handles all of this out of the box, [cold mail](https://cold mail.online) is built exactly for this.
+If you want a setup that handles all of this out of the box, [Cleanmails](https://Cleanmails.online) is built exactly for this.
 
-**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [How to Warm Up a New Cold Email Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [Why Your Emails Land in Spam](/blog/why-your-cold-emails-are-landing-in-spam-email-authentication) · [Free SPF/DKIM/DMARC Checker →](https://cold mail.online/tools/dns-checker) · [Free Spam Word Checker →](https://cold mail.online/tools/spam-checker)
+**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [How to Warm Up a New Cold Email Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [Why Your Emails Land in Spam](/blog/why-your-cold-emails-are-landing-in-spam-email-authentication) · [Free SPF/DKIM/DMARC Checker →](https://Cleanmails.online/tools/dns-checker) · [Free Spam Word Checker →](https://Cleanmails.online/tools/spam-checker)

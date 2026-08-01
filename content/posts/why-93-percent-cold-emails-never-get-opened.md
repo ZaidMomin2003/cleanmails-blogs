@@ -2,7 +2,7 @@
 title: "Why 93% of Cold Emails Never Get Opened (And How to Fix It)"
 slug: "why-93-percent-cold-emails-never-get-opened"
 date: "2026-05-07"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["deliverability", "cold email open rate tips", "inbox placement", "email authentication", "cold outreach"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -149,7 +149,7 @@ If you're sending more than 500 emails per day, you need sender rotation. Full s
 
 Sending all your volume from a single email address means a single deliverability problem kills your entire campaign. Spreading volume across 3–5 senders (across 2–3 domains) keeps each individual sender's volume low, which keeps spam scores low.
 
-This is one of the core features I rely on in [cold mail](/) — it handles sender rotation natively without needing to stitch together third-party tools. When you're running 5 senders across 3 domains, manually managing which sender gets which email is a nightmare. Automation handles it cleanly.
+This is one of the core features I rely on in [Cleanmails](/) — it handles sender rotation natively without needing to stitch together third-party tools. When you're running 5 senders across 3 domains, manually managing which sender gets which email is a nightmare. Automation handles it cleanly.
 
 The mechanics of rotation are covered in detail in [this guide on optimizing cold email sender rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach).
 

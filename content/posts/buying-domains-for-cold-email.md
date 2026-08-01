@@ -2,7 +2,7 @@
 title: "The Complete Guide to Buying Domains for Cold Email"
 slug: "buying-domains-for-cold-email"
 date: "2026-05-11"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Infrastructure", "Domain Setup", "Deliverability", "Cold Email"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -156,7 +156,7 @@ For the complete warmup playbook, see [How to Warm Up a New Cold Email Domain fo
 
 Once you have 5+ domains running, manual management becomes a nightmare. This is where infrastructure tooling pays for itself.
 
-I use [cold mail](https://cold mail.com) for this — it handles sender rotation across multiple domains and inboxes automatically, so I'm not manually switching accounts between campaigns. The one-time pricing model also means I'm not bleeding $200-400/month on SaaS subscriptions just to rotate senders. For context on why that matters at scale, [How to Build a High-Volume Cold Email Infrastructure Without Monthly Fees](/blog/high-volume-cold-email-infrastructure-no-monthly-fees) breaks down the full cost comparison.
+I use [Cleanmails](https://Cleanmails.com) for this — it handles sender rotation across multiple domains and inboxes automatically, so I'm not manually switching accounts between campaigns. The one-time pricing model also means I'm not bleeding $200-400/month on SaaS subscriptions just to rotate senders. For context on why that matters at scale, [How to Build a High-Volume Cold Email Infrastructure Without Monthly Fees](/blog/high-volume-cold-email-infrastructure-no-monthly-fees) breaks down the full cost comparison.
 
 The rotation principle is simple: spread your daily volume across all active domains rather than concentrating it. If you have 5 domains capable of 80 emails/day each, run 50/day across all five instead of maxing out two.
 

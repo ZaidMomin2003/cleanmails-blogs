@@ -2,7 +2,7 @@
 title: "I Replaced My $300/Month Email Stack With a $5 VPS — Full Setup Guide"
 slug: "self-hosted-email-server-setup-5-dollar-vps"
 date: "2026-05-07"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Infrastructure", "Self-Hosted", "Cold Email", "SMTP", "Cost Savings"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/5073493/pexels-photo-5073493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -49,10 +49,10 @@ Before the setup steps, let's be clear about what this guide produces:
 
 - A **Postfix SMTP server** running on a $5/month VPS (I use Hetzner CX11 — 2 vCPU, 2GB RAM, 40GB SSD)
 - Proper **SPF, DKIM, and DMARC** records so you don't land in spam on day one
-- **cold mail** installed on the same VPS (one-time $497 — yes, I paid for it, yes it was worth it) handling sequences, sender rotation, and email validation
+- **Cleanmails** installed on the same VPS (one-time $497 — yes, I paid for it, yes it was worth it) handling sequences, sender rotation, and email validation
 - Total ongoing cost: **$5/month** for the VPS, nothing else
 
-If you want to understand why [monthly subscriptions are destroying cold email ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi), the math is simple: cold mail' one-time fee pays for itself in under 6 weeks versus what I was paying before.
+If you want to understand why [monthly subscriptions are destroying cold email ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi), the math is simple: Cleanmails' one-time fee pays for itself in under 6 weeks versus what I was paying before.
 
 ## Self Hosted Email Server Setup: Step-by-Step
 
@@ -62,7 +62,7 @@ I use Hetzner because their IP ranges are clean and their EU data centers have s
 
 **Spec requirements for cold email:**
 - 1-2 vCPU minimum
-- 2GB RAM minimum (Postfix + cold mail fits comfortably)
+- 2GB RAM minimum (Postfix + Cleanmails fits comfortably)
 - Ubuntu 22.04 LTS
 - A fresh IP that hasn't been used for spam
 
@@ -159,13 +159,13 @@ Value: v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com
 
 After adding all three, verify them with the [SPF/DKIM/DMARC Checker](/tools/dns-checker) before you send a single email. I've seen setups where the DNS propagated incorrectly and nobody noticed for two weeks. Don't be that person.
 
-### Step 4: Install cold mail on the Same VPS
+### Step 4: Install Cleanmails on the Same VPS
 
-This is where the setup goes from "functional SMTP server" to "full cold email platform." cold mail installs directly on your VPS and connects to your Postfix instance — no external dependencies, no API rate limits, no subscription renewals.
+This is where the setup goes from "functional SMTP server" to "full cold email platform." Cleanmails installs directly on your VPS and connects to your Postfix instance — no external dependencies, no API rate limits, no subscription renewals.
 
 ```bash
-# Download and run the cold mail installer
-curl -O https://cold mail.io/install.sh
+# Download and run the Cleanmails installer
+curl -O https://Cleanmails.io/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ```
@@ -184,7 +184,7 @@ I can't stress this enough: **do not send cold email from a fresh server to an u
 
 A new IP with a 5% bounce rate on day one is essentially dead. ISPs use bounce rates as a spam signal, and a new IP has no positive history to offset it.
 
-Run your list through the [Bulk Email Verifier](/tools/email-verifier) before loading it into cold mail. Remove all invalid, catch-all, and disposable addresses. Target a bounce rate under 2% — ideally under 1%.
+Run your list through the [Bulk Email Verifier](/tools/email-verifier) before loading it into Cleanmails. Remove all invalid, catch-all, and disposable addresses. Target a bounce rate under 2% — ideally under 1%.
 
 Also run your templates through the [Email Spam Word Checker](/tools/spam-checker) before sending. A clean server with a spam-triggering subject line is still going to underperform.
 

@@ -2,7 +2,7 @@
 title: "How to Manage Email Sender Reputation for Cold Outreach Success"
 slug: "how-to-manage-email-sender-reputation-for-cold-outreach-success"
 date: "2026-05-06"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["email sender reputation", "cold email deliverability", "email infrastructure", "cold outreach strategy"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -30,7 +30,7 @@ To build and maintain a positive reputation, you must focus on four key areas:
 
 ## The Role of Infrastructure in Reputation
 
-Many marketers fail because they rely on shared infrastructure where a single bad actor can tank the reputation of the entire IP pool. This is why self-hosted solutions like cold mail are gaining traction among serious outreach teams. By controlling your own SMTP and sender rotation, you ensure that your reputation remains isolated from the poor practices of others.
+Many marketers fail because they rely on shared infrastructure where a single bad actor can tank the reputation of the entire IP pool. This is why self-hosted solutions like Cleanmails are gaining traction among serious outreach teams. By controlling your own SMTP and sender rotation, you ensure that your reputation remains isolated from the poor practices of others.
 
 ### Why Sender Rotation Matters
 
@@ -63,7 +63,7 @@ ISPs are suspicious of accounts that send zero emails on Monday and 5,000 on Tue
 
 When managing your own SMTP, you become the postmaster of your domain. This requires attention to detail. Ensure that your reverse DNS (rDNS) is configured correctly, as this is a primary check performed by receiving servers to verify that your IP address actually belongs to the domain you are sending from.
 
-If you find the technical setup of SMTP management overwhelming, platforms like cold mail provide the necessary infrastructure controls—including built-in sender rotation—to keep your technical setup streamlined without the recurring monthly overhead of traditional ESPs.
+If you find the technical setup of SMTP management overwhelming, platforms like Cleanmails provide the necessary infrastructure controls—including built-in sender rotation—to keep your technical setup streamlined without the recurring monthly overhead of traditional ESPs.
 
 ## The Importance of Content and Engagement
 
@@ -97,4 +97,4 @@ Managing your sender reputation is the most important part of long-term cold ema
 
 ---
 
-**Related:** [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free Spam Word Checker →](https://cold mail.online/tools/spam-checker)
+**Related:** [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free Spam Word Checker →](https://Cleanmails.online/tools/spam-checker)

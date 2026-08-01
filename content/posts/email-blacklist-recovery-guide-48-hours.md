@@ -2,7 +2,7 @@
 title: "I Got Blacklisted — Here's Exactly How I Recovered in 48 Hours"
 slug: "email-blacklist-recovery-guide-48-hours"
 date: "2026-05-17"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Deliverability", "Email Blacklist", "Cold Email", "SMTP", "Email Recovery"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7821760/pexels-photo-7821760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -161,7 +161,7 @@ This incident changed my infrastructure setup for good:
 
 **1. Every list gets validated before import.** No exceptions. The [Bulk Email Verifier](/tools/email-verifier) runs on every CSV before it touches a campaign. Takes 10 minutes. Saves weeks.
 
-**2. I moved to self-hosted infrastructure.** When you're on shared SMTP (like most SaaS tools), you're sharing reputation with every other customer. One bad actor on your shared IP pool can get you listed. After this incident, I migrated to [cold mail](/) — self-hosted, my own SMTP, my own IP reputation. Nobody else's sending behavior can tank my deliverability.
+**2. I moved to self-hosted infrastructure.** When you're on shared SMTP (like most SaaS tools), you're sharing reputation with every other customer. One bad actor on your shared IP pool can get you listed. After this incident, I migrated to [Cleanmails](/) — self-hosted, my own SMTP, my own IP reputation. Nobody else's sending behavior can tank my deliverability.
 
 **3. Sender rotation is mandatory.** I never send from a single domain/IP again. Minimum 3 sending identities per campaign, rotated automatically.
 

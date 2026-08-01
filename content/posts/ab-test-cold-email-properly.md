@@ -2,7 +2,7 @@
 title: "How to A/B Test Cold Emails Without Ruining Your Data"
 slug: "ab-test-cold-email-properly"
 date: "2026-05-20"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Cold Email", "A/B Testing", "Email Optimization", "Cold Outreach"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -112,7 +112,7 @@ I take my list of 1,200 verified contacts, split them randomly (rows 1-600 to Va
 
 I don't touch the results until Wednesday at 8:30am. No peeking.
 
-When I'm running multi-variant tests at scale, I use [cold mail](/) for this because the sender rotation happens automatically across variants without me manually splitting campaigns across accounts — and since it's self-hosted, I'm not paying per-email fees that make large-sample testing economically painful. When you need 800+ sends per variant to get clean data, cost-per-send tools punish you for doing testing right.
+When I'm running multi-variant tests at scale, I use [Cleanmails](/) for this because the sender rotation happens automatically across variants without me manually splitting campaigns across accounts — and since it's self-hosted, I'm not paying per-email fees that make large-sample testing economically painful. When you need 800+ sends per variant to get clean data, cost-per-send tools punish you for doing testing right.
 
 ## Reading the Results Without Fooling Yourself
 

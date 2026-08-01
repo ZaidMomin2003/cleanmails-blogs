@@ -2,7 +2,7 @@
 title: "The B2B Lead Scraping Stack for Finding 10,000 Leads Per Week"
 slug: "b2b-lead-scraping-stack-10000-leads-per-week"
 date: "2026-05-18"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Lead Generation", "B2B Prospecting", "Cold Email", "Lead Scraping", "Outreach Tools"]
 category: "Lead Generation"
 coverImage: "https://images.pexels.com/photos/33137146/pexels-photo-33137146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -98,9 +98,9 @@ Here's how this actually runs week to week:
 | Monday | Run Phantombuster LinkedIn scrape | Sales Nav + Phantombuster | ~2,500 raw leads |
 | Tuesday | Enrich all leads | Clay | Enriched records |
 | Tuesday | Deduplicate against master list | Clay / Airtable | Clean unique list |
-| Wednesday | Bulk email verify | cold mail Verifier | Verified list |
+| Wednesday | Bulk email verify | Cleanmails Verifier | Verified list |
 | Wednesday | Segment by ICP tier | Airtable / Clay | Segmented CSVs |
-| Thursday | Upload to sending tool | cold mail | Active sequences |
+| Thursday | Upload to sending tool | Cleanmails | Active sequences |
 | Friday | Review bounce/reply data, update suppression list | — | Feedback loop |
 
 Total active work time: **about 6-8 hours per week**. The rest runs on autopilot via scheduled Phantoms and Clay automations.
@@ -133,7 +133,7 @@ If budget is tight, here's the lean version:
 
 Total: ~$154/month. You can generate 5,000-7,000 verified leads per week with this stack if you're systematic about it.
 
-For the sending side, I use [cold mail](/) — a self-hosted platform with inbuilt SMTP, email validation, and sender rotation built in. The one-time $497 price means I'm not paying $200+/month for a SaaS sending tool on top of my scraping stack. When you're already spending on data infrastructure, eliminating recurring sending costs adds up fast. More on that logic [here](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).
+For the sending side, I use [Cleanmails](/) — a self-hosted platform with inbuilt SMTP, email validation, and sender rotation built in. The one-time $497 price means I'm not paying $200+/month for a SaaS sending tool on top of my scraping stack. When you're already spending on data infrastructure, eliminating recurring sending costs adds up fast. More on that logic [here](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).
 
 ---
 

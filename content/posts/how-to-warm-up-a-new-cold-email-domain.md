@@ -2,7 +2,7 @@
 title: "How to Warm Up a New Cold Email Domain for Maximum Deliverability"
 slug: "how-to-warm-up-a-new-cold-email-domain"
 date: "2026-05-03"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["cold email domain warmup", "email deliverability", "cold outreach strategy"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7821760/pexels-photo-7821760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -51,7 +51,7 @@ Before you send a single email, ensure your technical foundation is rock solid. 
 - **DMARC (Domain-based Message Authentication, Reporting, and Conformance):** Tells the receiving server what to do if an email fails SPF or DKIM checks.
 
 ### 2. Manage Your IP Reputation
-If you are using a shared SMTP service, you are at the mercy of other users' behavior. This is why many experienced outreach teams are moving toward self-hosted solutions like [cold mail](https://cold mail.com), which provide more control over the infrastructure and sender rotation, allowing you to maintain cleaner IP reputation compared to crowded third-party pools.
+If you are using a shared SMTP service, you are at the mercy of other users' behavior. This is why many experienced outreach teams are moving toward self-hosted solutions like [Cleanmails](https://Cleanmails.com), which provide more control over the infrastructure and sender rotation, allowing you to maintain cleaner IP reputation compared to crowded third-party pools.
 
 ## Avoiding the Spam Trigger Traps
 
@@ -81,4 +81,4 @@ By following these steps, you transition from an unknown, suspicious sender to a
 
 ---
 
-**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Why Your Emails Land in Spam](/blog/why-your-cold-emails-are-landing-in-spam-email-authentication) · [Free DNS Record Checker →](https://cold mail.online/tools/dns-checker)
+**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Why Your Emails Land in Spam](/blog/why-your-cold-emails-are-landing-in-spam-email-authentication) · [Free DNS Record Checker →](https://Cleanmails.online/tools/dns-checker)

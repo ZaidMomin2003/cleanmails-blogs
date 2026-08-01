@@ -3,13 +3,13 @@
 const PROMO_HTML = `
 <div style="margin:2.5em 0;padding:28px 24px;background:var(--bg-secondary);border:2px solid var(--border);border-radius:12px;text-align:center;">
   <p style="font-size:0.7rem;font-weight:700;color:#FFD700;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 8px;">Stop paying monthly</p>
-  <p style="font-size:1.15rem;font-weight:700;color:var(--text);margin:0 0 16px;line-height:1.4;">cold mail — self-hosted cold email infrastructure.</p>
+  <p style="font-size:1.15rem;font-weight:700;color:var(--text);margin:0 0 16px;line-height:1.4;">Cleanmails — self-hosted cold email infrastructure.</p>
   <div style="display:flex;flex-direction:column;gap:6px;max-width:340px;margin:0 auto 18px;text-align:left;">
     <span style="font-size:0.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:8px;">✓ <strong style="color:var(--text);">Unlimited sender rotation</strong> — no per-inbox fees</span>
     <span style="font-size:0.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:8px;">✓ <strong style="color:var(--text);">Inbuilt email validation</strong> — 135K+ disposable domains</span>
     <span style="font-size:0.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:8px;">✓ <strong style="color:var(--text);">AI auto-reply</strong> — BYO API key, ~$0.001/reply</span>
   </div>
-  <a href="https://cold mail.online" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#37352f;color:#fff;font-size:0.82rem;font-weight:700;padding:10px 22px;border-radius:8px;text-decoration:none;transition:opacity 0.2s;">One-time $199 — Get cold mail →</a>
+  <a href="https://Cleanmails.online" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#37352f;color:#fff;font-size:0.82rem;font-weight:700;padding:10px 22px;border-radius:8px;text-decoration:none;transition:opacity 0.2s;">One-time $199 — Get Cleanmails →</a>
 </div>
 `
 

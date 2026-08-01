@@ -2,7 +2,7 @@
 title: "How to Set Up SPF, DKIM, and DMARC in Under 10 Minutes"
 slug: "spf-dkim-dmarc-setup-tutorial"
 date: "2026-05-14"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Deliverability", "Email Authentication", "Cold Email", "DNS", "Technical Setup"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7821764/pexels-photo-7821764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -222,7 +222,7 @@ If you're running a serious cold email operation, authentication is step one. Af
 2. **IP/domain warm-up** — Don't blast volume from a fresh domain even with perfect auth records.
 3. **Sender rotation** — Distribute volume across multiple sending identities to avoid per-domain throttling.
 
-For teams managing multiple sending domains and rotating senders across campaigns, [cold mail](/) handles all of this natively — the sender rotation, cadence management, and SMTP configuration are built into one self-hosted platform, so you're not stitching together five different tools to manage infrastructure that should just work.
+For teams managing multiple sending domains and rotating senders across campaigns, [Cleanmails](/) handles all of this natively — the sender rotation, cadence management, and SMTP configuration are built into one self-hosted platform, so you're not stitching together five different tools to manage infrastructure that should just work.
 
 For a deeper look at the full infrastructure picture, the [SMTP rotation guide](/blog/smtp-rotation-explained) is worth reading alongside this one.
 

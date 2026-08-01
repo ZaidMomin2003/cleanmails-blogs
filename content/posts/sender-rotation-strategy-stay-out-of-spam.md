@@ -2,7 +2,7 @@
 title: "The Sender Rotation Strategy That Keeps You Out of Spam Forever"
 slug: "sender-rotation-strategy-stay-out-of-spam"
 date: "2026-05-15"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["SMTP", "Deliverability", "Sender Rotation", "Cold Email", "Email Infrastructure"]
 category: "SMTP"
 coverImage: "https://images.pexels.com/photos/7821760/pexels-photo-7821760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -31,7 +31,7 @@ Age and engagement history beat raw volume capacity every time.
 
 ## The Sender Rotation Best Practices That Actually Work
 
-Let me break down the framework I use. This applies whether you're managing your own SMTP infrastructure or using a platform like [cold mail](/) that handles rotation natively.
+Let me break down the framework I use. This applies whether you're managing your own SMTP infrastructure or using a platform like [Cleanmails](/) that handles rotation natively.
 
 ### 1. The 3-Layer Rotation Model
 
@@ -114,7 +114,7 @@ Here's a concrete example. Let's say I'm running a campaign targeting 3,000 new 
 
 This gives me 3,000 prospects covered in roughly 3.5 days without overloading any individual sender.
 
-When I was building this out manually, it was a pain to configure. Now I use [cold mail](/), which handles sender rotation and daily caps natively — you assign senders to campaigns, set volume limits, and the platform distributes sends automatically. The one-time pricing model also means I'm not paying per-seat or per-email as I scale, which matters when you're running this kind of infrastructure.
+When I was building this out manually, it was a pain to configure. Now I use [Cleanmails](/), which handles sender rotation and daily caps natively — you assign senders to campaigns, set volume limits, and the platform distributes sends automatically. The one-time pricing model also means I'm not paying per-seat or per-email as I scale, which matters when you're running this kind of infrastructure.
 
 ## The Reputation Monitoring Habit You Can't Skip
 

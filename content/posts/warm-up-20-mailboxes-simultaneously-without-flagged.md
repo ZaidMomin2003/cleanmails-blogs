@@ -2,7 +2,7 @@
 title: "How to Warm Up 20 Mailboxes Simultaneously Without Getting Flagged"
 slug: "warm-up-20-mailboxes-simultaneously-without-flagged"
 date: "2026-05-23"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Deliverability", "Email Warmup", "Cold Email Infrastructure", "Sender Reputation", "SMTP"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/5386485/pexels-photo-5386485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -114,7 +114,7 @@ For a campaign targeting 2,000 prospects/week, you don't need all 20 mailboxes f
 
 This approach — detailed in [the sender rotation strategy that keeps you out of spam forever](/blog/sender-rotation-strategy-stay-out-of-spam) — is what separates operators who scale sustainably from those who burn through domains every quarter.
 
-For managing this kind of rotation without stitching together five different tools, I use [cold mail](/) — it handles sender rotation, warmup cadences, and SMTP management from one dashboard, which matters a lot when you're juggling 20 mailboxes and don't want to manually track which ones are in active rotation vs. maintenance.
+For managing this kind of rotation without stitching together five different tools, I use [Cleanmails](/) — it handles sender rotation, warmup cadences, and SMTP management from one dashboard, which matters a lot when you're juggling 20 mailboxes and don't want to manually track which ones are in active rotation vs. maintenance.
 
 ## List Quality: The Overlooked Variable That Kills Warmup Accounts
 

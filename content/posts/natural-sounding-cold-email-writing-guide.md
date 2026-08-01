@@ -2,7 +2,7 @@
 title: "How to Write Cold Emails That Don't Sound Like Cold Emails"
 slug: "natural-sounding-cold-email-writing-guide"
 date: "2026-05-18"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Cold Email", "Copywriting", "Email Outreach", "Reply Rates"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/8069754/pexels-photo-8069754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -122,7 +122,7 @@ What actually moves the needle is **relevance at the segment level**. If you're 
 
 Personalize the *trigger* and the *proof point*. Everything else can be templated — as long as the template itself sounds human.
 
-If you're managing multiple sending accounts and sequences, this is where a tool like [cold mail](/) earns its keep. The cadence system lets you build segment-specific sequences with spintax variation built in, so every email in a campaign reads slightly differently without you manually rewriting each one. (If you haven't explored spintax yet, [this breakdown of the spintax strategy that 10x'd my reply rate](/blog/spintax-cold-email-strategy) is worth 10 minutes of your time.)
+If you're managing multiple sending accounts and sequences, this is where a tool like [Cleanmails](/) earns its keep. The cadence system lets you build segment-specific sequences with spintax variation built in, so every email in a campaign reads slightly differently without you manually rewriting each one. (If you haven't explored spintax yet, [this breakdown of the spintax strategy that 10x'd my reply rate](/blog/spintax-cold-email-strategy) is worth 10 minutes of your time.)
 
 ## A Real Email Teardown
 

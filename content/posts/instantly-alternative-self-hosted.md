@@ -2,7 +2,7 @@
 title: "Why Agencies Are Ditching Instantly for Self-Hosted Cold Email"
 slug: "instantly-alternative-self-hosted"
 date: "2026-05-01"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Instantly alternative", "self-hosted", "agency", "cold email"]
 category: "Cold Email"
 coverImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
@@ -46,11 +46,11 @@ You don't own any of it. If they raise prices (they have), you pay more. If they
 
 Self-hosted cold email means you run the software on your own server. You own the infrastructure, the data, and the sending setup.
 
-cold mail is built for exactly this use case.
+Cleanmails is built for exactly this use case.
 
 ### One-Time Cost
 
-cold mail is a one-time purchase — $497 for the Agency license. That's it. No monthly fees, no per-workspace charges, no usage caps.
+Cleanmails is a one-time purchase — $497 for the Agency license. That's it. No monthly fees, no per-workspace charges, no usage caps.
 
 Compare that to Instantly's Growth plan: you break even in **5 months**. After that, you're saving $97/month every month.
 
@@ -72,9 +72,9 @@ Your data lives on your server. Your sending IPs are yours. Your warm-up history
 
 Let's be honest about the tradeoffs.
 
-**You need a VPS.** A basic Linux server costs $5–20/month on DigitalOcean, Hetzner, or Vultr. You need one with Port 25 open if you want to use cold mail' inbuilt SMTP.
+**You need a VPS.** A basic Linux server costs $5–20/month on DigitalOcean, Hetzner, or Vultr. You need one with Port 25 open if you want to use Cleanmails' inbuilt SMTP.
 
-**Initial setup takes time.** cold mail includes free installation assistance — the team sets it up on your server end-to-end. But you still need to configure your domains, DNS records, and mailboxes.
+**Initial setup takes time.** Cleanmails includes free installation assistance — the team sets it up on your server end-to-end. But you still need to configure your domains, DNS records, and mailboxes.
 
 **You're responsible for maintenance.** Updates, backups, monitoring. It's not much work, but it's more than zero.
 
@@ -82,7 +82,7 @@ For most agencies, this tradeoff is obvious: a few hours of setup vs. thousands 
 
 ## Feature Comparison
 
-| Feature | Instantly | cold mail |
+| Feature | Instantly | Cleanmails |
 |---------|-----------|------------|
 | Pricing | $97–358/month | $497 one-time |
 | Mailboxes | Limited by plan | Unlimited |
@@ -94,7 +94,7 @@ For most agencies, this tradeoff is obvious: a few hours of setup vs. thousands 
 | Data ownership | Their servers | Your server |
 | Warm-up network | Yes | Via external tools |
 
-The main thing Instantly has that cold mail doesn't: a built-in warm-up network. You'll need a separate tool for warm-up (Mailreach, Warmbox, etc.) — typically $15–29/month. Still far cheaper than Instantly.
+The main thing Instantly has that Cleanmails doesn't: a built-in warm-up network. You'll need a separate tool for warm-up (Mailreach, Warmbox, etc.) — typically $15–29/month. Still far cheaper than Instantly.
 
 ## Who Should Switch
 
@@ -111,16 +111,16 @@ It's probably not the right move if you're just starting out and sending fewer t
 
 The migration process is straightforward:
 
-1. Purchase cold mail and get your license key
+1. Purchase Cleanmails and get your license key
 2. Provision a VPS (Hetzner CX21 or DigitalOcean Droplet works well)
-3. Run the one-command installer — cold mail handles the rest
+3. Run the one-command installer — Cleanmails handles the rest
 4. Configure your domains and mailboxes
 5. Import your existing sequences and contacts
 
-The cold mail team handles the server setup for free with every license. You don't need to be a sysadmin.
+The Cleanmails team handles the server setup for free with every license. You don't need to be a sysadmin.
 
 ---
 
-If you're spending more than $500/year on cold email software, the math on self-hosted is hard to argue with. [See cold mail pricing →](https://cold mail.online/#pricing)
+If you're spending more than $500/year on cold email software, the math on self-hosted is hard to argue with. [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
 
-**Related:** [cold mail vs Smartlead](/blog/cold mail-vs-smartlead) · [cold mail vs Lemlist](/blog/cold mail-vs-lemlist) · [Best Cold Email Tools for Agencies 2026](/blog/best-cold-email-tools-2026) · [Check your SPF/DKIM/DMARC →](https://cold mail.online/tools/dns-checker)
+**Related:** [Cleanmails vs Smartlead](/blog/Cleanmails-vs-smartlead) · [Cleanmails vs Lemlist](/blog/Cleanmails-vs-lemlist) · [Best Cold Email Tools for Agencies 2026](/blog/best-cold-email-tools-2026) · [Check your SPF/DKIM/DMARC →](https://Cleanmails.online/tools/dns-checker)

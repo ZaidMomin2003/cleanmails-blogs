@@ -2,7 +2,7 @@
 title: "The Cold Email Warm-Up Myth That's Costing You Thousands"
 slug: "email-warmup-myths-debunked"
 date: "2026-05-10"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["deliverability", "email warmup", "cold email", "SMTP", "sender reputation"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -125,7 +125,7 @@ If you delay that campaign by 6 weeks following bad warm-up advice:
 
 And if you're paying $150-200/month for a warm-up SaaS you don't need for 4 of those 6 weeks? Add another $800-1,200 in direct costs.
 
-This is why the platform I use for infrastructure — [cold mail](/) — takes a different approach. Instead of selling you a warm-up subscription on top of your sending subscription, it's a one-time purchase that includes sender rotation and cadence management built in. The incentive structure matters: when a tool makes money from you being "in warm-up" longer, it's not aligned with getting you to inbox faster.
+This is why the platform I use for infrastructure — [Cleanmails](/) — takes a different approach. Instead of selling you a warm-up subscription on top of your sending subscription, it's a one-time purchase that includes sender rotation and cadence management built in. The incentive structure matters: when a tool makes money from you being "in warm-up" longer, it's not aligned with getting you to inbox faster.
 
 ## A 30-Minute Audit You Can Do Right Now
 

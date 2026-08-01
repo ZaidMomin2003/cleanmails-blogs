@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 const lora = Lora({ subsets: ['latin'], variable: '--font-lora', display: 'swap', style: ['normal', 'italic'] })
 
 export const metadata: Metadata = {
-  title: { default: 'Cold Mail Blog', template: '%s | Cold Mail Blog' },
-  description: 'Cold email deliverability, SMTP setup, and outreach guides from cold mail.',
+  title: { default: 'Cleanmails Blog', template: '%s | Cleanmails Blog' },
+  description: 'Cold email deliverability, SMTP setup, and outreach guides from Cleanmails.',
   metadataBase: new URL('https://coldmail.host'),
   icons: {
     icon: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     ],
     apple: '/blog/favicon.svg',
   },
-  openGraph: { type: 'website', siteName: 'Cold Mail Blog', locale: 'en_US' },
+  openGraph: { type: 'website', siteName: 'Cleanmails Blog', locale: 'en_US' },
   twitter: { card: 'summary_large_image' },
 }
 

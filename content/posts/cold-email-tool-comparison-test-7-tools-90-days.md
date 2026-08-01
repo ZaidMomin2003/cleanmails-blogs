@@ -2,7 +2,7 @@
 title: "I Tested 7 Cold Email Tools for 90 Days — Here's My Honest Ranking"
 slug: "cold-email-tool-comparison-test-7-tools-90-days"
 date: "2026-05-12"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["cold email", "tool comparison", "email outreach", "software review", "cold email infrastructure"]
 category: "Comparisons"
 coverImage: "https://images.pexels.com/photos/7821764/pexels-photo-7821764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -21,7 +21,7 @@ I ran a proper **cold email tool comparison test** over 90 days: same verified l
 
 Before I get into the rankings, here's exactly how I structured this so you can trust the data:
 
-- **7 tools tested:** Instantly, Smartlead, Lemlist, Apollo.io (outreach module), Mailshake, Woodpecker, and [cold mail](https://cold mail.com)
+- **7 tools tested:** Instantly, Smartlead, Lemlist, Apollo.io (outreach module), Mailshake, Woodpecker, and [Cleanmails](https://Cleanmails.com)
 - **90 days of active sending:** March through May 2025
 - **Same lead source:** 3,200 verified B2B contacts per tool (manually verified using a [bulk email verifier](/tools/email-verifier) before import)
 - **Same 4-step cadence:** Day 1, Day 4, Day 8, Day 14
@@ -39,7 +39,7 @@ Here's the summary table before I break each one down:
 
 | Tool | Avg Open Rate | Reply Rate | Bounce Rate | 90-Day Cost | Inbox Placement |
 |---|---|---|---|---|---|
-| cold mail | 41.2% | 6.8% | 1.1% | $497 (one-time) | 94% |
+| Cleanmails | 41.2% | 6.8% | 1.1% | $497 (one-time) | 94% |
 | Smartlead | 38.7% | 6.1% | 1.4% | $294 | 91% |
 | Instantly | 36.4% | 5.6% | 1.6% | $297 | 89% |
 | Woodpecker | 33.1% | 4.9% | 2.1% | $339 | 85% |
@@ -51,13 +51,13 @@ Here's the summary table before I break each one down:
 
 ## Tool-by-Tool Breakdown
 
-### 1. cold mail — Best Overall (Especially at Scale)
+### 1. Cleanmails — Best Overall (Especially at Scale)
 
 I'll be transparent: I was skeptical of a one-time payment tool going into this. That skepticism didn't survive week three.
 
-cold mail runs self-hosted, which means your sending reputation isn't pooled with thousands of other users on shared infrastructure. That matters more than most people realize — and it's probably the single biggest reason its inbox placement rate hit 94% while tools running on shared SMTP clusters struggled.
+Cleanmails runs self-hosted, which means your sending reputation isn't pooled with thousands of other users on shared infrastructure. That matters more than most people realize — and it's probably the single biggest reason its inbox placement rate hit 94% while tools running on shared SMTP clusters struggled.
 
-The built-in sender rotation worked exactly as advertised. I set up 6 sender identities across 2 domains, and cold mail distributed the load intelligently without me babysitting it. If you want to understand why rotation matters this much, read [this breakdown of SMTP rotation at scale](/blog/smtp-rotation-explained).
+The built-in sender rotation worked exactly as advertised. I set up 6 sender identities across 2 domains, and Cleanmails distributed the load intelligently without me babysitting it. If you want to understand why rotation matters this much, read [this breakdown of SMTP rotation at scale](/blog/smtp-rotation-explained).
 
 The $497 one-time price also means it paid for itself by month two compared to every subscription tool on this list.
 

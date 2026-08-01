@@ -1,33 +1,33 @@
-# cold mail Blog — Project Reference
+# Cleanmails Blog — Project Reference
 
-This file contains all design, brand, and technical context needed to build the blog site at `cold mail.online/blog`.
+This file contains all design, brand, and technical context needed to build the blog site at `Cleanmails.online/blog`.
 
 ---
 
 ## Project Overview
 
-- **What:** A standalone Next.js blog site for cold mail (a self-hosted cold email SaaS)
-- **URL:** `cold mail.online/blog` (served via reverse proxy from main site's `vercel.json`)
+- **What:** A standalone Next.js blog site for Cleanmails (a self-hosted cold email SaaS)
+- **URL:** `Cleanmails.online/blog` (served via reverse proxy from main site's `vercel.json`)
 - **Hosted:** Separate Vercel project, separate GitHub repo
 - **Content pipeline:** n8n writes blog posts as Markdown files → pushes to GitHub → Vercel auto-deploys
 - **Images:** Unsplash API (n8n fetches cover image URL per post, embeds in frontmatter)
-- **Main site:** `cold mail.online` (vanilla HTML/CSS/JS, hosted on Vercel)
+- **Main site:** `Cleanmails.online` (vanilla HTML/CSS/JS, hosted on Vercel)
 
 ---
 
 ## Reverse Proxy Setup (Option B)
 
-The blog lives at its own Vercel deployment but is accessible at `cold mail.online/blog` via a rewrite rule added to the main site's `vercel.json`:
+The blog lives at its own Vercel deployment but is accessible at `Cleanmails.online/blog` via a rewrite rule added to the main site's `vercel.json`:
 
 ```json
 {
   "rewrites": [
-    { "source": "/blog/:path*", "destination": "https://cold mail-blog.vercel.app/blog/:path*" }
+    { "source": "/blog/:path*", "destination": "https://Cleanmails-blog.vercel.app/blog/:path*" }
   ]
 }
 ```
 
-Users always see `cold mail.online/blog` in their browser. The two deployments are fully independent — a broken blog deploy cannot affect the main site.
+Users always see `Cleanmails.online/blog` in their browser. The two deployments are fully independent — a broken blog deploy cannot affect the main site.
 
 ---
 
@@ -125,7 +125,7 @@ box-shadow: 8px 8px 0 #000; /* or gold variant */
 ### Article Page Design
 - Full-width cover image at top (with border + shadow)
 - Title in large Inter 900 (or serif for editorial feel)
-- Meta row: date, author (cold mail), read time, tags
+- Meta row: date, author (Cleanmails), read time, tags
 - Body text: Inter 500, `1.1rem`, `line-height: 1.75`
 - Code blocks: black background, white text, monospace font, gold shadow
 - Blockquotes: left border `4px solid #FFD700`, gold accent
@@ -134,9 +134,9 @@ box-shadow: 8px 8px 0 #000; /* or gold variant */
 
 ### Navigation (Blog Header)
 - Fixed/sticky, `border-bottom: 3px solid #000`
-- Logo: cold mail logo + wordmark (link back to `cold mail.online`)
+- Logo: Cleanmails logo + wordmark (link back to `Cleanmails.online`)
 - Nav links: "Blog" active state, link back to main site
-- CTA button: "Get cold mail" → `cold mail.online` (gold shadow button)
+- CTA button: "Get Cleanmails" → `Cleanmails.online` (gold shadow button)
 - Shrinks/hides on scroll down, reappears on scroll up (same as main site)
 - Background: `rgba(250,250,250,0.95)` with `backdrop-filter: blur(12px)`
 
@@ -151,7 +151,7 @@ n8n should generate each blog post as a `.md` or `.mdx` file with this frontmatt
 title: "Your Blog Post Title Here"
 slug: "your-blog-post-slug"
 date: "2026-05-01"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["cold email", "email deliverability"]
 category: "Cold Email"
 coverImage: "https://images.unsplash.com/photo-XXXXXXX?w=1200&q=80"
@@ -205,7 +205,7 @@ Pick `results[0].urls.regular` as the cover image URL.
 ## File/Folder Structure (Blog Repo)
 
 ```
-cold mail-blog/
+Cleanmails-blog/
 ├── app/
 │   ├── layout.tsx              # Root layout (fonts, metadata)
 │   ├── page.tsx                # Redirects to /blog
@@ -215,7 +215,7 @@ cold mail-blog/
 │   │       └── page.tsx        # Individual post page
 ├── components/
 │   ├── Navbar.tsx              # Fixed nav matching main site style
-│   ├── Footer.tsx              # Footer with links back to cold mail.online
+│   ├── Footer.tsx              # Footer with links back to Cleanmails.online
 │   ├── PostCard.tsx            # Card used on blog index
 │   └── MDXContent.tsx          # Renders parsed markdown
 ├── content/
@@ -224,7 +224,7 @@ cold mail-blog/
 ├── lib/
 │   └── posts.ts                # Utility: read, parse, sort posts
 ├── public/
-│   └── logo.svg                # cold mail logo (copy from main site)
+│   └── logo.svg                # Cleanmails logo (copy from main site)
 ├── styles/
 │   └── globals.css             # Tailwind base + custom CSS variables
 ├── next.config.js
@@ -240,14 +240,14 @@ cold mail-blog/
 - Each post page should have unique `<title>`, `<meta description>`, Open Graph tags
 - Use Next.js `generateMetadata()` per post from frontmatter
 - Add `sitemap.xml` generation (next-sitemap or built-in Next.js sitemap)
-- Canonical URLs: `https://cold mail.online/blog/[slug]`
+- Canonical URLs: `https://Cleanmails.online/blog/[slug]`
 - Schema.org `BlogPosting` structured data per post
 
 ---
 
 ## Branding & Voice
 
-- **Product name:** cold mail
+- **Product name:** Cleanmails
 - **Tagline:** Self-hosted cold email infrastructure
 - **Audience:** Cold email marketers, agency owners, SaaS founders, developers
 - **Tone:** Direct, confident, no fluff — same as the main site copy
@@ -257,7 +257,7 @@ cold mail-blog/
 
 ## Links & References
 
-- Main site: `https://cold mail.online`
+- Main site: `https://Cleanmails.online`
 - Logo: `/logo.svg` (envelope + checkmark icon)
 - Google Analytics ID: `G-QWXBBLS661` (add to blog too)
 - Main site GitHub: in the gumroad workspace folder

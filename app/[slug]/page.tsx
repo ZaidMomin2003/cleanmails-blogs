@@ -55,8 +55,8 @@ export default async function PostPage({ params }: Props) {
     image: post.coverImage,
     datePublished: post.date,
     dateModified: post.date,
-    author: { '@type': 'Organization', name: 'cold mail', url: 'https://coldmail.host' },
-    publisher: { '@type': 'Organization', name: 'cold mail', url: 'https://coldmail.host', logo: { '@type': 'ImageObject', url: 'https://coldmail.host/logo.svg' } },
+    author: { '@type': 'Organization', name: 'Cleanmails', url: 'https://coldmail.host' },
+    publisher: { '@type': 'Organization', name: 'Cleanmails', url: 'https://coldmail.host', logo: { '@type': 'ImageObject', url: 'https://coldmail.host/logo.svg' } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://coldmail.host/blog/${post.slug}` },
   }
 
@@ -96,7 +96,7 @@ export default async function PostPage({ params }: Props) {
                 </svg>
               </div>
               <div className="hidden sm:block">
-                <span className="text-[14px] font-semibold text-[var(--text)]">cold mail</span>
+                <span className="text-[14px] font-semibold text-[var(--text)]">Cleanmails</span>
                 <span className="text-[14px] text-[var(--text-tertiary)] ml-1.5">/</span>
                 <span className="text-[14px] text-[var(--text-tertiary)] ml-1.5">Blog</span>
               </div>
@@ -112,7 +112,7 @@ export default async function PostPage({ params }: Props) {
                 rel="noopener noreferrer"
                 className="text-[12px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-3.5 py-1.5 rounded-md transition-colors no-underline"
               >
-                Get cold mail
+                Get Cleanmails
               </a>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default async function PostPage({ params }: Props) {
                   <path d="M2 9l10 6 10-6" className="stroke-[#FFD700] dark:stroke-[#37352f]" strokeWidth="2.5"/>
                 </svg>
               </div>
-              <span className="font-medium text-[var(--text)]">{post.author || 'cold mail'}</span>
+              <span className="font-medium text-[var(--text)]">{post.author || 'Cleanmails'}</span>
             </div>
             <span className="text-[var(--border-strong)]">·</span>
             <span>{formatDate(post.date)}</span>

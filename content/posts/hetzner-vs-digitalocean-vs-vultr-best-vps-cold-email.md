@@ -2,7 +2,7 @@
 title: "Hetzner vs DigitalOcean vs Vultr: Best VPS for Cold Email"
 slug: "hetzner-vs-digitalocean-vs-vultr-best-vps-cold-email"
 date: "2026-05-23"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Infrastructure", "VPS", "Cold Email", "SMTP", "Self-Hosted"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/2881233/pexels-photo-2881233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -59,7 +59,7 @@ This is a dealbreaker for pure cold email infrastructure. Full stop.
 
 **Pricing:** $12-24/month for a usable setup. Fine for web apps, expensive for cold email infrastructure where you need multiple instances.
 
-**When DigitalOcean makes sense:** If you're using a managed cold email platform that handles its own deliverability layer, or if you're hosting the management UI for a tool like [cold mail](/) and routing actual sends through a different provider, DigitalOcean's developer experience is genuinely excellent. But for raw SMTP infrastructure? Look elsewhere.
+**When DigitalOcean makes sense:** If you're using a managed cold email platform that handles its own deliverability layer, or if you're hosting the management UI for a tool like [Cleanmails](/) and routing actual sends through a different provider, DigitalOcean's developer experience is genuinely excellent. But for raw SMTP infrastructure? Look elsewhere.
 
 **Verdict: Not recommended for self-hosted cold email SMTP. Good for hosting management interfaces or non-mail workloads.**
 
@@ -100,7 +100,7 @@ Here's my current infrastructure stack, which you can replicate in under 30 minu
 
 **Email validation:** Every list gets run through the [Bulk Email Verifier](/tools/email-verifier) before a single send. Bouncing more than 3% on a new IP is a fast track to blacklisting.
 
-**Orchestration:** I use [cold mail](/) to manage cadences, track opens/replies, and handle the scheduling logic across all three senders. The one-time pricing model means I'm not paying a per-seat or per-email tax as volume grows — which is the whole point of owning your infrastructure.
+**Orchestration:** I use [Cleanmails](/) to manage cadences, track opens/replies, and handle the scheduling logic across all three senders. The one-time pricing model means I'm not paying a per-seat or per-email tax as volume grows — which is the whole point of owning your infrastructure.
 
 ## Actionable Steps: Get Running in Under 30 Minutes
 

@@ -2,7 +2,7 @@
 title: "Shared vs Dedicated IP for Cold Email: What Actually Matters"
 slug: "shared-vs-dedicated-ip-cold-email"
 date: "2026-05-18"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["SMTP", "deliverability", "cold email infrastructure", "IP reputation", "email sending"]
 category: "SMTP"
 coverImage: "https://images.pexels.com/photos/17489157/pexels-photo-17489157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -92,7 +92,7 @@ A practical rotation setup for 500 emails/day might look like:
 - 150-200 emails per SMTP per day maximum
 - Staggered sending windows (not all blasting at 9am)
 
-This is exactly the kind of infrastructure [cold mail](https://cold mail.com) was built for — it handles sender rotation natively, so you're not manually configuring this across five different tools. But the strategy itself works regardless of what platform you use.
+This is exactly the kind of infrastructure [Cleanmails](https://Cleanmails.com) was built for — it handles sender rotation natively, so you're not manually configuring this across five different tools. But the strategy itself works regardless of what platform you use.
 
 ## Practical Steps You Can Take in the Next 30 Minutes
 

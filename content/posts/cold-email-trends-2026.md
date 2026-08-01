@@ -2,7 +2,7 @@
 title: "Cold Email is Dead — Here's What's Replacing It in 2026"
 slug: "cold-email-trends-2026"
 date: "2026-05-07"
-author: "cold mail"
+author: "Cleanmails"
 tags: ["Cold Email", "Cold Email Strategy", "Email Outreach", "Sales Prospecting", "Cold Email Trends"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -127,7 +127,7 @@ The math started making sense when I ran the numbers on my own stack:
 
 That's $2,940/year — and none of those tools talk to each other cleanly, and I'm on shared IP infrastructure for the most critical piece of the stack.
 
-The trend I'm seeing among serious operators is moving to platforms like [cold mail](/) — a self-hosted cold email platform with inbuilt SMTP, validation, sender rotation, and cadences for a one-time $497 — and reinvesting the monthly savings into better list building and signal research. The unit economics are just better, and you control the infrastructure.
+The trend I'm seeing among serious operators is moving to platforms like [Cleanmails](/) — a self-hosted cold email platform with inbuilt SMTP, validation, sender rotation, and cadences for a one-time $497 — and reinvesting the monthly savings into better list building and signal research. The unit economics are just better, and you control the infrastructure.
 
 If you're running any volume above 500 emails/day, the SaaS subscription model is actively working against your ROI. [Here's a breakdown of why](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).
 

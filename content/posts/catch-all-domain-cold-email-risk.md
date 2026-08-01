@@ -2,7 +2,7 @@
 title: "Catch-All Domains: Should You Email Them or Skip Them?"
 slug: "catch-all-domain-cold-email-risk"
 date: "2026-05-20"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Deliverability", "Email Validation", "List Hygiene", "Cold Email Strategy"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -121,7 +121,7 @@ Even if you nail your segmentation, sending catch-all addresses from your primar
 
 This is where sender rotation becomes critical. When I'm running catch-all segments, I route them through a dedicated sender pool that's isolated from my main domain reputation. If the catch-all segment performs poorly, it doesn't contaminate my primary infrastructure.
 
-I use [Cleanmails](https://cleanmails.com) for this specifically because the built-in sender rotation lets me assign different contact segments to different sender identities without managing multiple separate tools. The catch-all pool gets its own senders, its own sending schedule, and its own deliverability monitoring. If something goes wrong, I kill that pool — my main campaigns keep running.
+I use [cold mail](https://cold mail.com) for this specifically because the built-in sender rotation lets me assign different contact segments to different sender identities without managing multiple separate tools. The catch-all pool gets its own senders, its own sending schedule, and its own deliverability monitoring. If something goes wrong, I kill that pool — my main campaigns keep running.
 
 If you're not already thinking about sender segmentation this way, read [Optimizing Cold Email Sender Rotation for High-Volume Outreach](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) — it covers the infrastructure logic in detail.
 

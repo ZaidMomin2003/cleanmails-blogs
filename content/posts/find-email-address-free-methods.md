@@ -2,7 +2,7 @@
 title: "How to Find Anyone's Email Address in 30 Seconds (7 Free Methods)"
 slug: "find-email-address-free-methods"
 date: "2026-05-16"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Lead Generation", "Cold Email", "Prospecting", "Email Finding", "Sales Tools"]
 category: "Lead Generation"
 coverImage: "https://images.pexels.com/photos/6963740/pexels-photo-6963740.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -76,7 +76,7 @@ This is the method I rely on most for mid-market and enterprise prospects.
 - `john@company.com`
 ... and about 15 more variants.
 
-**Step 3:** Verify the list using a bulk email verifier. I use [Cleanmails' free bulk email verifier](/tools/email-verifier) — paste in all the permutations, it'll tell you which one actually resolves.
+**Step 3:** Verify the list using a bulk email verifier. I use [cold mail' free bulk email verifier](/tools/email-verifier) — paste in all the permutations, it'll tell you which one actually resolves.
 
 This combo is devastating for finding emails at companies where Hunter has no data.
 
@@ -158,7 +158,7 @@ If you're doing any volume over 50 emails a day, you need:
 2. **Sender rotation** so no single mailbox carries the full load — [optimizing cold email sender rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) covers this in detail
 3. **Email authentication** (SPF, DKIM, DMARC) set up correctly before you send a single email
 
-For my own campaigns, I run everything through [Cleanmails](/) — it's a self-hosted platform with built-in email validation, sender rotation, and cadences. I paid a one-time fee instead of $99-300/month in SaaS subscriptions. When you're doing outreach at scale, that math changes fast.
+For my own campaigns, I run everything through [cold mail](/) — it's a self-hosted platform with built-in email validation, sender rotation, and cadences. I paid a one-time fee instead of $99-300/month in SaaS subscriptions. When you're doing outreach at scale, that math changes fast.
 
 ---
 

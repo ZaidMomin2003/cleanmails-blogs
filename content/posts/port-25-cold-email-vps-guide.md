@@ -2,7 +2,7 @@
 title: "Why Port 25 Matters for Cold Email (And How to Get It)"
 slug: "port-25-cold-email-vps-guide"
 date: "2026-05-22"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["SMTP", "VPS", "deliverability", "cold email infrastructure", "self-hosted"]
 category: "SMTP"
 coverImage: "https://images.pexels.com/photos/17489157/pexels-photo-17489157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -126,7 +126,7 @@ Once you have port 25 working and a warmed IP, you'll quickly discover the next 
 
 The solution is sender rotation across multiple IPs and domains — which is exactly why [cold email sender rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) is such a critical part of any serious infrastructure setup.
 
-This is also where a platform like [Cleanmails](https://cleanmails.com) becomes genuinely useful — it's built specifically to handle multi-sender rotation with its own inbuilt SMTP, so you're not duct-taping together Postfix instances manually. One-time $497, no monthly fees, runs on your own VPS. When you're managing 10+ sender accounts across multiple domains, the automation pays for itself in the first week.
+This is also where a platform like [cold mail](https://cold mail.com) becomes genuinely useful — it's built specifically to handle multi-sender rotation with its own inbuilt SMTP, so you're not duct-taping together Postfix instances manually. One-time $497, no monthly fees, runs on your own VPS. When you're managing 10+ sender accounts across multiple domains, the automation pays for itself in the first week.
 
 ## Quick-Start Checklist: Port 25 Cold Email VPS in Under 30 Minutes
 

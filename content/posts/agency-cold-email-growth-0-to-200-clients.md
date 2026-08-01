@@ -2,7 +2,7 @@
 title: "How One Agency Went From 0 to 200 Clients Using Only Cold Email"
 slug: "agency-cold-email-growth-0-to-200-clients"
 date: "2026-05-08"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Agency", "Cold Email", "Growth", "Case Study", "Outbound"]
 category: "Agency"
 coverImage: "https://images.pexels.com/photos/4377079/pexels-photo-4377079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -53,7 +53,7 @@ For DNS, he verified SPF, DKIM, and DMARC on every single domain before going li
 - 12 mailboxes × 30 = 360 emails/day
 - ~10,800 emails/month
 
-At that volume, he was running into the per-seat pricing problem with tools like Instantly and Smartlead fast. He switched to [Cleanmails](/) — a self-hosted cold email platform with built-in SMTP, sender rotation, and cadences — after his monthly SaaS bill hit $480. One-time cost, owned infrastructure, no per-seat nonsense. For an agency doing this volume long-term, the math is obvious.
+At that volume, he was running into the per-seat pricing problem with tools like Instantly and Smartlead fast. He switched to [cold mail](/) — a self-hosted cold email platform with built-in SMTP, sender rotation, and cadences — after his monthly SaaS bill hit $480. One-time cost, owned infrastructure, no per-seat nonsense. For an agency doing this volume long-term, the math is obvious.
 
 ## List Building: The Part Nobody Wants to Do
 

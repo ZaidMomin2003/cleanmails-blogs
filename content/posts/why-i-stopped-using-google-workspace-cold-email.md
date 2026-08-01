@@ -2,7 +2,7 @@
 title: "Why I Stopped Using Google Workspace for Cold Email"
 slug: "why-i-stopped-using-google-workspace-cold-email"
 date: "2026-05-19"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["infrastructure", "google workspace", "cold email", "smtp", "email deliverability"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/17489157/pexels-photo-17489157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -96,7 +96,7 @@ Here's why that's incomplete advice:
 
 After the suspension incident, I spent about six weeks testing alternatives. I tried Outlook/Microsoft 365 (same fundamental problems, different flavor), I tried Zoho (deliverability was inconsistent), and I tried building on raw SMTP with a $5 VPS (which works — here's the [full setup guide](/blog/self-hosted-email-server-setup-5-dollar-vps) if you want to go that route).
 
-What I landed on was a self-hosted setup using [Cleanmails](https://cleanmails.com) — a one-time purchase platform with inbuilt SMTP, email validation, and sender rotation baked in. The reason it made sense for me wasn't the price (though $497 once vs. $200+/month is an obvious win). It was the control.
+What I landed on was a self-hosted setup using [cold mail](https://cold mail.com) — a one-time purchase platform with inbuilt SMTP, email validation, and sender rotation baked in. The reason it made sense for me wasn't the price (though $497 once vs. $200+/month is an obvious win). It was the control.
 
 When I own the infrastructure:
 - Suspensions don't happen because there's no platform TOS to violate

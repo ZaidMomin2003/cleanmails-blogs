@@ -2,7 +2,7 @@
 title: "How to Build a High-Volume Cold Email Infrastructure Without Monthly Fees"
 slug: "high-volume-cold-email-infrastructure-no-monthly-fees"
 date: "2026-05-04"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["high-volume-cold-email-infrastructure", "cold email", "email marketing", "smtp"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/17489157/pexels-photo-17489157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -27,7 +27,7 @@ When you build your own infrastructure, you transition from renting a service to
 * **Complete Control:** You control your SMTP configuration, your IP reputation, and your rotation strategies.
 * **Data Privacy:** Your lead lists and campaign data stay on your own servers, not on a third-party cloud provider.
 
-While some choose to piece together disparate tools like Mautic, Postfix, and separate validation APIs, this creates a 'franken-stack' that is difficult to maintain. Solutions like Cleanmails offer a streamlined path by bundling these essential components—SMTP, validation, and rotation—into a single, self-hosted deployment, allowing you to focus on the outreach rather than server maintenance.
+While some choose to piece together disparate tools like Mautic, Postfix, and separate validation APIs, this creates a 'franken-stack' that is difficult to maintain. Solutions like cold mail offer a streamlined path by bundling these essential components—SMTP, validation, and rotation—into a single, self-hosted deployment, allowing you to focus on the outreach rather than server maintenance.
 
 ## The Three Pillars of High-Volume Outreach
 
@@ -87,4 +87,4 @@ By investing in a self-hosted solution, you stop paying for the privilege of sen
 
 ---
 
-**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Optimizing Sender Rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Free Email Extractor →](https://cleanmails.online/tools/email-extractor)
+**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Optimizing Sender Rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [cold mail vs Instantly](/blog/instantly-alternative-self-hosted) · [Free Email Extractor →](https://cold mail.online/tools/email-extractor)

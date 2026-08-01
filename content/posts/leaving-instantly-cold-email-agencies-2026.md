@@ -2,7 +2,7 @@
 title: "Why Agencies Are Leaving Instantly in 2026 (Real Data)"
 slug: "leaving-instantly-cold-email-agencies-2026"
 date: "2026-05-12"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Comparisons", "Cold Email Tools", "Agency Growth", "Self-Hosted", "Instantly Alternative"]
 category: "Comparisons"
 coverImage: "https://images.pexels.com/photos/7821764/pexels-photo-7821764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -79,9 +79,9 @@ Cons: Requires technical chops. Not for everyone.
 
 ### Camp 2: The Self-Hosted SaaS Crowd
 
-The larger group — probably 60% of the agencies I spoke to — wants the control of self-hosted without having to build from scratch. This is where tools like [Cleanmails](/) come in. One-time $497, self-hosted, with inbuilt SMTP, email validation, sender rotation, and cadences. You get the feature set of a SaaS platform without the monthly bleed or the shared infrastructure problem.
+The larger group — probably 60% of the agencies I spoke to — wants the control of self-hosted without having to build from scratch. This is where tools like [cold mail](/) come in. One-time $497, self-hosted, with inbuilt SMTP, email validation, sender rotation, and cadences. You get the feature set of a SaaS platform without the monthly bleed or the shared infrastructure problem.
 
-The math is simple: if you were paying $297/month on Instantly, Cleanmails pays for itself in under two months. After that, you're pocketing the difference.
+The math is simple: if you were paying $297/month on Instantly, cold mail pays for itself in under two months. After that, you're pocketing the difference.
 
 ## The Feature Gap Is Closing Fast
 

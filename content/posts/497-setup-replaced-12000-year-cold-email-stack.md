@@ -2,7 +2,7 @@
 title: "The $497 Setup That Replaced My $12,000/Year Cold Email Stack"
 slug: "497-setup-replaced-12000-year-cold-email-stack"
 date: "2026-05-10"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Infrastructure", "Cost Savings", "Self-Hosted", "SMTP", "Cold Email Tools"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/2881228/pexels-photo-2881228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -50,15 +50,15 @@ The answer was simpler — and cheaper — than I expected.
 
 ### The Core Stack (One-Time Costs)
 
-**1. Cleanmails — $497 one-time**
+**1. cold mail — $497 one-time**
 
-This is the centerpiece. [Cleanmails](https://cleanmails.io) is a self-hosted cold email platform with built-in SMTP, email validation, sender rotation, and cadences. You install it once on your own server and you own it forever. No per-seat pricing, no monthly fees, no "you've hit your sending limit" emails at 11pm.
+This is the centerpiece. [cold mail](https://cold mail.io) is a self-hosted cold email platform with built-in SMTP, email validation, sender rotation, and cadences. You install it once on your own server and you own it forever. No per-seat pricing, no monthly fees, no "you've hit your sending limit" emails at 11pm.
 
 I was skeptical of one-time pricing for software at first — usually means abandoned or feature-starved. But the feature set legitimately replaced four of my SaaS subscriptions on day one.
 
 **2. A VPS — $5-$12/month**
 
-I run Cleanmails on a $6/month Hetzner VPS (2 vCPU, 4GB RAM). It handles 500-800 emails per day without breaking a sweat. If you want to push higher volume, scale up the server — not your subscription tier. I wrote a detailed breakdown of this setup in [I Replaced My $300/Month Email Stack With a $5 VPS — Full Setup Guide](/blog/self-hosted-email-server-setup-5-dollar-vps).
+I run cold mail on a $6/month Hetzner VPS (2 vCPU, 4GB RAM). It handles 500-800 emails per day without breaking a sweat. If you want to push higher volume, scale up the server — not your subscription tier. I wrote a detailed breakdown of this setup in [I Replaced My $300/Month Email Stack With a $5 VPS — Full Setup Guide](/blog/self-hosted-email-server-setup-5-dollar-vps).
 
 **3. Domains — ~$10-12/domain/year**
 
@@ -72,7 +72,7 @@ I use the [Bulk Email Verifier](/tools/email-verifier) for list cleaning before 
 
 | Item | Cost |
 |---|---|
-| Cleanmails (amortized over 3 years) | ~$166/year |
+| cold mail (amortized over 3 years) | ~$166/year |
 | VPS hosting | ~$72/year |
 | 5 domains + renewal | ~$55/year |
 | Google Workspace (1 account, for replies only) | ~$72/year |
@@ -84,9 +84,9 @@ That's not a typo. From $12,000 to $365 annually — after the one-time $497 set
 
 I want to be straight with you: the switch isn't painless. Here's what I genuinely lost:
 
-**A polished UI.** Instantly and Smartlead have beautiful dashboards. Cleanmails is functional, not pretty. If you're running a client-facing agency where the client logs in and judges the tool by its interface, that matters.
+**A polished UI.** Instantly and Smartlead have beautiful dashboards. cold mail is functional, not pretty. If you're running a client-facing agency where the client logs in and judges the tool by its interface, that matters.
 
-**One-click integrations.** My Zapier workflows took some rebuilding. The webhook-based approach Cleanmails uses is actually more flexible, but it requires more setup upfront.
+**One-click integrations.** My Zapier workflows took some rebuilding. The webhook-based approach cold mail uses is actually more flexible, but it requires more setup upfront.
 
 **Warm-up automation.** I dropped Mailreach. Now I warm up manually using a structured ramp process — detailed in [How to Warm Up a New Cold Email Domain for Maximum Deliverability](/blog/how-to-warm-up-a-new-cold-email-domain). It takes more attention in weeks 1-3, but it's not hard once you have a system.
 
@@ -136,7 +136,7 @@ For agencies specifically, the calculus is shifting — [more agencies are movin
 
 I'm not anti-SaaS. I'm anti-paying-for-things-you-don't-control when a better alternative exists.
 
-The $497 I spent on Cleanmails paid for itself in the first month. The $11,600+ I've saved since isn't theoretical — it's actual money I've redeployed into list building and ad spend that generates pipeline.
+The $497 I spent on cold mail paid for itself in the first month. The $11,600+ I've saved since isn't theoretical — it's actual money I've redeployed into list building and ad spend that generates pipeline.
 
 Cheap cold email infrastructure doesn't mean cutting corners on quality. It means being smart about what you actually need to own versus what you've been renting out of habit.
 

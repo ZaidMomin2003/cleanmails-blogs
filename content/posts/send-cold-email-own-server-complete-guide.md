@@ -2,7 +2,7 @@
 title: "How to Send Cold Emails From Your Own Server (Complete Guide)"
 slug: "send-cold-email-own-server-complete-guide"
 date: "2026-05-17"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Infrastructure", "SMTP", "Self-Hosted", "Deliverability", "Cold Email"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/2881233/pexels-photo-2881233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -47,7 +47,7 @@ What you actually need:
 | Email validation | Keeps bounce rate under 2% | Pay-per-use or included |
 | Cold email software | Sequences, tracking, rotation | One-time or monthly |
 
-The modern approach is to use software that handles SMTP internally (or connects to a relay like Amazon SES or Mailgun) rather than configuring a raw mail server. This is where [Cleanmails](https://cleanmails.com) fits — it ships with inbuilt SMTP, so you're not duct-taping five tools together.
+The modern approach is to use software that handles SMTP internally (or connects to a relay like Amazon SES or Mailgun) rather than configuring a raw mail server. This is where [cold mail](https://cold mail.com) fits — it ships with inbuilt SMTP, so you're not duct-taping five tools together.
 
 ---
 
@@ -103,7 +103,7 @@ Use Amazon SES ($0.10/1,000 emails), Mailgun, or Brevo with your own domains. Yo
 **Best for:** Most cold emailers sending 5k–50k/month. Best cost-to-deliverability ratio.
 
 ### Option C: Software With Inbuilt SMTP
-Platforms like [Cleanmails](https://cleanmails.com) include SMTP handling natively — you connect your domains, configure DNS, and the platform manages the sending layer. One-time cost, no per-email fees.
+Platforms like [cold mail](https://cold mail.com) include SMTP handling natively — you connect your domains, configure DNS, and the platform manages the sending layer. One-time cost, no per-email fees.
 
 **Best for:** Agencies and teams who want control without infrastructure babysitting.
 

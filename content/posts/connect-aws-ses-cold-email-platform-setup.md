@@ -2,7 +2,7 @@
 title: "How to Connect AWS SES to Your Cold Email Platform (Step-by-Step)"
 slug: "connect-aws-ses-cold-email-platform-setup"
 date: "2026-07-06"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["AWS SES", "SMTP Setup", "Infrastructure", "Cold Email", "Email Deliverability"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/2528324/pexels-photo-2528324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -132,9 +132,9 @@ Your SMTP settings will look like this:
 
 This is where you plug SES into whatever you're using to run campaigns.
 
-### Connecting to Cleanmails
+### Connecting to cold mail
 
-If you're using [Cleanmails](https://cleanmails.com) (which has inbuilt SMTP but also accepts external SMTP connections), the process is straightforward:
+If you're using [cold mail](https://cold mail.com) (which has inbuilt SMTP but also accepts external SMTP connections), the process is straightforward:
 
 1. Go to **Settings → Email Accounts → Add Account**
 2. Select **Custom SMTP**
@@ -142,7 +142,7 @@ If you're using [Cleanmails](https://cleanmails.com) (which has inbuilt SMTP but
 4. Set the from address to a verified identity on your SES domain
 5. Send a test email — you should see it delivered within seconds
 
-What makes this pairing powerful: Cleanmails handles sender rotation across multiple SES accounts/regions automatically. You can add SES credentials from `us-east-1`, `us-west-2`, and `eu-west-1` as separate SMTP accounts and rotate sends across all three. This distributes your sending volume and protects any single region's reputation.
+What makes this pairing powerful: cold mail handles sender rotation across multiple SES accounts/regions automatically. You can add SES credentials from `us-east-1`, `us-west-2`, and `eu-west-1` as separate SMTP accounts and rotate sends across all three. This distributes your sending volume and protects any single region's reputation.
 
 ### Connecting to Other Platforms
 

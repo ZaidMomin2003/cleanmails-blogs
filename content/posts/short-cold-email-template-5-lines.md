@@ -2,7 +2,7 @@
 title: "The 5-Line Cold Email That Outperforms Every Template Online"
 slug: "short-cold-email-template-5-lines"
 date: "2026-05-08"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "Email Templates", "Outreach Strategy"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -190,7 +190,7 @@ That three-touch sequence, sent from warmed domains with proper sender rotation,
 
 You can have the best 5-line email in the world and it means nothing if it's landing in spam. Deliverability is the unsexy half of cold email that separates people who get results from people who wonder why nobody's responding.
 
-I run all my sequences through [Cleanmails](https://cleanmails.com) — a self-hosted platform with built-in SMTP, email validation, and sender rotation. The one-time $497 cost is a rounding error compared to the $300+/month I was bleeding on SaaS tools that throttled my sending volume anyway. For anyone running serious outreach volume, owning your infrastructure just makes sense.
+I run all my sequences through [cold mail](https://cold mail.com) — a self-hosted platform with built-in SMTP, email validation, and sender rotation. The one-time $497 cost is a rounding error compared to the $300+/month I was bleeding on SaaS tools that throttled my sending volume anyway. For anyone running serious outreach volume, owning your infrastructure just makes sense.
 
 For deliverability fundamentals, the [Complete Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) is the most comprehensive resource I've found — covers everything from DNS setup to inbox placement testing.
 

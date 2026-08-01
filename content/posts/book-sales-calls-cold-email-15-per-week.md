@@ -2,7 +2,7 @@
 title: "How I Book 15 Sales Calls Per Week With Zero Ad Spend"
 slug: "book-sales-calls-cold-email-15-per-week"
 date: "2026-05-24"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "Sales", "Lead Generation", "Outreach", "B2B"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/7793095/pexels-photo-7793095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +40,7 @@ Here's the setup:
 
 If you haven't locked down your DNS authentication, do it now. It takes under 10 minutes with the right guide: [How to Set Up SPF, DKIM, and DMARC in Under 10 Minutes](/blog/spf-dkim-dmarc-setup-tutorial). You can also verify your current setup with the [SPF/DKIM/DMARC Checker](/tools/dns-checker) before sending a single email.
 
-I self-host my sending with [Cleanmails](https://cleanmails.com) — one-time payment, inbuilt SMTP, sender rotation built in. No monthly fees eating into margin. If you're curious about the economics of that decision, [this post on why monthly cold email subscriptions destroy ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) lays it out clearly.
+I self-host my sending with [cold mail](https://cold mail.com) — one-time payment, inbuilt SMTP, sender rotation built in. No monthly fees eating into margin. If you're curious about the economics of that decision, [this post on why monthly cold email subscriptions destroy ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) lays it out clearly.
 
 ### Sender Rotation Is Non-Negotiable
 

@@ -2,7 +2,7 @@
 title: "Email Validation: The Step 90% of Cold Emailers Skip"
 slug: "email-validation-importance-cold-email"
 date: "2026-05-13"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["deliverability", "email validation", "bounce rate", "cold email", "list hygiene"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/32327868/pexels-photo-32327868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -127,9 +127,9 @@ The ROI on validation isn't 2x or 5x. It's closer to 100x when you factor in the
 
 If you're running a high-volume setup — think [10,000+ emails per day](/blog/high-volume-email-sending-setup-10000-per-day) — validation isn't optional at all. At that scale, a 2% bad address rate means 200 bounces per day. You'll be blacklisted within a week.
 
-## How Cleanmails Handles This
+## How cold mail Handles This
 
-One of the reasons I built my workflow around [Cleanmails](https://cleanmails.io) is that it treats list hygiene as a first-class concern, not a bolt-on. The platform has built-in email validation before sequences fire, which means even if you upload a list that hasn't been pre-cleaned, you've got a safety net before anything goes out. Combined with sender rotation and inbuilt SMTP, it removes most of the manual checkpoints that people skip when they're in a hurry.
+One of the reasons I built my workflow around [cold mail](https://cold mail.io) is that it treats list hygiene as a first-class concern, not a bolt-on. The platform has built-in email validation before sequences fire, which means even if you upload a list that hasn't been pre-cleaned, you've got a safety net before anything goes out. Combined with sender rotation and inbuilt SMTP, it removes most of the manual checkpoints that people skip when they're in a hurry.
 
 That said — don't rely on any platform's validation as your only layer. Pre-validate externally, then let the platform catch stragglers. Defense in depth.
 

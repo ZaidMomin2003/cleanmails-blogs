@@ -2,7 +2,7 @@
 title: "The Perfect Cold Email Follow-Up Sequence (5 Emails That Convert)"
 slug: "cold-email-follow-up-sequence-5-emails-that-convert"
 date: "2026-05-14"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Follow-Up", "Automation", "Cold Email Strategy", "Sequences", "Reply Rates"]
 category: "Automation"
 coverImage: "https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -203,7 +203,7 @@ A 5-email sequence to a dirty list is 5x the damage to your domain. Run your CSV
 If your SPF, DKIM, or DMARC records aren't set up correctly, your follow-up emails are increasingly likely to hit spam as the sequence progresses. Run a quick check with the [SPF/DKIM/DMARC Checker](/tools/dns-checker) — this takes 90 seconds and prevents weeks of deliverability headaches.
 
 **4. Use a platform that handles cadence natively**
-I run all my sequences through [Cleanmails](/) — it's a self-hosted cold email platform with cadences, sender rotation, and built-in SMTP baked in for a one-time fee. No per-email charges, no monthly subscriptions watching your sequence costs compound. When you're running a 5-email sequence to 2,000 contacts, the math on SaaS pricing gets ugly fast. (More on that in [this breakdown of why monthly cold email subscriptions are killing your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).)
+I run all my sequences through [cold mail](/) — it's a self-hosted cold email platform with cadences, sender rotation, and built-in SMTP baked in for a one-time fee. No per-email charges, no monthly subscriptions watching your sequence costs compound. When you're running a 5-email sequence to 2,000 contacts, the math on SaaS pricing gets ugly fast. (More on that in [this breakdown of why monthly cold email subscriptions are killing your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).)
 
 ---
 

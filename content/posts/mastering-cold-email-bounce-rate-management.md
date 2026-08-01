@@ -2,7 +2,7 @@
 title: "Mastering Cold Email Bounce Rate Management for Better Inbox Placement"
 slug: "mastering-cold-email-bounce-rate-management"
 date: "2026-05-06"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["cold email bounce rate", "email list hygiene", "sender health"]
 category: "Guides"
 coverImage: "https://images.pexels.com/photos/9574565/pexels-photo-9574565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -34,7 +34,7 @@ If you continue to target addresses that result in hard bounces, you are signali
 
 ## The Role of List Hygiene in Deliverability
 
-List hygiene is the proactive process of scrubbing your data before you hit 'send.' Many marketers rely on third-party verification services, but scaling this manually creates significant overhead. This is where tools like Cleanmails come into play, providing inbuilt email validation that prevents bad data from ever entering your rotation in the first place. By ensuring you only send to verified, active addresses, you protect your sender reputation from the start.
+List hygiene is the proactive process of scrubbing your data before you hit 'send.' Many marketers rely on third-party verification services, but scaling this manually creates significant overhead. This is where tools like cold mail come into play, providing inbuilt email validation that prevents bad data from ever entering your rotation in the first place. By ensuring you only send to verified, active addresses, you protect your sender reputation from the start.
 
 If you aren't sure about the quality of your current contact list, consider using a [CSV Email List Cleaner](/tools/csv-cleaner) to strip out invalid syntax and known honeypots.
 
@@ -54,7 +54,7 @@ Use an [SPF/DKIM/DMARC Checker](/tools/dns-checker) to ensure your authenticatio
 
 ### Analyzing Your Results
 
-When evaluating different software options, look for platforms that prioritize sender health. Many users ask us how we compare to other market leaders; for instance, you can see our breakdown in [Cleanmails vs Saleshandy: Cold Email Tool Comparison (2026)](/blog/cleanmails-vs-saleshandy) to understand how integrated validation tools impact your long-term success compared to standalone services.
+When evaluating different software options, look for platforms that prioritize sender health. Many users ask us how we compare to other market leaders; for instance, you can see our breakdown in [cold mail vs Saleshandy: Cold Email Tool Comparison (2026)](/blog/cold mail-vs-saleshandy) to understand how integrated validation tools impact your long-term success compared to standalone services.
 
 ## Conclusion: The Long Game
 

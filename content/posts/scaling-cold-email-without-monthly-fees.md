@@ -2,7 +2,7 @@
 title: "Scaling Cold Email Without Monthly Fees: A Guide to Infrastructure Control"
 slug: "scaling-cold-email-without-monthly-fees"
 date: "2026-05-04"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["scaling cold email", "cold email infrastructure", "self-hosted email", "email outreach automation"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/17489157/pexels-photo-17489157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -23,7 +23,7 @@ When you scale to thousands of leads, the recurring subscription model stops mak
 
 When you rely on third-party SaaS providers, you are renting their reputation and their rules. If they decide to throttle your sending speed or change their pricing tiers, you are forced to comply. Building your own infrastructure provides three distinct advantages:
 
-*   **Predictable Costs:** One-time investment in software like Cleanmails replaces indefinite monthly subscriptions.
+*   **Predictable Costs:** One-time investment in software like cold mail replaces indefinite monthly subscriptions.
 *   **Total Data Ownership:** Your lead lists and campaign performance metrics stay on your own server, not in a vendor's database.
 *   **Technical Flexibility:** You can integrate custom sender rotation and validation logic that isn't available in "one-size-fits-all" platforms.
 
@@ -54,7 +54,7 @@ This is the logic layer. You need a system that tracks opens, clicks, and replie
 
 ## Implementing Your Own Strategy
 
-Building this doesn't require a degree in systems engineering. With modern tools like Cleanmails, you can deploy a self-hosted platform that includes inbuilt SMTP and sender rotation, effectively bridging the gap between "too technical" and "too expensive."
+Building this doesn't require a degree in systems engineering. With modern tools like cold mail, you can deploy a self-hosted platform that includes inbuilt SMTP and sender rotation, effectively bridging the gap between "too technical" and "too expensive."
 
 ### Step-by-Step Transition Plan
 
@@ -77,4 +77,4 @@ If you are ready to stop the monthly "SaaS tax" and want to take full control of
 
 ---
 
-**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Cleanmails vs Saleshandy](/blog/cleanmails-vs-saleshandy) · [Free Email Extractor →](https://cleanmails.online/tools/email-extractor)
+**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [cold mail vs Instantly](/blog/instantly-alternative-self-hosted) · [cold mail vs Saleshandy](/blog/cold mail-vs-saleshandy) · [Free Email Extractor →](https://cold mail.online/tools/email-extractor)

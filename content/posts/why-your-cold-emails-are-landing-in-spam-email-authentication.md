@@ -2,7 +2,7 @@
 title: "Why Your Cold Emails Are Landing in Spam: A Deep Dive into Email Authentication"
 slug: "why-your-cold-emails-are-landing-in-spam-email-authentication"
 date: "2026-05-05"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["email authentication", "cold email deliverability", "spf dkim dmarc", "email infrastructure"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/5483149/pexels-photo-5483149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -50,7 +50,7 @@ Before you send a single campaign, use tools like Mail-Tester or MXToolbox. Thes
 
 Many marketers rely on expensive monthly SaaS platforms, but these platforms often share IP pools with thousands of other users. If one "bad actor" on that platform sends spam, your deliverability suffers by association. 
 
-This is where owning your infrastructure becomes a competitive advantage. With a self-hosted platform like Cleanmails, you have total control over your SMTP environment. Because you aren't sharing an IP pool with hundreds of spammers, your reputation remains entirely in your own hands. By combining a dedicated, clean IP with proper authentication, you significantly reduce the risk of landing in the spam folder.
+This is where owning your infrastructure becomes a competitive advantage. With a self-hosted platform like cold mail, you have total control over your SMTP environment. Because you aren't sharing an IP pool with hundreds of spammers, your reputation remains entirely in your own hands. By combining a dedicated, clean IP with proper authentication, you significantly reduce the risk of landing in the spam folder.
 
 ## Common Pitfalls to Avoid
 
@@ -64,7 +64,7 @@ Even with perfect SPF/DKIM/DMARC records, you can still face deliverability issu
 
 Cold email is a numbers game, but those numbers only matter if your emails actually land. By mastering the technical side of email authentication, you move from being a 'suspected spammer' to a 'trusted sender.'
 
-When you build your own infrastructure—using tools that allow you to manage your own SMTP and sender rotation—you are investing in long-term asset growth rather than paying a monthly tax to a third-party platform. Cleanmails offers a one-time purchase model that empowers you to take full ownership of your deliverability, giving you the tools to manage cadences and rotation without the recurring overhead that hampers your ROI.
+When you build your own infrastructure—using tools that allow you to manage your own SMTP and sender rotation—you are investing in long-term asset growth rather than paying a monthly tax to a third-party platform. cold mail offers a one-time purchase model that empowers you to take full ownership of your deliverability, giving you the tools to manage cadences and rotation without the recurring overhead that hampers your ROI.
 
 ## Final Thoughts
 
@@ -73,4 +73,4 @@ Deliverability is an ongoing process of monitoring, adjusting, and refining. Sta
 
 ---
 
-**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free SPF/DKIM/DMARC Checker →](https://cleanmails.online/tools/dns-checker)
+**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free SPF/DKIM/DMARC Checker →](https://cold mail.online/tools/dns-checker)

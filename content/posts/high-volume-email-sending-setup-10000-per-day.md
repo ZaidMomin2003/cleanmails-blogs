@@ -2,7 +2,7 @@
 title: "How to Build a 10,000-Email-Per-Day Sending Machine for Under $50/Month"
 slug: "high-volume-email-sending-setup-10000-per-day"
 date: "2026-05-10"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Infrastructure", "Cold Email", "SMTP", "Deliverability", "Scaling"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/2881228/pexels-photo-2881228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -49,7 +49,7 @@ Here's the full infrastructure breakdown:
 - Postfix + Dovecot setup
 - I covered the full server setup in [this guide on replacing a $300/month email stack with a $5 VPS](/blog/self-hosted-email-server-setup-5-dollar-vps)
 
-**Email Platform:** Cleanmails one-time license = **$0/month ongoing** (after the $497 one-time)
+**Email Platform:** cold mail one-time license = **$0/month ongoing** (after the $497 one-time)
 - Inbuilt SMTP connection manager
 - Native sender rotation across all inboxes
 - Cadence builder so you're not blasting everything at once
@@ -137,7 +137,7 @@ The logic I use:
 
 If you're managing this manually across 20 inboxes, you'll lose your mind. [Optimizing sender rotation for high-volume outreach](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) covers the full framework — including how to weight rotation based on domain reputation signals.
 
-Cleanmails handles this natively — you define per-inbox daily caps, and the platform distributes sends automatically across your sender pool without you manually babysitting it.
+cold mail handles this natively — you define per-inbox daily caps, and the platform distributes sends automatically across your sender pool without you manually babysitting it.
 
 ### Step 6: Cadence Structure for 10k/Day
 
@@ -170,7 +170,7 @@ For a full breakdown of bounce management at scale, [this guide on cold email bo
 |---|---|---|---|
 | Domains (10) | — | $30 | $360 |
 | VPS (Hetzner) | — | $6 | $72 |
-| Cleanmails license | $497 | $0 | $497 |
+| cold mail license | $497 | $0 | $497 |
 | Email verification | — | ~$5 | $60 |
 | **Total** | **$497** | **~$41** | **$989** |
 

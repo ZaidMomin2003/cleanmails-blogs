@@ -2,7 +2,7 @@
 title: "Cold Email for SaaS: How to Get Your First 100 Customers"
 slug: "cold-email-saas-customer-acquisition-first-100"
 date: "2026-05-22"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "SaaS", "Customer Acquisition", "Outbound Sales", "Growth"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/7947968/pexels-photo-7947968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -49,7 +49,7 @@ Here's my list-building stack for SaaS outbound:
 
 1. **Apollo.io or Clay** for initial prospecting (filter by industry, headcount, tech stack)
 2. **LinkedIn Sales Navigator** for intent-based signals (job changes, posts about pain points)
-3. **[Cleanmails Email Verifier](/tools/email-verifier)** to validate every address before sending
+3. **[cold mail Email Verifier](/tools/email-verifier)** to validate every address before sending
 
 That last step is non-negotiable. A list with more than 5% invalid addresses will tank your sender reputation. I've seen founders lose entire domains because they sent 2,000 emails to a dirty list they bought from some sketchy data vendor.
 
@@ -126,7 +126,7 @@ SPF, DKIM, and DMARC are not optional. If you haven't set these up, do it now �
 **3. Sender rotation across multiple mailboxes**
 Sending all your volume from one mailbox is how you get flagged. Spread volume across 3–5 mailboxes per domain, rotate senders automatically, and you stay well under Gmail and Outlook's daily sending thresholds. [Optimizing your sender rotation setup](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) is worth doing before you scale past 200 emails/day.
 
-This is exactly the kind of infrastructure Cleanmails handles out of the box — inbuilt SMTP, sender rotation, and email validation in one self-hosted platform. For early-stage SaaS founders who don't want to stitch together Instantly + Apollo + Mailgun + a separate validator, it's a $497 one-time purchase that eliminates the $200–400/month SaaS stack most people default to.
+This is exactly the kind of infrastructure cold mail handles out of the box — inbuilt SMTP, sender rotation, and email validation in one self-hosted platform. For early-stage SaaS founders who don't want to stitch together Instantly + Apollo + Mailgun + a separate validator, it's a $497 one-time purchase that eliminates the $200–400/month SaaS stack most people default to.
 
 ## Step 5: Write Sequences, Not Single Emails
 

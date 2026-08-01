@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://cleanmails.online/blog/sitemap.xml',
+    sitemap: 'https://coldmail.host/blog/sitemap.xml',
   }
 }

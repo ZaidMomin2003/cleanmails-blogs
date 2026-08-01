@@ -2,7 +2,7 @@
 title: "Cold Email vs LinkedIn Outreach: Which Gets More Replies in 2026?"
 slug: "cold-email-vs-linkedin-outreach-replies-2026"
 date: "2026-05-15"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "LinkedIn Outreach", "Lead Generation", "Outbound Sales", "Reply Rates"]
 category: "Lead Generation"
 coverImage: "https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -111,7 +111,7 @@ Before you write off cold email based on bad results, ask yourself:
 - Are you rotating across multiple sender addresses to avoid volume flags?
 - Have you checked your copy for [spam trigger words](/tools/spam-checker) that are silently killing your deliverability?
 
-I use [Cleanmails](https://cleanmails.com) for cold email infrastructure because it handles sender rotation, email validation, and cadences out of the box — and it's a one-time payment, not a monthly subscription that scales against you as your volume grows. When you're sending 500–5,000 emails a day across multiple clients or campaigns, the difference between self-hosted infrastructure and a SaaS platform is often the difference between 70% inbox placement and 90%.
+I use [cold mail](https://cold mail.com) for cold email infrastructure because it handles sender rotation, email validation, and cadences out of the box — and it's a one-time payment, not a monthly subscription that scales against you as your volume grows. When you're sending 500–5,000 emails a day across multiple clients or campaigns, the difference between self-hosted infrastructure and a SaaS platform is often the difference between 70% inbox placement and 90%.
 
 If you're managing sender reputation across multiple domains, [this breakdown on sender reputation management](/blog/how-to-manage-email-sender-reputation-for-cold-outreach-success) is worth reading before your next campaign.
 

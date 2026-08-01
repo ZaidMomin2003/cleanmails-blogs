@@ -2,7 +2,7 @@
 title: "The Spintax Strategy That 10x'd My Reply Rate Overnight"
 slug: "spintax-cold-email-strategy"
 date: "2026-05-12"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "Spintax", "Reply Rate", "Email Personalization", "Deliverability"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/7821764/pexels-photo-7821764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -91,7 +91,7 @@ With 3 hook variants × 3 value prop variants × 3 CTA variants, you have **27 s
 
 More importantly, you're running a live A/B test at scale. After the first 200 sends, I could see that the "loss aversion" hook + "social proof" value prop + "wrong person" CTA was converting at 4.1x the rate of my weakest combination. I killed the losers and pushed the winners. That's when the reply rate jumped.
 
-This kind of granular tracking is only possible when your sending infrastructure gives you visibility at the variant level. I use [Cleanmails](https://cleanmails.com) for this — it handles the spintax rendering natively and lets me see open/reply data broken down by variation without needing a separate analytics layer bolted on.
+This kind of granular tracking is only possible when your sending infrastructure gives you visibility at the variant level. I use [cold mail](https://cold mail.com) for this — it handles the spintax rendering natively and lets me see open/reply data broken down by variation without needing a separate analytics layer bolted on.
 
 ## Building Your Spintax Email in Practice
 

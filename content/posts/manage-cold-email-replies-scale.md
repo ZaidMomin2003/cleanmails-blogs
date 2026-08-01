@@ -2,7 +2,7 @@
 title: "How to Handle Cold Email Replies at Scale Without Losing Deals"
 slug: "manage-cold-email-replies-scale"
 date: "2026-05-22"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Automation", "Cold Email", "Reply Management", "Scale", "Sales"]
 category: "Automation"
 coverImage: "https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -41,7 +41,7 @@ You need every reply — regardless of which sender address it came from — lan
 Set up forwarding rules in each sender mailbox to push all incoming mail to a single master inbox. In Google Workspace or Outlook, this takes about 3 minutes per mailbox. Yes, it's manual. Do it anyway.
 
 **Option B: Use a Tool That Does This Natively**
-Some cold email platforms handle unified reply views out of the box. Cleanmails, for instance, ties your sender rotation directly to a centralized reply interface — so when a prospect responds to any of your rotating senders, it surfaces in one place with full campaign context. That context piece is critical (more on that in a moment).
+Some cold email platforms handle unified reply views out of the box. cold mail, for instance, ties your sender rotation directly to a centralized reply interface — so when a prospect responds to any of your rotating senders, it surfaces in one place with full campaign context. That context piece is critical (more on that in a moment).
 
 **Option C: Zapier/Make Routing**
 For more complex setups, use Zapier to pull replies from each mailbox into a shared Slack channel or a CRM record. It adds latency but works if you have a team triaging responses.

@@ -2,7 +2,7 @@
 title: "I Analyzed 50,000 Cold Email Subject Lines — The Data Will Surprise You"
 slug: "best-cold-email-subject-lines-data"
 date: "2026-05-09"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "Subject Lines", "Email Marketing", "Copywriting", "Deliverability"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/10020092/pexels-photo-10020092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -167,7 +167,7 @@ Before you spend an hour optimizing subject lines, make sure your foundation is 
 - Validate your list before every send with a [bulk email verifier](/tools/email-verifier)
 - Keep bounce rates under 3% — [here's a full guide on bounce rate management](/blog/mastering-cold-email-bounce-rate-management)
 
-When I was running high-volume campaigns and needed to track subject line performance across multiple sending domains, I used [Cleanmails](/) — specifically because the sender rotation and per-domain analytics made it easy to isolate which subject lines performed on which domains. That kind of granular data is hard to get from most tools. Worth noting if you're running serious volume.
+When I was running high-volume campaigns and needed to track subject line performance across multiple sending domains, I used [cold mail](/) — specifically because the sender rotation and per-domain analytics made it easy to isolate which subject lines performed on which domains. That kind of granular data is hard to get from most tools. Worth noting if you're running serious volume.
 
 ---
 

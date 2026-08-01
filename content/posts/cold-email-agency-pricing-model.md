@@ -2,7 +2,7 @@
 title: "How to Price Your Cold Email Agency Services"
 slug: "cold-email-agency-pricing-model"
 date: "2026-05-21"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Agency", "Cold Email", "Pricing", "Business Strategy", "Lead Generation"]
 category: "Agency"
 coverImage: "https://images.pexels.com/photos/1111319/pexels-photo-1111319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -96,7 +96,7 @@ If you're charging $1,500/month, your margin is $370–$690. That's not a busine
 
 At $3,000/month, you're looking at $1,870–$2,190 margin. Now you're building something.
 
-**The infrastructure piece is where most agencies bleed money silently.** Paying $99-299/month per client for SaaS cold email tools adds up fast. This is why I've seen agencies switch to self-hosted infrastructure using tools like [Cleanmails](/) — a one-time $497 investment that eliminates per-client monthly tool costs at scale. When you're running 10+ clients, that math changes your entire P&L. For context on the broader cost argument, this post on [why monthly cold email subscriptions are killing your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) lays it out clearly.
+**The infrastructure piece is where most agencies bleed money silently.** Paying $99-299/month per client for SaaS cold email tools adds up fast. This is why I've seen agencies switch to self-hosted infrastructure using tools like [cold mail](/) — a one-time $497 investment that eliminates per-client monthly tool costs at scale. When you're running 10+ clients, that math changes your entire P&L. For context on the broader cost argument, this post on [why monthly cold email subscriptions are killing your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) lays it out clearly.
 
 ---
 

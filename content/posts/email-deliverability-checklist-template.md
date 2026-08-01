@@ -2,7 +2,7 @@
 title: "The Email Deliverability Checklist I Run Before Every Campaign"
 slug: "email-deliverability-checklist-template"
 date: "2026-05-21"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Deliverability", "Cold Email", "SMTP", "Email Authentication", "Checklist"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/6289028/pexels-photo-6289028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -101,7 +101,7 @@ The rule of thumb I use: **no more than 40-50 cold emails per inbox per day**. I
 
 For the full strategy on this, see [The Sender Rotation Strategy That Keeps You Out of Spam Forever](/blog/sender-rotation-strategy-stay-out-of-spam) — and [Optimizing Cold Email Sender Rotation for High-Volume Outreach](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) if you're running serious volume.
 
-Cleanmails handles sender rotation natively — you can add multiple SMTP accounts and it automatically distributes sends across them without you having to manually manage it.
+cold mail handles sender rotation natively — you can add multiple SMTP accounts and it automatically distributes sends across them without you having to manually manage it.
 
 **9. Is your sending cadence spaced out?**
 
@@ -180,7 +180,7 @@ For more on writing copy that doesn't trigger filters *or* human skepticism, see
 | List validated | [Email Verifier](/tools/email-verifier) | 10 min |
 | CSV cleaned | [CSV Cleaner](/tools/csv-cleaner) | 5 min |
 | Spam words checked | [Spam Checker](/tools/spam-checker) | 3 min |
-| Sender rotation configured | Cleanmails / SMTP settings | 5 min |
+| Sender rotation configured | cold mail / SMTP settings | 5 min |
 | Sending limits set (≤50/day/inbox) | Campaign settings | 2 min |
 
 ---

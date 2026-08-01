@@ -7,31 +7,31 @@ const tools = [
     icon: '🛡️',
     name: 'Spam Checker',
     description: 'Check your email for spam words',
-    href: 'https://cleanmails.online/tools/spam-checker',
+    href: 'https://coldmail.host/tools/spam-checker',
   },
   {
     icon: '🔍',
     name: 'DNS Checker',
     description: 'SPF, DKIM & DMARC lookup',
-    href: 'https://cleanmails.online/tools/dns-checker',
+    href: 'https://coldmail.host/tools/dns-checker',
   },
   {
     icon: '✅',
     name: 'Email Verifier',
     description: 'Bulk verify your email list',
-    href: 'https://cleanmails.online/tools/email-verifier',
+    href: 'https://coldmail.host/tools/email-verifier',
   },
   {
     icon: '📧',
     name: 'Email Extractor',
     description: 'Extract emails from any text',
-    href: 'https://cleanmails.online/tools/email-extractor',
+    href: 'https://coldmail.host/tools/email-extractor',
   },
   {
     icon: '🧹',
     name: 'CSV Cleaner',
     description: 'Clean messy email lists',
-    href: 'https://cleanmails.online/tools/csv-cleaner',
+    href: 'https://coldmail.host/tools/csv-cleaner',
   },
 ]
 
@@ -109,7 +109,7 @@ export default function ToolsSidebar() {
             </div>
             <div className="mt-3 pt-3 border-t border-[var(--border)]">
               <a
-                href="https://cleanmails.online/tools"
+                href="https://coldmail.host/tools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-1.5 text-[11px] font-medium text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors"

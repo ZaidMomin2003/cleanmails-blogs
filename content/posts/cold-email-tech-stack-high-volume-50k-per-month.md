@@ -2,7 +2,7 @@
 title: "The Cold Email Tech Stack for 50,000 Emails Per Month"
 slug: "cold-email-tech-stack-high-volume-50k-per-month"
 date: "2026-05-20"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Infrastructure", "Cold Email", "High Volume", "SMTP", "Scaling"]
 category: "Infrastructure"
 coverImage: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -121,7 +121,7 @@ Your sending platform ties everything together — it manages cadences, tracks r
 
 This is where most people are bleeding money. If you're paying $0.001–$0.003 per email on a SaaS platform, you're spending $50–$150/month just in send costs on top of your subscription. At scale, that's the kind of thing that quietly destroys your ROI — [here's the full math on why monthly subscriptions hurt high-volume senders](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).
 
-[Cleanmails](/) is built specifically for this scenario — a one-time $497 with inbuilt SMTP, sender rotation, email validation, and cadences. At 50,000 emails/month, most users recover the cost in the first month compared to what they were paying on per-seat SaaS tools.
+[cold mail](/) is built specifically for this scenario — a one-time $497 with inbuilt SMTP, sender rotation, email validation, and cadences. At 50,000 emails/month, most users recover the cost in the first month compared to what they were paying on per-seat SaaS tools.
 
 ---
 
@@ -166,8 +166,8 @@ This audit takes under 30 minutes and will tell you exactly where your deliverab
 | Domains (25x) | Namecheap / Cloudflare | ~$25 |
 | SMTP | Self-hosted VPS or Amazon SES | $5–$20 |
 | Inboxes (50x) | Zoho Mail or self-hosted | $0–$50 |
-| Email Validation | Cleanmails / bulk verifier | Included |
-| Sending Platform | Cleanmails (one-time $497) | $0/mo ongoing |
+| Email Validation | cold mail / bulk verifier | Included |
+| Sending Platform | cold mail (one-time $497) | $0/mo ongoing |
 | **Total (ongoing)** | | **~$30–$95/month** |
 
 Compare that to what most people are paying: $150–$400/month on SaaS tools, per-email charges on top, and still fighting deliverability issues because they're on shared infrastructure.

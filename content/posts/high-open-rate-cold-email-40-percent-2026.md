@@ -2,7 +2,7 @@
 title: "How to Get 40%+ Open Rates on Cold Email in 2026"
 slug: "high-open-rate-cold-email-40-percent-2026"
 date: "2026-05-11"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["deliverability", "open rates", "cold email strategy", "subject lines", "inbox placement"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/7821760/pexels-photo-7821760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -89,7 +89,7 @@ The mechanics:
 - **Daily cap of 40-80 emails per inbox** depending on domain age
 - **Randomized sending windows** — not all firing at 9:00 AM simultaneously
 
-This is exactly what [Cleanmails](https://cleanmails.com) handles natively — you set up your sender pool and it rotates automatically across cadences, so you're never leaning too hard on any single inbox. Much cleaner than managing this manually in a spreadsheet.
+This is exactly what [cold mail](https://cold mail.com) handles natively — you set up your sender pool and it rotates automatically across cadences, so you're never leaning too hard on any single inbox. Much cleaner than managing this manually in a spreadsheet.
 
 For a deeper breakdown of the infrastructure side, [this guide on sender rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) covers the mechanics in detail.
 

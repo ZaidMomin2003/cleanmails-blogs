@@ -2,7 +2,7 @@
 title: "Cold Email Personalization: What Actually Moves the Needle vs What's a Waste"
 slug: "cold-email-personalization-tips-what-works"
 date: "2026-05-11"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "Personalization", "Outreach Strategy", "Copywriting"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/20716656/pexels-photo-20716656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -144,7 +144,7 @@ True personalization — especially at the segment level — creates natural var
 
 If you're running high-volume sequences, make sure you're also thinking about sender rotation and infrastructure. [SMTP rotation at scale](/blog/smtp-rotation-explained) is what keeps your sending domains healthy when you're doing this across thousands of contacts. And before you even think about personalization, make sure your list is clean — a 10% bounce rate will tank your sender reputation faster than any bad email copy. Run your list through a [bulk email verifier](/tools/email-verifier) before you send.
 
-When I set up campaigns in [Cleanmails](https://cleanmails.com), I use the built-in sender rotation and cadence features to distribute sends across multiple domains automatically — so even if my email content has segments with similar structure, the sending patterns look natural to spam filters.
+When I set up campaigns in [cold mail](https://cold mail.com), I use the built-in sender rotation and cadence features to distribute sends across multiple domains automatically — so even if my email content has segments with similar structure, the sending patterns look natural to spam filters.
 
 ---
 

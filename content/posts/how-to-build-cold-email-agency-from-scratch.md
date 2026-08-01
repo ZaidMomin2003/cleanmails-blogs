@@ -2,7 +2,7 @@
 title: "How to Build a Cold Email Agency From Scratch"
 slug: "how-to-build-cold-email-agency-from-scratch"
 date: "2026-05-19"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Agency", "Cold Email", "Business", "Outreach", "Lead Generation"]
 category: "Agency"
 coverImage: "https://images.pexels.com/photos/16323586/pexels-photo-16323586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -56,7 +56,7 @@ The smarter move: own your infrastructure.
 1. **Sending domains** — Buy aged or new domains from Namecheap/GoDaddy. Budget $12–$15/domain. Each client needs 3–5 domains minimum.
 2. **Email authentication** — SPF, DKIM, and DMARC must be configured perfectly before a single email goes out. Use the [SPF/DKIM/DMARC Checker](/tools/dns-checker) to verify every domain before warmup.
 3. **Email validation** — Never send to an unverified list. A 5%+ bounce rate will tank your sender reputation and your client's domain. Run every list through the [Bulk Email Verifier](/tools/email-verifier) first.
-4. **Sending platform** — This is where Cleanmails changes the math entirely. Instead of $97–$150/month per seat, it's a $497 one-time purchase with built-in SMTP, sender rotation, email validation, and cadences. When you're managing 5–10 clients, that's the difference between 40% margins and 15% margins.
+4. **Sending platform** — This is where cold mail changes the math entirely. Instead of $97–$150/month per seat, it's a $497 one-time purchase with built-in SMTP, sender rotation, email validation, and cadences. When you're managing 5–10 clients, that's the difference between 40% margins and 15% margins.
 5. **Lead sourcing** — Apollo free tier + LinkedIn Sales Navigator ($99/month) covers most verticals. For niche lists, use the [Email Extractor](/tools/email-extractor) to build targeted prospect lists.
 
 Read more about keeping infrastructure costs sane in [Scaling Cold Email Without Monthly Fees: A Guide to Infrastructure Control](/blog/scaling-cold-email-without-monthly-fees) — it directly applies to the agency model.

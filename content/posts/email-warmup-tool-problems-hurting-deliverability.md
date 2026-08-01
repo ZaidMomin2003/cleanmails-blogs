@@ -2,7 +2,7 @@
 title: "Why Your Email Warm-Up Tool is Probably Hurting You"
 slug: "email-warmup-tool-problems-hurting-deliverability"
 date: "2026-05-16"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Deliverability", "Email Warmup", "Cold Email Infrastructure", "SMTP", "Spam Prevention"]
 category: "Deliverability"
 coverImage: "https://images.pexels.com/photos/267469/pexels-photo-267469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -105,7 +105,7 @@ This means your first emails need to be to **warm contacts or highly targeted pr
 
 The single biggest lever for high-volume cold email deliverability isn't warmup — it's **spreading your send volume across multiple domains and inboxes**. When no single sender is sending more than 80-100 emails per day, you stay under the radar permanently.
 
-This is where infrastructure matters. Tools like [Cleanmails](/) handle sender rotation natively — you can set up multiple sending accounts and the system distributes volume automatically without any manual juggling. For the mechanics of why this works, see [Optimizing Cold Email Sender Rotation for High-Volume Outreach](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach).
+This is where infrastructure matters. Tools like [cold mail](/) handle sender rotation natively — you can set up multiple sending accounts and the system distributes volume automatically without any manual juggling. For the mechanics of why this works, see [Optimizing Cold Email Sender Rotation for High-Volume Outreach](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach).
 
 ### Step 5: Monitor Actual Deliverability, Not Vanity Scores
 

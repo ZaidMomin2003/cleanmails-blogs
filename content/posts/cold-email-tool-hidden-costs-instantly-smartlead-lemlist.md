@@ -2,7 +2,7 @@
 title: "The Hidden Cost of Instantly, Smartlead, and Lemlist Nobody Talks About"
 slug: "cold-email-tool-hidden-costs-instantly-smartlead-lemlist"
 date: "2026-05-09"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Comparisons", "Cold Email Tools", "Cost Analysis", "Self-Hosted", "ROI"]
 category: "Comparisons"
 coverImage: "https://images.pexels.com/photos/5849566/pexels-photo-5849566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -95,15 +95,15 @@ Let's be concrete. Here's a realistic 12-month cost comparison for someone doing
 - Email verification credits: $50 × 12 = $600
 - **Total: $3,168/year**
 
-**Self-Hosted Stack (VPS + Cleanmails + domains):**
-- Cleanmails one-time license: $497
+**Self-Hosted Stack (VPS + cold mail + domains):**
+- cold mail one-time license: $497
 - VPS hosting: $10-20/month × 12 = $180
 - Domain registration (20 domains): ~$200/year
 - **Total: ~$877/year (Year 1), ~$380/year (Year 2+)**
 
 Year one you're saving over $2,200. Year two you're saving over $2,700. And you own the infrastructure outright.
 
-[Cleanmails](/) includes inbuilt SMTP, email validation, sender rotation, and cadence management in that one-time fee — which is exactly the stack you're assembling piece-by-piece with the SaaS approach, except you keep paying for it forever.
+[cold mail](/) includes inbuilt SMTP, email validation, sender rotation, and cadence management in that one-time fee — which is exactly the stack you're assembling piece-by-piece with the SaaS approach, except you keep paying for it forever.
 
 For the technical setup details, [this guide on building high-volume cold email infrastructure without monthly fees](/blog/high-volume-cold-email-infrastructure-no-monthly-fees) walks through the full process.
 

@@ -1,8 +1,8 @@
 ---
-title: "Cleanmails vs Woodpecker: Cold Email Tool Comparison for 2026"
-slug: "cleanmails-vs-woodpecker"
+title: "cold mail vs Woodpecker: Cold Email Tool Comparison for 2026"
+slug: "cold mail-vs-woodpecker"
 date: "2026-05-06"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Woodpecker alternative", "cold email comparison", "self-hosted", "B2B outreach"]
 category: "Cold Email"
 coverImage: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80"
@@ -15,7 +15,7 @@ photographerUrl: "https://unsplash.com/@aborshchev"
 
 Woodpecker has been around since 2015 — one of the OGs in the cold email space. It's reliable, well-built, and popular with B2B teams in Europe.
 
-But their pricing model has a quirk that makes it expensive at scale: you pay per "contact slot." Let's dig into what that means and how it compares to Cleanmails.
+But their pricing model has a quirk that makes it expensive at scale: you pay per "contact slot." Let's dig into what that means and how it compares to cold mail.
 
 ## Pricing: Per-Slot vs One-Time
 
@@ -32,13 +32,13 @@ Sounds reasonable for a solo sender. But add multiple team members or clients:
 - 3 team members on unlimited: **$177/month = $2,124/year**
 - 5 team members: **$295/month = $3,540/year**
 
-**Cleanmails:** $497 one-time. Unlimited contacts, unlimited users, unlimited everything.
+**cold mail:** $497 one-time. Unlimited contacts, unlimited users, unlimited everything.
 
 Break-even vs Woodpecker's unlimited plan: **8.4 months** for a solo user. For a 3-person team, **2.8 months**.
 
 ## Feature Comparison
 
-| Feature | Woodpecker | Cleanmails |
+| Feature | Woodpecker | cold mail |
 |---------|-----------|------------|
 | Pricing | $29–59/month per slot | $497 one-time |
 | Email sequences | ✅ Multi-step | ✅ Multi-step cadences |
@@ -67,15 +67,15 @@ Break-even vs Woodpecker's unlimited plan: **8.4 months** for a solo user. For a
 
 **Easier setup.** Hosted SaaS — connect your email accounts and start sending. No server management required.
 
-## Where Cleanmails Wins
+## Where cold mail Wins
 
-**Cost at any scale.** Whether you're sending to 500 or 50,000 contacts, Cleanmails costs the same: $497 once. Woodpecker's costs scale linearly with your team and contact volume.
+**Cost at any scale.** Whether you're sending to 500 or 50,000 contacts, cold mail costs the same: $497 once. Woodpecker's costs scale linearly with your team and contact volume.
 
-**Inbuilt SMTP.** Woodpecker requires external email accounts (Gmail, Outlook, or SMTP providers). Cleanmails has its own sending engine — you don't need to buy mailboxes separately.
+**Inbuilt SMTP.** Woodpecker requires external email accounts (Gmail, Outlook, or SMTP providers). cold mail has its own sending engine — you don't need to buy mailboxes separately.
 
-**Advanced spintax.** Woodpecker doesn't support spintax at all. Cleanmails has multi-level nested spintax with AI-generated variations — critical for sending at volume without triggering duplicate content filters.
+**Advanced spintax.** Woodpecker doesn't support spintax at all. cold mail has multi-level nested spintax with AI-generated variations — critical for sending at volume without triggering duplicate content filters.
 
-**Unlimited email validation.** Both tools have validation, but Cleanmails does full SMTP handshake verification with no per-contact limits. Woodpecker's validation is tied to your contact slot count.
+**Unlimited email validation.** Both tools have validation, but cold mail does full SMTP handshake verification with no per-contact limits. Woodpecker's validation is tied to your contact slot count.
 
 **No per-seat pricing.** Add as many team members as you want. Woodpecker charges per user.
 
@@ -88,7 +88,7 @@ Break-even vs Woodpecker's unlimited plan: **8.4 months** for a solo user. For a
 - Teams sending fewer than 2,000 emails/month who value simplicity
 - Users who need advanced condition-based sequence logic
 
-## Who Should Use Cleanmails
+## Who Should Use cold mail
 
 - Agencies managing 3+ clients who want to stop paying per-seat
 - Teams sending 5,000+ emails/month who need proper SMTP infrastructure
@@ -98,13 +98,13 @@ Break-even vs Woodpecker's unlimited plan: **8.4 months** for a solo user. For a
 ## Making the Switch
 
 1. Export contacts and sequence templates from Woodpecker
-2. Purchase Cleanmails and provision a VPS ($5–20/month)
+2. Purchase cold mail and provision a VPS ($5–20/month)
 3. Run the one-command installer (free setup included)
 4. Import contacts and rebuild sequences
-5. Configure DNS records (SPF, DKIM, DMARC) — [check yours here](https://cleanmails.online/tools/dns-checker)
+5. Configure DNS records (SPF, DKIM, DMARC) — [check yours here](https://cold mail.online/tools/dns-checker)
 
 ---
 
-Ready to stop paying per seat? [See Cleanmails pricing →](https://cleanmails.online/#pricing)
+Ready to stop paying per seat? [See cold mail pricing →](https://cold mail.online/#pricing)
 
-**Related:** [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Cleanmails vs Lemlist](/blog/cleanmails-vs-lemlist) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide)
+**Related:** [cold mail vs Instantly](/blog/instantly-alternative-self-hosted) · [cold mail vs Lemlist](/blog/cold mail-vs-lemlist) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide)

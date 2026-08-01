@@ -2,7 +2,7 @@
 title: "I Sent 100,000 Cold Emails in 30 Days — Here's What Actually Worked"
 slug: "100k-cold-emails-30-days-what-worked"
 date: "2026-05-06"
-author: "Cleanmails"
+author: "cold mail"
 tags: ["Cold Email", "Case Study", "Email Deliverability", "Outreach Strategy", "High Volume"]
 category: "Cold Email"
 coverImage: "https://images.pexels.com/photos/15635403/pexels-photo-15635403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -33,7 +33,7 @@ Here's exactly what I ran:
 
 For the technical side — SPF, DKIM, and DMARC records on every single domain. No exceptions. If you haven't audited yours, run them through the [SPF/DKIM/DMARC Checker](/tools/dns-checker) before you send a single email. I've seen campaigns tanked entirely because someone forgot a DMARC policy.
 
-I used [Cleanmails](https://cleanmails.com) as the sending platform because I needed built-in SMTP, sender rotation, and email validation without paying $600/month in SaaS fees. One-time cost, self-hosted, and I control the infrastructure. For anyone running campaigns at this volume, [the math on monthly subscriptions gets ugly fast](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).
+I used [cold mail](https://cold mail.com) as the sending platform because I needed built-in SMTP, sender rotation, and email validation without paying $600/month in SaaS fees. One-time cost, self-hosted, and I control the infrastructure. For anyone running campaigns at this volume, [the math on monthly subscriptions gets ugly fast](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi).
 
 ## The 6 Campaigns: A Breakdown
 

@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
-      url: `https://cleanmails.online/blog/${post.slug}`,
+      url: `https://coldmail.host/blog/${post.slug}`,
       images: post.coverImage ? [{ url: post.coverImage, alt: post.coverImageAlt || post.title }] : [],
     },
     twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt },
@@ -55,9 +55,9 @@ export default async function PostPage({ params }: Props) {
     image: post.coverImage,
     datePublished: post.date,
     dateModified: post.date,
-    author: { '@type': 'Organization', name: 'Cleanmails', url: 'https://cleanmails.online' },
-    publisher: { '@type': 'Organization', name: 'Cleanmails', url: 'https://cleanmails.online', logo: { '@type': 'ImageObject', url: 'https://cleanmails.online/logo.svg' } },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://cleanmails.online/blog/${post.slug}` },
+    author: { '@type': 'Organization', name: 'cold mail', url: 'https://coldmail.host' },
+    publisher: { '@type': 'Organization', name: 'cold mail', url: 'https://coldmail.host', logo: { '@type': 'ImageObject', url: 'https://coldmail.host/logo.svg' } },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://coldmail.host/blog/${post.slug}` },
   }
 
   // Generate FAQ schema from H2/H3 headings that look like questions
@@ -96,7 +96,7 @@ export default async function PostPage({ params }: Props) {
                 </svg>
               </div>
               <div className="hidden sm:block">
-                <span className="text-[14px] font-semibold text-[var(--text)]">Cleanmails</span>
+                <span className="text-[14px] font-semibold text-[var(--text)]">cold mail</span>
                 <span className="text-[14px] text-[var(--text-tertiary)] ml-1.5">/</span>
                 <span className="text-[14px] text-[var(--text-tertiary)] ml-1.5">Blog</span>
               </div>
@@ -107,12 +107,12 @@ export default async function PostPage({ params }: Props) {
               </Link>
               <ThemeToggle />
               <a
-                href="https://cleanmails.online"
+                href="https://coldmail.host"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[12px] font-semibold text-[#37352f] bg-[#FFD700] hover:bg-[#f0cc00] px-3.5 py-1.5 rounded-md transition-colors no-underline"
               >
-                Get Cleanmails
+                Get cold mail
               </a>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default async function PostPage({ params }: Props) {
                   <path d="M2 9l10 6 10-6" className="stroke-[#FFD700] dark:stroke-[#37352f]" strokeWidth="2.5"/>
                 </svg>
               </div>
-              <span className="font-medium text-[var(--text)]">{post.author || 'Cleanmails'}</span>
+              <span className="font-medium text-[var(--text)]">{post.author || 'cold mail'}</span>
             </div>
             <span className="text-[var(--border-strong)]">·</span>
             <span>{formatDate(post.date)}</span>
@@ -198,7 +198,7 @@ export default async function PostPage({ params }: Props) {
             <div className="flex items-center gap-2">
               <span className="text-[11px] text-[var(--text-tertiary)]">Share</span>
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://cleanmails.online/blog/${post.slug}`)}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://coldmail.host/blog/${post.slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[11px] text-[var(--text-secondary)] border border-[var(--border)] hover:bg-[var(--bg-hover)] px-2.5 py-1 rounded no-underline transition-colors"
@@ -206,7 +206,7 @@ export default async function PostPage({ params }: Props) {
                 Twitter
               </a>
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://cleanmails.online/blog/${post.slug}`)}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://coldmail.host/blog/${post.slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[11px] text-[var(--text-secondary)] border border-[var(--border)] hover:bg-[var(--bg-hover)] px-2.5 py-1 rounded no-underline transition-colors"

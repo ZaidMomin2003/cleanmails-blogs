@@ -42,7 +42,7 @@ jobs:
       - name: Commit and push
         run: |
           git config user.name "Blog Bot"
-          git config user.email "bot@cleanmails.online"
+          git config user.email "bot@coldmail.host"
           git add content/posts/ scripts/blog-queue.json
           if git diff --staged --quiet; then
             echo "No new post generated. Skipping commit."

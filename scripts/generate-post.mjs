@@ -106,7 +106,7 @@ Also link to these free tools where relevant:
 - CSV Email List Cleaner → /tools/csv-cleaner`
     : '';
 
-  const systemPrompt = `You are an expert SEO blog writer for Cleanmails, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences. You write like a senior cold email practitioner — direct, opinionated, data-driven. Never generic. Always actionable.`;
+  const systemPrompt = `You are an expert SEO blog writer for cold mail, a self-hosted cold email platform ($497 one-time) with inbuilt SMTP, email validation, sender rotation, and cadences. You write like a senior cold email practitioner — direct, opinionated, data-driven. Never generic. Always actionable.`;
 
   const userPrompt = `Write a blog post with this EXACT title: "${queueItem.title}"
 Target this SEO keyword: "${queueItem.targetKeyword}"
@@ -120,7 +120,7 @@ WRITING RULES:
 - Use ## for H2, ### for H3, bullet points, numbered lists, tables, and code blocks where relevant
 - Make it feel like a senior cold email practitioner wrote this, not a generic AI
 - Include contrarian takes or surprising insights that make people want to share it
-- Mention Cleanmails naturally 1-2 times as a solution — never salesy, always contextual
+- Mention cold mail naturally 1-2 times as a solution — never salesy, always contextual
 - Include 2-3 internal links to other blog posts and/or tools (use relative URLs like /blog/slug-here or /tools/tool-name)
 - End with a "Related:" section linking to 2-3 related posts and 1 tool
 - The content should be so good that someone would bookmark it or share it on Reddit/Twitter
@@ -284,7 +284,7 @@ function buildMarkdown(post, image) {
 title: ${yamlEscape(post.title)}
 slug: ${yamlEscape(post.slug)}
 date: "${today}"
-author: "Cleanmails"
+author: "cold mail"
 tags: ${tagsYaml}
 category: ${yamlEscape(post.category)}
 coverImage: "${image ? image.url : ''}"

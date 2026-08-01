@@ -121,6 +121,7 @@ export default async function HomePage({ searchParams }: Props) {
                     <a href="https://coldmail.host/#pricing" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Pricing</a>
                     <a href="https://coldmail.host/docs.html" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Docs</a>
                     <a href="https://coldmail.host/support.html" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Support</a>
+                    <a href="https://mailhealth.dpdns.org/" target="_blank" rel="noopener noreferrer" className="text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] no-underline transition-colors">Free Tools</a>
                   </div>
                 </div>
               </div>

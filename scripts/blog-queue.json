@@ -1035,7 +1035,9 @@
     "title": "How to Use Webhooks to Connect Cold Email With Any Tool",
     "targetKeyword": "webhooks cold email connect any tool",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "webhooks-cold-email-connect-any-tool",
+    "publishedDate": "2026-08-04"
   },
   {
     "title": "The Cold Email Audit: 15 Things to Check Before Hitting Send",

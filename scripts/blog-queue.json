@@ -1067,7 +1067,9 @@
     "title": "The Anti-Pattern Detection System That Keeps Your Emails Out of Spam",
     "targetKeyword": "anti-pattern detection email spam prevention",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "anti-pattern-detection-email-spam-prevention",
+    "publishedDate": "2026-08-05"
   },
   {
     "title": "How to Personalize Cold Emails at Scale Without Spending Hours",

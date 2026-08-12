@@ -81,4 +81,4 @@ Remember: your reputation is your most valuable asset in cold outreach. Treat yo
 
 ---
 
-**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [High Volume Cold Email Infrastructure](/blog/high-volume-cold-email-infrastructure-no-monthly-fees) · [Free DNS Checker →](https://Cleanmails.online/tools/dns-checker)
+**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [High Volume Cold Email Infrastructure](/blog/high-volume-cold-email-infrastructure-no-monthly-fees) · [Free DNS Checker →](https://coldmail.host/tools/dns-checker)

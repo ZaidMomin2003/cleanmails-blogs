@@ -113,6 +113,6 @@ Total cost: $497 one-time + $19/month = far less than Apollo Professional at $79
 
 ---
 
-Already have your leads? [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
+Already have your leads? [See Cleanmails pricing →](https://coldmail.host/#pricing)
 
-**Related:** [Cleanmails vs Lemlist](/blog/Cleanmails-vs-lemlist) · [How to Scale Cold Email Without Monthly Fees](/blog/scaling-cold-email-without-monthly-fees) · [Free Email Extractor →](https://Cleanmails.online/tools/email-extractor)
+**Related:** [Cleanmails vs Lemlist](/blog/Cleanmails-vs-lemlist) · [How to Scale Cold Email Without Monthly Fees](/blog/scaling-cold-email-without-monthly-fees) · [Free Email Extractor →](https://coldmail.host/tools/email-extractor)

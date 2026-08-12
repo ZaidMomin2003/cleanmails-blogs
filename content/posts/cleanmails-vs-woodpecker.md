@@ -101,10 +101,10 @@ Break-even vs Woodpecker's unlimited plan: **8.4 months** for a solo user. For a
 2. Purchase Cleanmails and provision a VPS ($5–20/month)
 3. Run the one-command installer (free setup included)
 4. Import contacts and rebuild sequences
-5. Configure DNS records (SPF, DKIM, DMARC) — [check yours here](https://Cleanmails.online/tools/dns-checker)
+5. Configure DNS records (SPF, DKIM, DMARC) — [check yours here](https://coldmail.host/tools/dns-checker)
 
 ---
 
-Ready to stop paying per seat? [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
+Ready to stop paying per seat? [See Cleanmails pricing →](https://coldmail.host/#pricing)
 
 **Related:** [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Cleanmails vs Lemlist](/blog/Cleanmails-vs-lemlist) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide)

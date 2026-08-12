@@ -77,4 +77,4 @@ If you are ready to stop the monthly "SaaS tax" and want to take full control of
 
 ---
 
-**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Cleanmails vs Saleshandy](/blog/Cleanmails-vs-saleshandy) · [Free Email Extractor →](https://Cleanmails.online/tools/email-extractor)
+**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Cleanmails vs Saleshandy](/blog/Cleanmails-vs-saleshandy) · [Free Email Extractor →](https://coldmail.host/tools/email-extractor)

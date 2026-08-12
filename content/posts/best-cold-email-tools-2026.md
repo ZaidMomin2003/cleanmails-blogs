@@ -53,7 +53,7 @@ Cleanmails is the only self-hosted option on this list. You deploy it on your ow
 
 **2-year cost for a 3-person agency:** $497 + ~$480 (VPS + warm-up) = **~$977 total**
 
-[Full Cleanmails review →](https://Cleanmails.online)
+[Full Cleanmails review →](https://coldmail.host)
 
 ## 2. Instantly — Best for Teams Who Want Managed Infrastructure
 
@@ -222,6 +222,6 @@ Woodpecker is a veteran in the space (since 2015). Strong GDPR compliance, condi
 
 ---
 
-Want to own your cold email infrastructure? [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
+Want to own your cold email infrastructure? [See Cleanmails pricing →](https://coldmail.host/#pricing)
 
-**Related:** [Why Monthly Subscriptions Are Killing Your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [Check your DNS records →](https://Cleanmails.online/tools/dns-checker)
+**Related:** [Why Monthly Subscriptions Are Killing Your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [Check your DNS records →](https://coldmail.host/tools/dns-checker)

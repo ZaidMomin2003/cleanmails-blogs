@@ -81,4 +81,4 @@ By following these steps, you transition from an unknown, suspicious sender to a
 
 ---
 
-**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Why Your Emails Land in Spam](/blog/why-your-cold-emails-are-landing-in-spam-email-authentication) · [Free DNS Record Checker →](https://Cleanmails.online/tools/dns-checker)
+**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Why Your Emails Land in Spam](/blog/why-your-cold-emails-are-landing-in-spam-email-authentication) · [Free DNS Record Checker →](https://coldmail.host/tools/dns-checker)

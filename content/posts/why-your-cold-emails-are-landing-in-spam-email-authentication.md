@@ -73,4 +73,4 @@ Deliverability is an ongoing process of monitoring, adjusting, and refining. Sta
 
 ---
 
-**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free SPF/DKIM/DMARC Checker →](https://Cleanmails.online/tools/dns-checker)
+**Related:** [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free SPF/DKIM/DMARC Checker →](https://coldmail.host/tools/dns-checker)

@@ -9,7 +9,7 @@ const PROMO_HTML = `
     <span style="font-size:0.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:8px;">✓ <strong style="color:var(--text);">Inbuilt email validation</strong> — 135K+ disposable domains</span>
     <span style="font-size:0.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:8px;">✓ <strong style="color:var(--text);">AI auto-reply</strong> — BYO API key, ~$0.001/reply</span>
   </div>
-  <a href="https://Cleanmails.online" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#37352f;color:#fff;font-size:0.82rem;font-weight:700;padding:10px 22px;border-radius:8px;text-decoration:none;transition:opacity 0.2s;">One-time $199 — Get Cleanmails →</a>
+  <a href="https://coldmail.host" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#37352f;color:#fff;font-size:0.82rem;font-weight:700;padding:10px 22px;border-radius:8px;text-decoration:none;transition:opacity 0.2s;">One-time $199 — Get Cleanmails →</a>
 </div>
 `
 

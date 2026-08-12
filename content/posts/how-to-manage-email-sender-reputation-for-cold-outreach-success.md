@@ -97,4 +97,4 @@ Managing your sender reputation is the most important part of long-term cold ema
 
 ---
 
-**Related:** [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free Spam Word Checker →](https://Cleanmails.online/tools/spam-checker)
+**Related:** [How to Warm Up a New Domain](/blog/how-to-warm-up-a-new-cold-email-domain) · [Cold Email Deliverability Guide](/blog/cold-email-deliverability-guide) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Free Spam Word Checker →](https://coldmail.host/tools/spam-checker)

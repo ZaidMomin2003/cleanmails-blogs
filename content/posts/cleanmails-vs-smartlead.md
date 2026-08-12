@@ -109,6 +109,6 @@ Even adding a warm-up tool, Cleanmails + Mailreach ($497 + $228/year) is cheaper
 
 ---
 
-Own your infrastructure. [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
+Own your infrastructure. [See Cleanmails pricing →](https://coldmail.host/#pricing)
 
 **Related:** [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Cleanmails vs Saleshandy](/blog/Cleanmails-vs-saleshandy) · [How to Warm Up a New Cold Email Domain](/blog/how-to-warm-up-a-new-cold-email-domain)

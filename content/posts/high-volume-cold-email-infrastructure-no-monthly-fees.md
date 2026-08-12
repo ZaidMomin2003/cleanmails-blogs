@@ -87,4 +87,4 @@ By investing in a self-hosted solution, you stop paying for the privilege of sen
 
 ---
 
-**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Optimizing Sender Rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Free Email Extractor →](https://Cleanmails.online/tools/email-extractor)
+**Related:** [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Optimizing Sender Rotation](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Free Email Extractor →](https://coldmail.host/tools/email-extractor)

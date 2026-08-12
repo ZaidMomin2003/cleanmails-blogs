@@ -119,6 +119,6 @@ The math is simple: Cleanmails pays for itself in 2–5 months depending on your
 
 ---
 
-Ready to own your cold email infrastructure? [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
+Ready to own your cold email infrastructure? [See Cleanmails pricing →](https://coldmail.host/#pricing)
 
-**Related:** [Why Agencies Are Ditching Instantly for Self-Hosted Cold Email](/blog/instantly-alternative-self-hosted) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Check your DNS records →](https://Cleanmails.online/tools/dns-checker)
+**Related:** [Why Agencies Are Ditching Instantly for Self-Hosted Cold Email](/blog/instantly-alternative-self-hosted) · [SMTP Rotation Explained](/blog/smtp-rotation-explained) · [Check your DNS records →](https://coldmail.host/tools/dns-checker)

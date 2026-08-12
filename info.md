@@ -1,23 +1,23 @@
 # Cleanmails Blog — Project Reference
 
-This file contains all design, brand, and technical context needed to build the blog site at `Cleanmails.online/blog`.
+This file contains all design, brand, and technical context needed to build the blog site at `coldmail.host/blog`.
 
 ---
 
 ## Project Overview
 
 - **What:** A standalone Next.js blog site for Cleanmails (a self-hosted cold email SaaS)
-- **URL:** `Cleanmails.online/blog` (served via reverse proxy from main site's `vercel.json`)
+- **URL:** `coldmail.host/blog` (served via reverse proxy from main site's `vercel.json`)
 - **Hosted:** Separate Vercel project, separate GitHub repo
 - **Content pipeline:** n8n writes blog posts as Markdown files → pushes to GitHub → Vercel auto-deploys
 - **Images:** Unsplash API (n8n fetches cover image URL per post, embeds in frontmatter)
-- **Main site:** `Cleanmails.online` (vanilla HTML/CSS/JS, hosted on Vercel)
+- **Main site:** `coldmail.host` (vanilla HTML/CSS/JS, hosted on Vercel)
 
 ---
 
 ## Reverse Proxy Setup (Option B)
 
-The blog lives at its own Vercel deployment but is accessible at `Cleanmails.online/blog` via a rewrite rule added to the main site's `vercel.json`:
+The blog lives at its own Vercel deployment but is accessible at `coldmail.host/blog` via a rewrite rule added to the main site's `vercel.json`:
 
 ```json
 {
@@ -27,7 +27,7 @@ The blog lives at its own Vercel deployment but is accessible at `Cleanmails.onl
 }
 ```
 
-Users always see `Cleanmails.online/blog` in their browser. The two deployments are fully independent — a broken blog deploy cannot affect the main site.
+Users always see `coldmail.host/blog` in their browser. The two deployments are fully independent — a broken blog deploy cannot affect the main site.
 
 ---
 
@@ -134,9 +134,9 @@ box-shadow: 8px 8px 0 #000; /* or gold variant */
 
 ### Navigation (Blog Header)
 - Fixed/sticky, `border-bottom: 3px solid #000`
-- Logo: Cleanmails logo + wordmark (link back to `Cleanmails.online`)
+- Logo: Cleanmails logo + wordmark (link back to `coldmail.host`)
 - Nav links: "Blog" active state, link back to main site
-- CTA button: "Get Cleanmails" → `Cleanmails.online` (gold shadow button)
+- CTA button: "Get Cleanmails" → `coldmail.host` (gold shadow button)
 - Shrinks/hides on scroll down, reappears on scroll up (same as main site)
 - Background: `rgba(250,250,250,0.95)` with `backdrop-filter: blur(12px)`
 
@@ -215,7 +215,7 @@ Cleanmails-blog/
 │   │       └── page.tsx        # Individual post page
 ├── components/
 │   ├── Navbar.tsx              # Fixed nav matching main site style
-│   ├── Footer.tsx              # Footer with links back to Cleanmails.online
+│   ├── Footer.tsx              # Footer with links back to coldmail.host
 │   ├── PostCard.tsx            # Card used on blog index
 │   └── MDXContent.tsx          # Renders parsed markdown
 ├── content/
@@ -240,7 +240,7 @@ Cleanmails-blog/
 - Each post page should have unique `<title>`, `<meta description>`, Open Graph tags
 - Use Next.js `generateMetadata()` per post from frontmatter
 - Add `sitemap.xml` generation (next-sitemap or built-in Next.js sitemap)
-- Canonical URLs: `https://Cleanmails.online/blog/[slug]`
+- Canonical URLs: `https://coldmail.host/blog/[slug]`
 - Schema.org `BlogPosting` structured data per post
 
 ---
@@ -257,7 +257,7 @@ Cleanmails-blog/
 
 ## Links & References
 
-- Main site: `https://Cleanmails.online`
+- Main site: `https://coldmail.host`
 - Logo: `/logo.svg` (envelope + checkmark icon)
 - Google Analytics ID: `G-QWXBBLS661` (add to blog too)
 - Main site GitHub: in the gumroad workspace folder

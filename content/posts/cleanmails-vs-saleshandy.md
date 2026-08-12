@@ -109,6 +109,6 @@ The longer you use it, the more dramatic the savings.
 
 ---
 
-Done paying monthly? [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
+Done paying monthly? [See Cleanmails pricing →](https://coldmail.host/#pricing)
 
-**Related:** [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Why Monthly Subscriptions Are Killing Your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) · [Free CSV List Cleaner →](https://Cleanmails.online/tools/csv-cleaner)
+**Related:** [Cleanmails vs Instantly](/blog/instantly-alternative-self-hosted) · [Why Monthly Subscriptions Are Killing Your ROI](/blog/why-monthly-cold-email-subscriptions-are-killing-your-roi) · [Free CSV List Cleaner →](https://coldmail.host/tools/csv-cleaner)

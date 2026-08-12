@@ -99,6 +99,6 @@ This gives you multi-channel capability where you need it, with proper email inf
 
 ---
 
-Email is your primary channel? [See Cleanmails pricing →](https://Cleanmails.online/#pricing)
+Email is your primary channel? [See Cleanmails pricing →](https://coldmail.host/#pricing)
 
-**Related:** [Cleanmails vs Apollo](/blog/Cleanmails-vs-apollo) · [Optimizing Sender Rotation for High Volume](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [Free Spam Word Checker →](https://Cleanmails.online/tools/spam-checker)
+**Related:** [Cleanmails vs Apollo](/blog/Cleanmails-vs-apollo) · [Optimizing Sender Rotation for High Volume](/blog/optimizing-cold-email-sender-rotation-for-high-volume-outreach) · [Free Spam Word Checker →](https://coldmail.host/tools/spam-checker)

@@ -76,4 +76,4 @@ Take control of your outreach today. It’s time to stop renting your growth and
 
 ---
 
-**Related:** [Why Agencies Are Ditching Instantly](/blog/instantly-alternative-self-hosted) · [Best Cold Email Tools for Agencies 2026](/blog/best-cold-email-tools-2026) · [Scaling Cold Email Without Monthly Fees](/blog/scaling-cold-email-without-monthly-fees) · [Free Spam Word Checker →](https://Cleanmails.online/tools/spam-checker)
+**Related:** [Why Agencies Are Ditching Instantly](/blog/instantly-alternative-self-hosted) · [Best Cold Email Tools for Agencies 2026](/blog/best-cold-email-tools-2026) · [Scaling Cold Email Without Monthly Fees](/blog/scaling-cold-email-without-monthly-fees) · [Free Spam Word Checker →](https://coldmail.host/tools/spam-checker)

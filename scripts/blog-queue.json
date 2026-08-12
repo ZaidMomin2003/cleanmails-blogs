@@ -1195,7 +1195,9 @@
     "title": "How to Export Leads From Apollo and Import Into Your Cold Email Tool",
     "targetKeyword": "export leads Apollo import cold email",
     "category": "Lead Generation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "export-leads-apollo-import-cold-email",
+    "publishedDate": "2026-08-12"
   },
   {
     "title": "The Cold Email Stack I'd Build If I Were Starting an Agency Today",

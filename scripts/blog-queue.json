@@ -1219,7 +1219,9 @@
     "title": "Email Throttling: Why Sending Too Fast Ruins Your Reputation",
     "targetKeyword": "email throttling sending speed reputation",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-throttling-sending-speed-reputation",
+    "publishedDate": "2026-08-13"
   },
   {
     "title": "How to Create a Cold Email Knowledge Base for AI Auto-Replies",

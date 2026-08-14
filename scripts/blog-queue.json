@@ -1235,7 +1235,9 @@
     "title": "The Cold Email Mistake That Cost Me 3 Clients in One Week",
     "targetKeyword": "cold email mistake lost clients agency",
     "category": "Agency",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-mistake-lost-clients-agency",
+    "publishedDate": "2026-08-14"
   },
   {
     "title": "DKIM Alignment: The Technical Detail That Makes or Breaks Deliverability",

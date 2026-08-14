@@ -1243,7 +1243,9 @@
     "title": "DKIM Alignment: The Technical Detail That Makes or Breaks Deliverability",
     "targetKeyword": "DKIM alignment deliverability technical",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "dkim-alignment-deliverability-technical",
+    "publishedDate": "2026-08-14"
   },
   {
     "title": "How to Cold Email Podcast Hosts for Guest Appearances",

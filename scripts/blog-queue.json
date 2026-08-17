@@ -1307,7 +1307,9 @@
     "title": "How to Set Up DNS Records for Cold Email in Under 5 Minutes",
     "targetKeyword": "DNS records cold email setup quick",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "dns-records-cold-email-setup-quick",
+    "publishedDate": "2026-08-17"
   },
   {
     "title": "The Cold Email Reporting Dashboard Every Agency Owner Needs",

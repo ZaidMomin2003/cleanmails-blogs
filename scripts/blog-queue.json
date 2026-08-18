@@ -1339,7 +1339,9 @@
     "title": "The Difference Between Email Warmup and Domain Warmup (Most Get This Wrong)",
     "targetKeyword": "email warmup vs domain warmup difference",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-warmup-vs-domain-warmup-difference",
+    "publishedDate": "2026-08-18"
   },
   {
     "title": "How to Use Groq's Fast Inference for Real-Time Cold Email Replies",

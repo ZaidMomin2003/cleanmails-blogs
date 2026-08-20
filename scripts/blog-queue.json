@@ -1387,7 +1387,9 @@
     "title": "Cold Email for IT Services: How MSPs Are Winning New Contracts",
     "targetKeyword": "cold email IT services MSP contracts",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-it-services-msp-contracts",
+    "publishedDate": "2026-08-20"
   },
   {
     "title": "The n8n + Cold Email Automation Stack for Power Users",

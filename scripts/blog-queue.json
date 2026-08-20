@@ -1395,7 +1395,9 @@
     "title": "The n8n + Cold Email Automation Stack for Power Users",
     "targetKeyword": "n8n cold email automation stack",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "n8n-cold-email-automation-stack-power-users",
+    "publishedDate": "2026-08-20"
   },
   {
     "title": "How to Avoid the Promotions Tab in Gmail With Better Email Copy",

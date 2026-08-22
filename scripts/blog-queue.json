@@ -1435,7 +1435,9 @@
     "title": "Cold Email for Cybersecurity Companies: Reaching CISOs and IT Directors",
     "targetKeyword": "cold email cybersecurity CISO IT director",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-cybersecurity-ciso-it-director",
+    "publishedDate": "2026-08-22"
   },
   {
     "title": "Email Sending Limits by Provider: Gmail, Outlook, SES, SendGrid Compared",

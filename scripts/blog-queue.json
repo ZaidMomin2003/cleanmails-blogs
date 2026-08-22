@@ -1443,7 +1443,9 @@
     "title": "Email Sending Limits by Provider: Gmail, Outlook, SES, SendGrid Compared",
     "targetKeyword": "email sending limits provider comparison",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-sending-limits-provider-comparison",
+    "publishedDate": "2026-08-22"
   },
   {
     "title": "How to Build a Cold Email Agency That Runs Without You",

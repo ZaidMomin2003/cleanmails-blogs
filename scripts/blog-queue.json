@@ -1475,7 +1475,9 @@
     "title": "How to Set Up Stripe Billing for Your White-Label Cold Email SaaS",
     "targetKeyword": "Stripe billing white-label cold email SaaS",
     "category": "Agency",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "stripe-billing-white-label-cold-email-saas",
+    "publishedDate": "2026-08-24"
   },
   {
     "title": "Cold Email for Event Promotion: Filling Seats Without Paid Ads",

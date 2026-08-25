@@ -1491,7 +1491,9 @@
     "title": "The Campaign Scheduling Strategy That Maximizes Inbox Placement",
     "targetKeyword": "campaign scheduling inbox placement strategy",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "campaign-scheduling-inbox-placement-strategy",
+    "publishedDate": "2026-08-25"
   },
   {
     "title": "How to Use Cursor IDE With MCP to Manage Cold Email Campaigns",

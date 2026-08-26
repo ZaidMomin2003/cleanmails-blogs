@@ -1515,7 +1515,9 @@
     "title": "The Email Deliverability Myth That's Costing You Thousands in Lost Revenue",
     "targetKeyword": "email deliverability myth lost revenue",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-deliverability-myth-lost-revenue",
+    "publishedDate": "2026-08-26"
   },
   {
     "title": "How to Use Cold Email to Fill a New SaaS With Beta Users",

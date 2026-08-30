@@ -1611,7 +1611,9 @@
     "title": "How to Use Ollama (Local AI) for Free Cold Email Personalization",
     "targetKeyword": "Ollama local AI cold email personalization",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "ollama-local-ai-cold-email-personalization",
+    "publishedDate": "2026-08-30"
   },
   {
     "title": "Email List Hygiene: The Monthly Routine That Keeps Bounce Rates at 0.5%",

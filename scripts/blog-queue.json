@@ -1603,7 +1603,9 @@
     "title": "The Cold Email Workflow I Use to Onboard New Agency Clients in 24 Hours",
     "targetKeyword": "cold email onboard agency clients workflow",
     "category": "Agency",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-onboard-agency-clients-workflow",
+    "publishedDate": "2026-08-30"
   },
   {
     "title": "How to Use Ollama (Local AI) for Free Cold Email Personalization",

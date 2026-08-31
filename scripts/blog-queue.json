@@ -1635,7 +1635,9 @@
     "title": "The MX Record Check That Tells You If an Email Is Real Before Sending",
     "targetKeyword": "MX record check email validation",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "mx-record-check-email-validation",
+    "publishedDate": "2026-08-31"
   },
   {
     "title": "How to Create Email Cadences That Respect Time Zones Automatically",

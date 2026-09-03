@@ -1691,7 +1691,9 @@
     "title": "How to Use Supabase as a Lead Database for Cold Email Campaigns",
     "targetKeyword": "Supabase lead database cold email",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "supabase-lead-database-cold-email-campaigns",
+    "publishedDate": "2026-09-03"
   },
   {
     "title": "Cold Email for Dental Practices: How to Fill Chairs With New Patients",

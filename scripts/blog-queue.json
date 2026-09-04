@@ -1731,7 +1731,9 @@
     "title": "The Slack Alert System That Notifies You of Hot Leads in Real-Time",
     "targetKeyword": "Slack alert hot leads real-time cold email",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "slack-alert-hot-leads-real-time-cold-email",
+    "publishedDate": "2026-09-04"
   },
   {
     "title": "How to Write a Cold Email That Gets Forwarded to the Right Person",

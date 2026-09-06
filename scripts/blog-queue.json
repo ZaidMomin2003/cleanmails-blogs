@@ -1771,7 +1771,9 @@
     "title": "The Contabo VPS Setup Guide for Cold Email Infrastructure",
     "targetKeyword": "Contabo VPS setup cold email infrastructure",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "contabo-vps-setup-cold-email-infrastructure",
+    "publishedDate": "2026-09-06"
   },
   {
     "title": "Cold Email Scheduling: Batch Sends vs Drip Sends (Which Wins?)",

@@ -1851,7 +1851,9 @@
     "title": "The IMAP Polling Strategy: Check Replies Every 2 Minutes Without Missing One",
     "targetKeyword": "IMAP polling strategy reply detection",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "imap-polling-strategy-reply-detection",
+    "publishedDate": "2026-09-09"
   },
   {
     "title": "How to Cold Email for Joint Ventures and Strategic Partnerships",

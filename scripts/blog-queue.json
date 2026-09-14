@@ -1963,7 +1963,9 @@
     "title": "The Email Encoding Trick That Prevents Spam Filter Fingerprinting",
     "targetKeyword": "email encoding spam filter fingerprinting",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-encoding-spam-filter-fingerprinting",
+    "publishedDate": "2026-09-14"
   },
   {
     "title": "How to Build a Cold Email System That Handles 100K Sends Per Month",

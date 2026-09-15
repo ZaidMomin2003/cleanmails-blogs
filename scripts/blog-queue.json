@@ -1987,7 +1987,9 @@
     "title": "The Personalization Waterfall: First Name → Company → Pain Point → Custom Line",
     "targetKeyword": "personalization waterfall cold email layers",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "personalization-waterfall-cold-email-layers",
+    "publishedDate": "2026-09-15"
   },
   {
     "title": "How to Connect Your Cold Email Platform to Any CRM via Webhooks",

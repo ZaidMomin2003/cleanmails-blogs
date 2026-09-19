@@ -2059,7 +2059,9 @@
     "title": "The Email Validation API: Integrate List Cleaning Into Your Lead Pipeline",
     "targetKeyword": "email validation API lead pipeline integration",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-validation-api-lead-pipeline-integration",
+    "publishedDate": "2026-09-19"
   },
   {
     "title": "Cold Email for Restaurants: How to Land Catering and B2B Partnerships",

@@ -2051,7 +2051,9 @@
     "title": "How to Cold Email Bloggers and Journalists for Product Coverage",
     "targetKeyword": "cold email bloggers journalists coverage",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-bloggers-journalists-coverage",
+    "publishedDate": "2026-09-19"
   },
   {
     "title": "The Email Validation API: Integrate List Cleaning Into Your Lead Pipeline",

@@ -2099,7 +2099,9 @@
     "title": "Cold Email Deliverability in Gmail's 2026 Update: What Changed",
     "targetKeyword": "Gmail 2026 update cold email deliverability",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "gmail-2026-update-cold-email-deliverability",
+    "publishedDate": "2026-09-21"
   },
   {
     "title": "The Lead Import Workflow: CSV to Campaign in Under 5 Minutes",

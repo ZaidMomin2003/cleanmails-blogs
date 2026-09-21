@@ -2091,7 +2091,9 @@
     "title": "How to Use ChatGPT With MCP to Manage Your Cold Email Dashboard",
     "targetKeyword": "ChatGPT MCP manage cold email dashboard",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "chatgpt-mcp-manage-cold-email-dashboard",
+    "publishedDate": "2026-09-21"
   },
   {
     "title": "Cold Email Deliverability in Gmail's 2026 Update: What Changed",

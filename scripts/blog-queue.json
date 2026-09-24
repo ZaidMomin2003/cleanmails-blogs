@@ -2179,7 +2179,9 @@
     "title": "The Hetzner Cloud Guide for Cold Email (ARM64 vs x86, Which to Pick)",
     "targetKeyword": "Hetzner cloud cold email ARM64 x86",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "hetzner-cloud-cold-email-arm64-x86",
+    "publishedDate": "2026-09-24"
   },
   {
     "title": "How to Cold Email for Backlinks Without Sounding Desperate",

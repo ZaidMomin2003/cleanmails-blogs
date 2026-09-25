@@ -2203,7 +2203,9 @@
     "title": "The Bounce Rate Threshold: When to Pause vs When to Keep Sending",
     "targetKeyword": "bounce rate threshold pause or continue",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "bounce-rate-threshold-pause-or-continue",
+    "publishedDate": "2026-09-25"
   },
   {
     "title": "How to Build a Cold Email Referral System That Generates Leads on Autopilot",

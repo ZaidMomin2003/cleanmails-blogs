@@ -2227,7 +2227,9 @@
     "title": "The Anti-Spam Checklist: 20 Things That Trigger Spam Filters",
     "targetKeyword": "anti-spam checklist spam filter triggers",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "anti-spam-checklist-spam-filter-triggers",
+    "publishedDate": "2026-09-26"
   },
   {
     "title": "How to Run a Cold Email Campaign for Product Hunt Launches",

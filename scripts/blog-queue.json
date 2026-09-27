@@ -2251,7 +2251,9 @@
     "title": "The AI Reply Approval Workflow: When to Autopilot vs When to Review",
     "targetKeyword": "AI reply approval workflow autopilot review",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "ai-reply-approval-workflow-autopilot-review",
+    "publishedDate": "2026-09-27"
   },
   {
     "title": "How to Use xAI Grok for Witty Cold Email First Lines",

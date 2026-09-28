@@ -2259,7 +2259,9 @@
     "title": "How to Use xAI Grok for Witty Cold Email First Lines",
     "targetKeyword": "xAI Grok cold email first lines",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "xai-grok-cold-email-first-lines",
+    "publishedDate": "2026-09-28"
   },
   {
     "title": "Cold Email Personalization at Scale: The Tier 1, 2, 3 Framework",

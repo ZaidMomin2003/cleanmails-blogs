@@ -2283,7 +2283,9 @@
     "title": "How to Set Up Salesforce Integration for Cold Email Reply Syncing",
     "targetKeyword": "Salesforce integration cold email reply sync",
     "category": "Automation",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "salesforce-integration-cold-email-reply-sync",
+    "publishedDate": "2026-09-29"
   },
   {
     "title": "Cold Email for Travel and Hospitality: Pitching Corporate Travel Managers",

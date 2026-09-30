@@ -2315,7 +2315,9 @@
     "title": "Cold Email for Photographers and Videographers: Landing Corporate Clients",
     "targetKeyword": "cold email photographers videographers clients",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-photographers-videographers-clients",
+    "publishedDate": "2026-09-30"
   },
   {
     "title": "The Webhook-First Approach to Cold Email Workflow Automation",

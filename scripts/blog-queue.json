@@ -2339,7 +2339,9 @@
     "title": "Cold Email Infrastructure Security: Encryption, Access Control, and Backups",
     "targetKeyword": "cold email infrastructure security encryption",
     "category": "Guides",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-infrastructure-security-encryption",
+    "publishedDate": "2026-10-02"
   },
   {
     "title": "The Reply-to-Meeting Pipeline: How to Convert Email Replies Into Booked Calls",

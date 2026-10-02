@@ -2347,7 +2347,9 @@
     "title": "The Reply-to-Meeting Pipeline: How to Convert Email Replies Into Booked Calls",
     "targetKeyword": "reply to meeting pipeline cold email",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "reply-to-meeting-pipeline-cold-email",
+    "publishedDate": "2026-10-02"
   },
   {
     "title": "How to Use Framer + Cold Email for Landing Page Lead Capture",

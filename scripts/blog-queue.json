@@ -2371,7 +2371,9 @@
     "title": "The AWS SES Sending Quota Guide: How to Request and Manage Limits",
     "targetKeyword": "AWS SES sending quota request manage",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "aws-ses-sending-quota-request-manage",
+    "publishedDate": "2026-10-03"
   },
   {
     "title": "How to Create Cold Email Templates That Don't Sound Like Templates",

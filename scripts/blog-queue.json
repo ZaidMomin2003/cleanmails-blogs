@@ -2363,7 +2363,9 @@
     "title": "Cold Email for Fitness Studios and Gyms: Filling Membership Spots",
     "targetKeyword": "cold email fitness studios gyms memberships",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-fitness-studios-gyms-memberships",
+    "publishedDate": "2026-10-03"
   },
   {
     "title": "The AWS SES Sending Quota Guide: How to Request and Manage Limits",

@@ -2411,7 +2411,9 @@
     "title": "How to Detect Email Bounces in Real-Time and Pause Affected Senders",
     "targetKeyword": "detect email bounces real-time pause sender",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "detect-email-bounces-real-time-pause-sender",
+    "publishedDate": "2026-10-05"
   },
   {
     "title": "The Cold Email Landing Page That Converts 40% of Clicks Into Meetings",

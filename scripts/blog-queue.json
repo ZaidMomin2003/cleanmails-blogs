@@ -2491,7 +2491,9 @@
     "title": "The SendGrid Setup Guide for Cold Email (Without Getting Banned)",
     "targetKeyword": "SendGrid setup cold email without ban",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "sendgrid-setup-cold-email-without-ban",
+    "publishedDate": "2026-10-08"
   },
   {
     "title": "How to Use Cold Email for Investor Relations and Fundraising Updates",

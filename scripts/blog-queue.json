@@ -2563,7 +2563,9 @@
     "title": "The Email Header Analysis: How to Diagnose Deliverability Problems",
     "targetKeyword": "email header analysis deliverability diagnosis",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "email-header-analysis-deliverability-diagnosis",
+    "publishedDate": "2026-10-11"
   },
   {
     "title": "How to Set Up Automated Unsubscribe Handling in Cold Email",

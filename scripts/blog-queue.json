@@ -2555,7 +2555,9 @@
     "title": "Cold Email for Cybersecurity Consultants: Reaching Small Business Owners",
     "targetKeyword": "cold email cybersecurity consultants SMB",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-cybersecurity-consultants-smb",
+    "publishedDate": "2026-10-11"
   },
   {
     "title": "The Email Header Analysis: How to Diagnose Deliverability Problems",

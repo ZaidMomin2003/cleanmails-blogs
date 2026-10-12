@@ -2587,7 +2587,9 @@
     "title": "The Perfect Cold Email Structure: Hook, Context, Value, CTA",
     "targetKeyword": "cold email structure hook context value CTA",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-structure-hook-context-value-cta",
+    "publishedDate": "2026-10-12"
   },
   {
     "title": "How to Use Clerk Auth to Build a Multi-Tenant Cold Email Platform",

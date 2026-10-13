@@ -2611,7 +2611,9 @@
     "title": "The SPF Record Guide: Why 'Too Many Lookups' Kills Your Emails",
     "targetKeyword": "SPF record too many lookups fix",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "spf-record-too-many-lookups-fix",
+    "publishedDate": "2026-10-13"
   },
   {
     "title": "How to Cold Email for App Development Projects (B2B)",

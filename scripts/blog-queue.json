@@ -2595,7 +2595,9 @@
     "title": "How to Use Clerk Auth to Build a Multi-Tenant Cold Email Platform",
     "targetKeyword": "Clerk auth multi-tenant cold email platform",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "clerk-auth-multi-tenant-cold-email-platform",
+    "publishedDate": "2026-10-13"
   },
   {
     "title": "Cold Email for Digital Marketing Agencies: Filling Your Client Pipeline",

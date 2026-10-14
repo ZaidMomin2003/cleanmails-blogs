@@ -2627,7 +2627,9 @@
     "title": "Cold Email Deliverability by Mailbox Provider: Gmail vs Outlook vs Yahoo",
     "targetKeyword": "cold email deliverability Gmail Outlook Yahoo",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-deliverability-gmail-outlook-yahoo",
+    "publishedDate": "2026-10-14"
   },
   {
     "title": "The AI-Powered Campaign Builder: Natural Language to Live Campaign in Seconds",

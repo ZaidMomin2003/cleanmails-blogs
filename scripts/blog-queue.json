@@ -2659,7 +2659,9 @@
     "title": "The SSL Certificate Guide for Self-Hosted Email Infrastructure",
     "targetKeyword": "SSL certificate self-hosted email infrastructure",
     "category": "Infrastructure",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "ssl-certificate-self-hosted-email-infrastructure",
+    "publishedDate": "2026-10-15"
   },
   {
     "title": "How to Create Branded Client Portals for Cold Email Agency Reports",

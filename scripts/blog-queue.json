@@ -2691,7 +2691,9 @@
     "title": "Cold Email for PR Firms: Getting Media Placements for Clients",
     "targetKeyword": "cold email PR firms media placements",
     "category": "Cold Email",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "cold-email-pr-firms-media-placements",
+    "publishedDate": "2026-10-17"
   },
   {
     "title": "The DMARC Policy Guide: None vs Quarantine vs Reject",

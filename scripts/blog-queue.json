@@ -2699,7 +2699,9 @@
     "title": "The DMARC Policy Guide: None vs Quarantine vs Reject",
     "targetKeyword": "DMARC policy none quarantine reject guide",
     "category": "Deliverability",
-    "status": "pending"
+    "status": "done",
+    "publishedSlug": "dmarc-policy-none-quarantine-reject-guide",
+    "publishedDate": "2026-10-17"
   },
   {
     "title": "How to Benchmark Your Cold Email Performance Against Industry Averages",
